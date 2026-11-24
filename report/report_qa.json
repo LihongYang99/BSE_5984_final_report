@@ -1,6 +1,6 @@
 {
   "revision_date": "2026-11-24",
-  "change": "Add Step 43 literature-based screening estimates for burdens previously drawn as not yet quantified: new Table B3 on its own appendix page, updated Table B2 treatment text, two sentences in Section 3.4, a dotted screening-estimate style with values in Figure C1, and five verified references.",
+  "change": "Table A1 gains a Coverage column with four categories (Included, Proxy source, Screening (Table B3), Not included), rewritten use notes, and an English Assumptions paragraph on the Indiana water source. Section 2.4 gains one sentence pointing to Table A1. The closing paragraph of Section 1.1 is rewritten to state plainly why earlier footprints are not compared directly, how the literature guided the tested factors, and that the review is selective.",
   "total_pages": 13,
   "body_pages": 6,
   "reference_pages": 1,
@@ -8,89 +8,42 @@
   "renderer": "LibreOffice 26.8.3.1 861effc5289d539f15c4c18d1ba8579ffd78728b",
   "page_text_identical_to_previous_commit": [
     1,
-    2,
     4,
     5,
-    8,
+    6,
+    7,
     9,
-    10
+    10,
+    11,
+    12,
+    13
   ],
   "pages_changed": {
-    "3": "Section 2.4 wording",
-    "6": "Section 3.4 screening sentence",
-    "7": "Five references added, reference spacing reduced to fit one page",
-    "11": "Table B2 treatment text",
-    "12": "New Appendix B continued with Table B3",
-    "13": "Appendix C text, note, and updated Figure C1"
+    "2": "Section 1.1 closing paragraph rewritten",
+    "3": "Section 2.4 water-source sentence",
+    "8": "Table A1 coverage column, note, and Assumptions paragraph"
   },
   "visual_review": {
     "pages_inspected": [
+      2,
       3,
-      6,
-      7,
-      11,
-      12,
-      13
+      8
     ],
-    "outcome": "No clipped text or overflow. Conclusions stay on page 6, all 15 references and the AI disclosure fit on page 7, Table B3 fits on page 12."
+    "outcome": "No clipped text or overflow. Section 1.2 stays on page 2, Section 2.4 ends on page 3, and Table A1 with its note and Assumptions paragraph fits on page 8."
   },
-  "screening_source": "results/unresolved_2026-11-24 (scripts/43_quantify_unresolved_burdens.py)",
-  "references_verified": [
-    "Kennedy et al. 2014 (IPCC Wetlands Supplement Ch. 4, Table 4.15 and Annex 4A.5)",
-    "Yang et al. 2023 (J. Hydrology 617, 128876)",
-    "De Klein et al. 2006 (IPCC 2006 Vol. 4 Ch. 11, Table 11.3 and Section 11.4)",
-    "Davis et al. 2018 (Responsible Seafood Advocate)",
-    "Alabama Gulf Seafood 2020"
-  ],
+  "evidence_checked": "Al Eissa et al. (2022) full text contains no statement of the Indiana water source (no municipal, groundwater, tap-water or well-water mention). Step 30 output outputs/farming_provider_mapping.csv marks both tap-water proxies PASS with 'source unverified'.",
   "scientific_values_unchanged": true,
-  "screening_values_added_to_subtotals": false,
   "LCIA_rerun": false,
   "database_writes": false,
-  "previous_change": {
-    "change": "Redraw Appendix C Figure C1 as native draw.io objects with separate blue input, green process and purple output columns. Coverage uses line styles and explicit Not yet quantified labels.",
-    "diagram": {
-      "backend": "draw.io Desktop 31.0.2",
-      "editable_source": "report/report_figures/cradle_to_farm_gate.drawio",
-      "native_text_objects": 35,
-      "attached_connectors": 12,
-      "font": "Calibri",
-      "pdf_fonts_embedded": true,
-      "png_width_px": 3840,
-      "png_dpi_at_report_width": 600,
-      "categories": {
-        "blue": "Inputs",
-        "green": "Processes",
-        "purple": "Outputs"
-      },
-      "coverage_line_styles": {
-        "solid": "Included",
-        "dash-dot": "Optional scenario",
-        "dashed": "Not yet quantified"
-      },
-      "all_labels_verified_in_vector_pdf": true
-    },
-    "page_text_changed_vs_previous_revision": [
-      12
-    ],
-    "punctuation_check": "Passed for diagram labels and report pages other than the unchanged APA reference page, which retains its documented exemption."
-  },
+  "previous_change": "Add Step 43 literature-based screening estimates for burdens previously drawn as not yet quantified: new Table B3 on its own appendix page, updated Table B2 treatment text, two sentences in Section 3.4, a dotted screening-estimate style with values in Figure C1, and five verified references.",
   "delivered_hashes": {
-    "report/BSE5984_Final_Report.docx": "e71973bf7e4e6e6b8269457fb1f94550edee511d7ca7c05f8595a6435793cd6d",
-    "report/BSE5984_Final_Report.pdf": "7ce85a0d483e8417d47f3b0a96445710e377ad888ce5b320dc17a03e176cab22",
-    "report/report_figures/cradle_to_farm_gate.drawio": "3ee25991f02a84a5b1915ef2d5922491148a926793c8adedcc9adaea1ea4fc09",
-    "report/report_figures/cradle_to_farm_gate.png": "35eb1e7fab73377535564bbf35e3942b425f45f078bfb272104a7ee47dcda546",
-    "report/report_figures/cradle_to_farm_gate.pdf": "7ce3d57e3aa19d5769ec97bf5e4e654365055fb04fe049e8d78a5b3cb28c39ce",
-    "report/report_figures/cradle_to_farm_gate.svg": "3e2cac95fced1f10718ca1c423b82c4d64632862ebac27d021f2661045f6de74"
+    "report/BSE5984_Final_Report.docx": "0901cc7debb2ef0c2c27883ac1dd01e1e1067b14a858b377d610e57cc419ab32",
+    "report/BSE5984_Final_Report.pdf": "dc33c1e24e06905b9234a7078d80a18d735630cfc91eb52c48de445b76dcd10b"
   },
   "source_hashes": {
-    "scripts/38_update_final_report.py": "1c957fc44bfb5f3fccbc153a5509c7e89ff6453e0b11b2477b388ee6f194e4b2",
-    "scripts/42_plot_system_boundary.py": "6374647d223f98db4f5fc1df82606dc44c23b93f49242068f4e9f0d6a8bb9837",
-    "scripts/43_quantify_unresolved_burdens.py": "5dc6887ced6c82863a11fd6268964030dd07324c6b78e5f29a7f9d143a311bd6",
-    "results/unresolved_2026-11-24/unresolved_estimates.csv": "781b2d6482e7d4ccdf5f99eb15a09125db96c6062ae99a4c01ccb39f31b79a01",
-    "results/unresolved_2026-11-24/unresolved_summary.json": "3e845e597c4cf1c57a80e254bc5f94e787e683a2faa2bb675bafca44e44fe2bf",
-    "README.md": "e1602112b5259820d49428a9f945cb822fd45df84ada5e4c0ec927e8aa0e3e81",
-    "requirements.txt": "f537dd1788d2279ef3e0753a1f42047c88b13d87aa3d1594054b620f6805f038"
+    "scripts/38_update_final_report.py": "0983ec04146049e5662a933ad45a4f7984f74036f2a9f3223c0af591657f9006",
+    "README.md": "64bd0cea5ba24aeb2050432e03e1ec819360b5671caa58018d2a698da1496c62"
   },
-  "previous_versions": "Deleted on 2026-11-24 when git history was reset. Not recoverable.",
-  "baseline_git_commit": "742d287"
+  "baseline_git_commit": "a0e5146",
+  "environment": "Repository moved into final_project/Github. .venv recreated there from requirements.txt with an identical package list. Validators 133/133 and 174/174 and a byte-identical Step 38 document were confirmed with the new environment."
 }

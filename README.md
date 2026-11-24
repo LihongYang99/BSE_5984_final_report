@@ -87,7 +87,7 @@ The earlier Step 36 workflow script, the Step 37 styled figure collection (`repo
 
 ## Revised final report (Step 38)
 
-The current report has six body pages, one APA reference page, and six appendix pages. Sections 1.1 and 1.2 synthesize previous research and define the study contribution. Four main-text figures cover the LCA workflow, expanded Indiana hotspots, updated sensitivity analysis, and the original controlled feed-and-electricity comparison. Appendix A contains Tables A1 to A5: farm inputs, feed composition, processing and delivery, GWP factors, and scenario settings. Appendix B documents restored contributions and the evidence for unresolved processes, and Table B3 on its own page gives the Step 43 screening estimates. Appendix C adds Figure C1, a cradle-to-farm-gate input-output diagram referenced in Methods Section 2.1. Methods also includes an assumptions subsection. References and appendices are outside the six-page main-text count.
+The current report has six body pages, one APA reference page, and six appendix pages. Sections 1.1 and 1.2 synthesize previous research and define the study contribution. Four main-text figures cover the LCA workflow, expanded Indiana hotspots, updated sensitivity analysis, and the original controlled feed-and-electricity comparison. Appendix A contains Tables A1 to A5: farm inputs, feed composition, processing and delivery, GWP factors, and scenario settings. Table A1 marks each farm input as Included, Proxy source, Screening (Table B3), or Not included, and an Assumptions paragraph explains the proxy-source case: Indiana farm water has a literature quantity (0.075 m³/kg) but no stated source, so the treated tap-water proxy validated in Step 30 is reported only as an optional scenario. Appendix B documents restored contributions and the evidence for unresolved processes, and Table B3 on its own page gives the Step 43 screening estimates. Appendix C adds Figure C1, a cradle-to-farm-gate input-output diagram referenced in Methods Section 2.1. Methods also includes an assumptions subsection. References and appendices are outside the six-page main-text count.
 
 `38_update_final_report.py` reads the November 21 reviewed run and November 23 expanded results, then writes `report/BSE5984_Final_Report.docx` and `report/BSE5984_Final_Report_text.txt` in place. Commit each new version in git instead of creating versioned output directories. Run it after Steps 39 to 42. It reads all five figures from [`report/report_figures/`](report/report_figures/): four drawn by the helpers in `scripts/report_figures/` and the draw.io boundary figure exported by Step 42. All five use Calibri, vector SVG/PDF exports, and PNG images with at least 600 dpi at their report width. The `plot_lca_workflow.py`, `plot_expanded_hotspots.py`, `plot_expanded_sensitivity.py`, and `plot_alabama_comparison.py` helpers in `scripts/report_figures/` regenerate the four main-text figures from saved results. Run each with the project `.venv` before Step 38 if those figures need regeneration. Their shared `figure_fonts.py` registers the installed Microsoft Word Calibri fonts and fixes SVG IDs and PDF/SVG dates so unchanged Matplotlib figures remain byte-identical. Step 42 uses draw.io Desktop instead and checks the exported PDF for Calibri. No font files are copied into the project.
 
@@ -145,7 +145,7 @@ The source provides larval airfreight of 0.140 t·km/kg shrimp for Indiana and 0
 To reproduce the expanded results from saved factors:
 
 ```bash
-cd ~/Desktop/final_project
+cd ~/Desktop/final_project/Github
 .venv/bin/python scripts/39_audit_inventory_completeness.py --offline
 .venv/bin/python scripts/40_plot_expanded_inventory.py
 .venv/bin/python scripts/41_validate_expanded_results.py
@@ -164,7 +164,7 @@ Hatchery production, direct farm CH₄/N₂O, infrastructure, wastewater fate, a
 ## Project layout
 
 ```text
-final_project/
+Github/                           # Repository root, inside ~/Desktop/final_project
 ├── .venv/                        # Python 3.12 analysis environment
 ├── README.md                     # Current project guide
 ├── requirements.txt              # Pinned Python packages for the project .venv
@@ -198,12 +198,12 @@ The run's `README_snapshot.md` records the November 21 handoff. This root README
 
 ## Python environment: macOS / VS Code
 
-Use the project `.venv` (`final_project/.venv`) for all LCA analysis. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 24, 2026.
+Use the project `.venv` (`Github/.venv`, ignored by git) for all LCA analysis. It was recreated from `requirements.txt` on November 24, 2026 when the repository moved into `Github/`. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 24, 2026.
 
 Activate the existing `.venv`:
 
 ```bash
-cd ~/Desktop/final_project
+cd ~/Desktop/final_project/Github
 source .venv/bin/activate
 python -c "import sys; print(sys.executable)"
 python -m pip check
@@ -212,7 +212,7 @@ python -m pip check
 For initial setup on a new machine only:
 
 ```bash
-cd ~/Desktop/final_project
+cd ~/Desktop/final_project/Github
 python3.12 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -221,7 +221,7 @@ python -m pip check
 
 [requirements.txt](requirements.txt) pins the current environment: `olca-ipc==2.7.0`, `olca_schema==2.7.0`, pandas, NumPy, Matplotlib, and python-docx, plus their dependencies. SciPy and openpyxl were removed on November 24, 2026 because no script imports them. All offline steps (34, 38 to 42, and the figure helpers) were rerun afterwards with unchanged results. [environment_requirements.txt](results/run_2026-11-21/environment_requirements.txt) is the historical November 21 record and still lists them.
 
-In VS Code, open `final_project`, run Python: Select Interpreter, and choose `final_project/.venv/bin/python`. Check the interpreter path in a new terminal. Use `deactivate` to leave the environment. A repeated `(.venv)` prompt does not by itself mean two environments exist; check `sys.executable`.
+In VS Code, open `final_project/Github`, run Python: Select Interpreter, and choose `Github/.venv/bin/python`. Check the interpreter path in a new terminal. Use `deactivate` to leave the environment. A repeated `(.venv)` prompt does not by itself mean two environments exist; check `sys.executable`.
 
 If an import fails, use `.venv/bin/python -m pip ...` to install into the project environment. The command is `python -m pip`; `python -m python -m pip` is invalid.
 
@@ -256,14 +256,14 @@ Keep `--controlled-alabama` enabled: Steps 34 and 38 require its comparison fiel
 To validate the delivered results offline:
 
 ```bash
-cd ~/Desktop/final_project
+cd ~/Desktop/final_project/Github
 .venv/bin/python scripts/34_validate_reviewed_results.py --run results/run_2026-11-21
 ```
 
 To recalculate into a new run directory while openLCA IPC is running:
 
 ```bash
-cd ~/Desktop/final_project
+cd ~/Desktop/final_project/Github
 RUN_DIR="results/run_$(date +%Y%m%d_%H%M%S)"
 .venv/bin/python scripts/32_audit_units_and_background.py --out "$RUN_DIR" &&
 .venv/bin/python scripts/31_calculate_indiana_farming_gwp.py --run "$RUN_DIR" &&
@@ -288,7 +288,7 @@ soffice --headless --convert-to pdf --outdir report report/BSE5984_Final_Report.
 
 ## Version control
 
-The project is a git repository. `.venv/`, `__pycache__/`, `.DS_Store`, and Office lock files are ignored. Commit after each report or analysis change instead of copying directories.
+The repository root is `~/Desktop/final_project/Github`. The sibling folder `~/Desktop/final_project/presentation` is outside the repository and is not uploaded. The project is a git repository. `.venv/`, `__pycache__/`, `.DS_Store`, and Office lock files are ignored. Commit after each report or analysis change instead of copying directories.
 
 Git history starts on November 24, 2026 with the current project. Earlier report versions and snapshot directories were deleted that day and are not recoverable: the 14 `report/archive_*` and 12 `report/revision_*` directories, `report/figures/`, `results/refactor_2026-11-23/`, and Steps 35 to 37. The November 21 reviewed package in `results/run_2026-11-21/` is kept because Steps 34 and 41 check its hashes.
 

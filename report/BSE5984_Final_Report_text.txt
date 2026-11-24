@@ -30,7 +30,7 @@ The study by Al Eissa et al. (2022) provides the closest precedent and the foreg
 
 Wastewater studies show why climate results need a broader environmental context. Arbour et al. (2024) assessed microalgae treatment using the same Indiana farm background described by Al Eissa et al. (2022), so it is a related extension rather than independent farm evidence. The modeled treatment improved eutrophication outcomes without reducing GWP. Results also depended on electricity supply and the treatment of algal coproducts. These findings support assessing nutrient management alongside energy use, while keeping benefits outside this report’s GWP calculation explicit.
 
-The studies differ in geography, system boundaries, feed backgrounds, and impact methods. Their absolute footprints cannot be compared directly with the covered subtotals reported here. This targeted narrative synthesis establishes the basis for the scenarios and their interpretation. It does not establish an exhaustive literature gap or priority claim.
+These studies differ in location, system boundary, feed data, and impact method, so their absolute footprints cannot be compared directly with the subtotals reported here. They are used instead to choose the factors tested in this study, namely feed, electricity demand, grid intensity, and FCR, and to interpret the results. Because this review is selective rather than systematic, it does not claim that no earlier study has examined these questions.
 
 1.2 Study objective and contribution
 
@@ -68,7 +68,7 @@ One-at-a-time scenarios varied F, E, or g by ±25%. Further scenarios combined g
 
 2.4 Model assumptions
 
-Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, screening estimates, and data gaps.
+Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Indiana farm water has a literature quantity but no stated source, so a treated tap-water proxy is reported only as an optional scenario (Table A1). Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, screening estimates, and data gaps.
 
 
 ---
@@ -186,31 +186,31 @@ Table A1
 
 Literature farm inventory per kilogram of live-weight shrimp
 
-Input	Indiana	Alabama	Unit	Use in this model
+Input	Indiana	Alabama	Unit	Coverage	Use in this model
 
-Feed / FCR	1.5	1.020	kg	Common Feed C with literature FCR retained
+Feed / FCR	1.5	1.020	kg	Included	Common Feed C supply and delivery. Literature FCR retained. Ingredient proxies in Table A2
 
-Farm electricity	0.921	8.799	kWh	Included in both cases
+Farm electricity	0.921	8.799	kWh	Included	US low-voltage grid factor in both cases, a national proxy for each state
 
-Sodium bicarbonate	0.110	0	kg	Included in Indiana. Omitted from the common comparison
+Sodium bicarbonate	0.110	0	kg	Included	Indiana only. Removed from the common comparison
 
-Freshwater	0.075	Not reported	m3	Optional Indiana treatment proxy. Alabama unreported
+Freshwater	0.075	Not reported	m3	Proxy source	Indiana quantity from the source, supply source not stated. Treated tap-water proxy as an optional scenario outside the covered subtotal. Alabama not reported
 
-Seawater	0	1.456	m3	Resource quantity with pumping coverage unresolved
+Seawater	0	1.456	m3	Screening (Table B3)	Volume is not characterized by GWP. Pond-fill pumping is screened in Table B3
 
-Farm land area	0.084	1.456	m2	Occupation/land-change data incomplete
+Farm land area	0.084	1.456	m2	Screening (Table B3)	No land-use change within 20 years. Area without duration is not characterized
 
-Larval airfreight	0.140	0.062	t*km	Restored using a generic aircraft freight proxy
+Larval airfreight	0.140	0.062	t*km	Included	Generic aircraft freight background
 
-Triple superphosphate	0	0.0003	kg	Supply restored. Application emissions unresolved
+Triple superphosphate	0	0.0003	kg	Included	Supply included. It contains no N or carbonate, so no IPCC application emission applies
 
-Urea	0	0.0017	kg	Supply restored. Application emissions unresolved
+Urea	0	0.0017	kg	Included	Supply included. Hydrolysis CO₂ and N₂O are screened in Table B3
 
-Original feed transport	1.509	1.711	t*km	Replaced by common 1006 km scenario
+Original feed transport	1.509	1.711	t*km	Not included	Replaced by the common 1006 km delivery
 
-Note. Data from Al Eissa et al. (2022), Table 2, p. 2012, checked in source_inventory_verified.csv. The original feed transport totals reflect different recipes and routes. The controlled comparison uses a common supply chain instead. A blank literature cell is not a zero. Restored supply inputs are calculated separately from unresolved farm emissions. Land area lacks a time dimension and is not expressed as m²-year.
+Note. Data from Al Eissa et al. (2022), Table 2, p. 2012. Quantities were checked in source_inventory_verified.csv, whose November 21 status notes predate the restored airfreight and fertilizer supply. Included inputs enter the covered subtotal through background datasets that may be regional or generic proxies. Proxy source marks a literature quantity whose supply source is unknown and is modeled separately. Screening refers to the literature ranges in Table B3, which are not added to the subtotals. Not included marks data replaced by a common scenario. A blank literature cell is not a zero. Land area lacks a time dimension and is not expressed as m²-year.
 
-The farm-water scenario converts 0.075 m³ to 75 kg at 1000 kg/m³ and applies a treated tap-water proxy. It does not establish the actual treatment process or quantify water scarcity. Appendix B evaluates unresolved larval rearing, infrastructure, direct farm GHGs, and wastewater burdens. Post-farm processing and distribution lie outside the selected farm-gate boundary.
+Assumptions. Literature quantities are taken as representative of each farm, and no input was measured for this study. Indiana farm water illustrates the proxy-source category. The source study reports 0.075 m³ per kg shrimp for a farm with 12 closed biofloc tanks but does not state whether the water is municipal or drawn from a well. The provider check confirmed that the treated tap-water datasets match the product and unit, not that they describe the farm's supply. The 75 kg conversion at 1000 kg/m³ is therefore reported only as an optional scenario that adds 0.090 kg CO₂-eq/kg. It does not quantify on-site treatment or water scarcity. Alabama freshwater use was not reported and is not modeled. Appendix B evaluates hatchery, infrastructure, direct farm GHG, and wastewater burdens. Post-farm processing and distribution lie outside the selected farm-gate boundary.
 
 
 ---
