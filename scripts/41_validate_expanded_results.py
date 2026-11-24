@@ -10,6 +10,8 @@ import json
 import math
 
 ROOT = Path(__file__).resolve().parents[1]
+# ecoinvent process-level contributions are kept locally but not published (licence); skip them only when absent.
+NOT_DISTRIBUTED={'outputs/electricity_gwp_contributions.csv'}
 OLD = ROOT / 'results/run_2026-11-21'
 OUT = ROOT / 'results/completeness_2026-11-23'
 
@@ -95,6 +97,8 @@ def main():
     for manifest, folder in [('reviewed_sha256.json', OLD), ('legacy_sha256.json', OLD/'legacy')]:
         for rel, expected in json.loads((OLD/manifest).read_text()).items():
             path = folder/rel
+            if rel in NOT_DISTRIBUTED and not path.exists():
+                check('preserved '+str(path.relative_to(ROOT))+' (not distributed, skipped)',True);continue
             check('preserved '+str(path.relative_to(ROOT)),path.exists() and hashlib.sha256(path.read_bytes()).hexdigest()==expected)
     with (OUT/'validation.csv').open('w',newline='') as stream:
         writer=csv.DictWriter(stream,fieldnames=['check','passed'])

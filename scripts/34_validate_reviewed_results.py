@@ -5,6 +5,8 @@ import argparse, hashlib, json, math
 import pandas as pd
 
 ROOT=Path(__file__).resolve().parents[1]
+# ecoinvent process-level contributions are kept locally but not published (licence); skip them only when absent.
+NOT_DISTRIBUTED={'outputs/electricity_gwp_contributions.csv'}
 def main():
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run',type=Path,required=True);a=p.parse_args();run=a.run
     # Reconstruct feed and farm totals independently of the Step 31 function.
@@ -27,9 +29,12 @@ def main():
     check('Energy and FCR contrast adds to total difference',close(summary['electricity_effect_fixed_fcr']+summary['fcr_effect_fixed_electricity'],summary['alabama_common']-summary['indiana_common']))
     # Compare archive hashes and confirm the original inventories, outputs, and figures are intact.
     for name,digest in json.loads((run/'legacy_sha256.json').read_text()).items():
-        check('Archive hash: '+name,hashlib.sha256((run/'legacy'/name).read_bytes()).hexdigest()==digest)
-        if name.split('/')[0] in ['data','outputs','figures']:
-            check('Original preserved: '+name,hashlib.sha256((ROOT/name).read_bytes()).hexdigest()==digest)
+        targets=[('Archive hash: ',run/'legacy'/name)]
+        if name.split('/')[0] in ['data','outputs','figures']: targets.append(('Original preserved: ',ROOT/name))
+        for label,path in targets:
+            if name in NOT_DISTRIBUTED and not path.exists():
+                check(label+name+' (not distributed, skipped)',True);continue
+            check(label+name,hashlib.sha256(path.read_bytes()).hexdigest()==digest)
     # Check numeric CSV values for missing or infinite results.
     for path in (run/'analysis').glob('*.csv'):
         df=pd.read_csv(path)

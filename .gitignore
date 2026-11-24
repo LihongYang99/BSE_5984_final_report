@@ -7,3 +7,11 @@ __pycache__/
 .DS_Store
 ~$*
 .~lock.*#
+
+# Kept locally, not published: full text and table image of Al Eissa et al. (2022)
+results/review_2026-11-21/al_eissa_text.txt
+results/review_2026-11-21/table2.png
+# Kept locally, not published: ecoinvent process-level contribution tables (licence)
+outputs/electricity_gwp_contributions.csv
+results/run_2026-11-21/legacy/outputs/electricity_gwp_contributions.csv
+results/run_2026-11-21/electricity_contributions_corrected.csv

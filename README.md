@@ -176,7 +176,7 @@ The run's `README_snapshot.md` records the November 21 handoff. This root README
 
 ## Python environment: macOS / VS Code
 
-Use the project `.venv` at `/Users/lihongyang/Desktop/final_project/.venv` for all LCA analysis. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 24, 2026.
+Use the project `.venv` (`final_project/.venv`) for all LCA analysis. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 24, 2026.
 
 Activate the existing `.venv`:
 
@@ -269,6 +269,13 @@ soffice --headless --convert-to pdf --outdir report report/BSE5984_Final_Report.
 The project is a git repository. `.venv/`, `__pycache__/`, `.DS_Store`, and Office lock files are ignored. Commit after each report or analysis change instead of copying directories.
 
 Git history starts on November 24, 2026 with the current project. Earlier report versions and snapshot directories were deleted that day and are not recoverable: the 14 `report/archive_*` and 12 `report/revision_*` directories, `report/figures/`, `results/refactor_2026-11-23/`, and Steps 35 to 37. The November 21 reviewed package in `results/run_2026-11-21/` is kept because Steps 34 and 41 check its hashes.
+
+Some files stay on this computer and are not published in the GitHub repository (see `.gitignore`):
+
+- `results/review_2026-11-21/al_eissa_text.txt` and `table2.png`: full text and a table image of Al Eissa et al. (2022). Use the [DOI](https://doi.org/10.1111/jiec.13370) instead.
+- `outputs/electricity_gwp_contributions.csv`, its copy in `results/run_2026-11-21/legacy/outputs/`, and `results/run_2026-11-21/electricity_contributions_corrected.csv`: ecoinvent process-level GWP contributions (17,182 rows), withheld under the ecoinvent licence.
+
+In a clone without these files, Steps 34 and 41 mark their hash checks as `not distributed, skipped` and still pass. On this computer they are checked in full.
 
 ## Validation and preservation
 
