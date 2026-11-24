@@ -1,3 +1,0 @@
-# Extra packages for the report builder (Step 38); install into the project .venv.
-python-docx==1.2.0
-lxml==6.1.3

@@ -1,6 +1,6 @@
 # Step 38: Build the six-page main report with literature synthesis, references, and data appendices.
 """Build the English course report from reviewed CSV/JSON results.
-Requires python-docx in the project .venv (see requirements-report.txt).
+Requires python-docx in the project .venv (see requirements.txt).
 Writes report/BSE5984_Final_Report.docx and the text export; render the PDF separately.
 Versions are tracked in git, so the outputs are overwritten in place.
 """

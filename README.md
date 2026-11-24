@@ -91,7 +91,7 @@ The current report has six body pages, one APA reference page, and five appendix
 
 `38_update_final_report.py` reads the November 21 reviewed run and November 23 expanded results, then writes `report/BSE5984_Final_Report.docx` and `report/BSE5984_Final_Report_text.txt` in place. Commit each new version in git instead of creating versioned output directories. Run it after Steps 39 to 42. It reads all five figures from [`report/report_figures/`](report/report_figures/): four drawn by the helpers in `scripts/report_figures/` and the boundary figure from Step 42. All five use Calibri with editable SVG text, embedded PDF fonts, and 600-dpi PNG exports. The `plot_lca_workflow.py`, `plot_expanded_hotspots.py`, `plot_expanded_sensitivity.py`, and `plot_alabama_comparison.py` helpers in `scripts/report_figures/` regenerate those four figures from saved results. Run each with the project `.venv` before Step 38 if those figures need regeneration. Their shared `figure_fonts.py` also supplies Step 42 and registers the installed Microsoft Word Calibri fonts on this Mac, checking availability to prevent silent substitution. No font files are copied into the project. The module also fixes SVG IDs and PDF/SVG dates, so rerunning a helper without changes leaves files byte-identical and git shows only real edits.
 
-Body text and figure labels contain no semicolons, colons, or vertical bars. The reference list is exempt so that it follows APA 7: full `https://` URLs, colons before subtitles, and ISO standard numbers such as `14040:2006`. The builder checks the body rule and leaves the reference list out of that check. It needs `python-docx`, installed in the project `.venv` from [requirements-report.txt](requirements-report.txt), and makes no database calls. The report date is the `REPORT_DATE` constant at the top of the script. Its paths and prose are specific to these versioned inputs; `--run` alone does not redirect the expanded dataset. Render the PDF and inspect the changed pages before committing.
+Body text and figure labels contain no semicolons, colons, or vertical bars. The reference list is exempt so that it follows APA 7: full `https://` URLs, colons before subtitles, and ISO standard numbers such as `14040:2006`. The builder checks the body rule and leaves the reference list out of that check. It needs `python-docx`, which is listed in [requirements.txt](requirements.txt), and makes no database calls. The report date is the `REPORT_DATE` constant at the top of the script. Its paths and prose are specific to these versioned inputs; `--run` alone does not redirect the expanded dataset. Render the PDF and inspect the changed pages before committing.
 
 The [report QA record](report/report_qa.json) documents the latest change: the meat-and-bone meal allocation note, pagination, visual inspection, and hashes.
 
@@ -146,7 +146,7 @@ Hatchery production, direct farm CH₄/N₂O, infrastructure, wastewater fate, a
 final_project/
 ├── .venv/                        # Python 3.12 analysis environment
 ├── README.md                     # Current project guide
-├── requirements-report.txt       # python-docx for the report builder (Step 38)
+├── requirements.txt              # Pinned Python packages for the project .venv
 ├── .gitignore                    # Excludes .venv, caches, and lock files
 ├── docs/
 │   ├── STEPS_01-30.md            # Historical Steps 01–30
@@ -176,7 +176,7 @@ The run's `README_snapshot.md` records the November 21 handoff. This root README
 
 ## Python environment: macOS / VS Code
 
-Use the project `.venv` at `/Users/lihongyang/Desktop/final_project/.venv` for all LCA analysis. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 21, 2026.
+Use the project `.venv` at `/Users/lihongyang/Desktop/final_project/.venv` for all LCA analysis. The recorded environment is Python 3.12.13 on a Mac M4. `pip check` passed on November 24, 2026.
 
 Activate the existing `.venv`:
 
@@ -193,12 +193,11 @@ For initial setup on a new machine only:
 cd ~/Desktop/final_project
 python3.12 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r results/run_2026-11-21/environment_requirements.txt
-python -m pip install -r requirements-report.txt
+python -m pip install -r requirements.txt
 python -m pip check
 ```
 
-The recorded environment includes `olca-ipc==2.7.0`, `olca_schema==2.7.0`, pandas, NumPy, Matplotlib, openpyxl, and SciPy. The complete installed version record is [environment_requirements.txt](results/run_2026-11-21/environment_requirements.txt).
+[requirements.txt](requirements.txt) pins the current environment: `olca-ipc==2.7.0`, `olca_schema==2.7.0`, pandas, NumPy, Matplotlib, and python-docx, plus their dependencies. SciPy and openpyxl were removed on November 24, 2026 because no script imports them. All offline steps (34, 38 to 42, and the figure helpers) were rerun afterwards with unchanged results. [environment_requirements.txt](results/run_2026-11-21/environment_requirements.txt) is the historical November 21 record and still lists them.
 
 In VS Code, open `final_project`, run Python: Select Interpreter, and choose `final_project/.venv/bin/python`. Check the interpreter path in a new terminal. Use `deactivate` to leave the environment. A repeated `(.venv)` prompt does not by itself mean two environments exist; check `sys.executable`.
 
@@ -252,10 +251,10 @@ RUN_DIR="results/run_$(date +%Y%m%d_%H%M%S)"
 
 The `&&` chain stops if a step fails. The scripts refuse to overwrite an existing audit, analysis, or figure directory. Step 32 archives the preceding README, scripts, inventories, outputs, and figures with SHA-256 hashes. Step 34 checks those archives and the original data/outputs/figures, then writes `validation.csv`. Rerunning Step 34 refreshes that file.
 
-Step 38 needs `python-docx` in the project environment:
+Step 38 needs `python-docx`, which `requirements.txt` installs:
 
 ```bash
-.venv/bin/python -m pip install -r requirements-report.txt
+.venv/bin/python -m pip install -r requirements.txt
 ```
 
 PDF export uses LibreOffice (`brew install --cask libreoffice`), followed by visual inspection of every changed page. After editing, regenerate both Word and PDF and check that pagination is still 6 body pages, 1 reference page, and 5 appendix pages:
