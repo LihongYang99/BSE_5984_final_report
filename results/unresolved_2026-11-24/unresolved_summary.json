@@ -1,0 +1,45 @@
+{
+  "Indiana": {
+    "covered": 2.576773032788926,
+    "unresolved": {
+      "low": 0.33320000000000005,
+      "central": 0.5793,
+      "high": 0.9169999999999999
+    },
+    "total": {
+      "low": 2.909973032788926,
+      "central": 3.156073032788926,
+      "high": 3.493773032788926
+    },
+    "increase_pct": {
+      "low": 12.930902169500229,
+      "central": 22.481607523383797,
+      "high": 35.587146726985914
+    }
+  },
+  "Alabama": {
+    "covered": 5.613091897803418,
+    "unresolved": {
+      "low": 0.34900000000000003,
+      "central": 0.7495,
+      "high": 1.6814
+    },
+    "total": {
+      "low": 5.962091897803418,
+      "central": 6.362591897803418,
+      "high": 7.294491897803418
+    },
+    "increase_pct": {
+      "low": 6.217607093455478,
+      "central": 13.352712081790488,
+      "high": 29.954970105833922
+    }
+  },
+  "ranking": {
+    "covered_gap": 3.036318865014492,
+    "worst_case_U_Indiana_minus_U_Alabama": 0.5679999999999998,
+    "reverses": false,
+    "note": "Indiana sludge/tank CH4 not quantified; it would need to exceed the remaining margin to reverse the ranking",
+    "remaining_margin": 2.468318865014492
+  }
+}

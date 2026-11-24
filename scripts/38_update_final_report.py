@@ -27,6 +27,9 @@ def main():
     feed=float(r[1]['feed_gwp']);water=float(r[2]['shrimp_gwp'])
     expanded=root/'results/completeness_2026-11-23'
     ex=json.loads((expanded/'expanded_summary.json').read_text())
+    unresolved=root/'results/unresolved_2026-11-24'
+    us=json.loads((unresolved/'unresolved_summary.json').read_text())
+    with (unresolved/'unresolved_estimates.csv').open() as f: est=list(csv.DictReader(f))
     # Set the page, font, spacing, and heading styles for the course report.
     doc=Document();sec=doc.sections[0]
     sec.page_width=Inches(8.5);sec.page_height=Inches(11)
@@ -124,7 +127,7 @@ def main():
     para('2.3 Scenario design and consistency checks', 'Heading 2')
     para('One-at-a-time scenarios varied F, E, or g by ±25%. Further scenarios combined grid factors of 0.05 to 0.80 kg CO₂-eq/kWh with FCR values of 1 to 2. Alabama was evaluated at its literature FCR and at fixed FCR 1.50, with other inputs held constant. Checks covered returned reference demands, contribution sums, and baseline identities. These deterministic ranges are not confidence intervals. Appendix A, Table A5 lists the scenario settings.')
     para('2.4 Model assumptions', 'Heading 2')
-    para('Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, external benchmarks, and data gaps.')
+    para('Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, screening estimates, and data gaps.')
     page();heading('3 Results and discussion')
     para('3.1 Indiana hotspots and model consistency', 'Heading 2')
     para(f"""The U.S. electricity factor remains {s['grid_ef']:.6f} kg CO₂-eq/kWh and delivered Feed C GWP remains {feed:.6f} kg CO₂-eq/kg feed. Restoring larval airfreight adds {ex['indiana_addition']:.3f} to Indiana's earlier 2.459 subtotal, giving {ex['indiana']:.3f}. Figure 2 shows contributions to this expanded inventory. Unresolved burdens are not represented by zero-valued bars.""")
@@ -147,7 +150,8 @@ def main():
     para(f"""With feed supply and farm electricity included, GWP was {s["indiana_common"]:.3f} for Indiana and {s["alabama_common"]:.3f} kg CO₂-eq/kg shrimp for the Alabama counterfactual. Alabama reached {s["alabama_fixed_fcr"]:.3f} at fixed FCR 1.50. Higher electricity demand added {s["electricity_effect_fixed_fcr"]:.3f}, while the lower literature FCR offset {abs(s["fcr_effect_fixed_electricity"]):.3f}. With the mill grid fixed, the literature-FCR ranking reversed near a shared farm-grid factor of {s["common_scope_grid_crossover"]:.3f}. Increasing Alabama delivery to 1677 km raised its subtotal to {s["alabama_longer_delivery_sensitivity"]:.3f}.""")
     para('3.4 Interpretation and limitations', 'Heading 2')
     para(f"""With larval transport and fertilizer supply restored, the expanded subtotals are {ex['indiana']:.3f} for Indiana and {ex['alabama']:.3f} for Alabama (Appendix B). The fixed-FCR contrast above remains restricted to feed and electricity. Climate, management, scale, and data provenance still confound any technology comparison.""")
-    para('Direct N₂O production has been demonstrated in shrimp, but available laboratory evidence is not a US farm emission factor (Heisterkamp et al., 2016). Hatchery, infrastructure, and wastewater gaps are assessed in Appendix B. GWP alone cannot establish overall sustainability. Eutrophication, water scarcity, biodiversity, and economics require separate assessment.')
+    ui,ua=us['Indiana']['unresolved'],us['Alabama']['unresolved']
+    para(f"Literature screening estimates for hatchery, direct N₂O, pond CH₄, and infrastructure add {ui['low']:.2f}–{ui['high']:.2f} kg CO₂-eq/kg to Indiana and {ua['low']:.2f}–{ua['high']:.2f} to Alabama without reversing the ranking, but they are not farm measurements (Table B3). GWP alone cannot establish overall sustainability. Eutrophication, water scarcity, biodiversity, and economics require separate assessment.")
     heading('4 Conclusions')
     para('Feed dominates Indiana’s covered inventory, while electricity dominates the Alabama counterfactual. The common-feed comparison separates modeled electricity and FCR effects. The completeness audit identifies missing evidence that must be resolved before these subtotals can support farming-technology decisions.')
 
@@ -169,11 +173,21 @@ def main():
       'Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). Scientific agent skills: A library of procedural knowledge for research agents. arXiv. https://doi.org/10.48550/arXiv.2609.00065',
       'Sun, Y., Hou, H., Dong, D., Zhang, J., Yang, X., Li, X., & Song, X. (2023). Comparative life cycle assessment of whiteleg shrimp (Penaeus vannamei) cultured in recirculating aquaculture systems (RAS), biofloc technology (BFT) and higher-place ponds (HPP) farming systems in China. Aquaculture, 574, Article 739625. https://doi.org/10.1016/j.aquaculture.2023.739625',
     ])
+    screening_refs=[
+      ('Alabama Gulf Seafood. (2020, May 21). Claude Peteet Mariculture Center in Gulf Shores celebrates 50 years of conservation. https://aqua.alabama.gov/articles/story/claude-peteet-mariculture-center-50-years.html','Claude Peteet Mariculture Center in Gulf Shores celebrates 50 years of conservation'),
+      ('Davis, A., Ullman, C., Rhodes, M., Novriadi, R., & Swanepoel, A. (2018, April 9). Automated feeding systems in pond production of Pacific white shrimp. Responsible Seafood Advocate. https://www.globalseafood.org/advocate/automated-feeding-systems-in-pond-production-of-pacific-white-shrimp/','Responsible Seafood Advocate'),
+      ('De Klein, C., Novoa, R. S. A., Ogle, S., Smith, K. A., Rochette, P., Wirth, T. C., McConkey, B. G., Mosier, A., & Rypdal, K. (2006). N₂O emissions from managed soils, and CO₂ emissions from lime and urea application. In H. S. Eggleston, L. Buendia, K. Miwa, T. Ngara, & K. Tanabe (Eds.), 2006 IPCC guidelines for national greenhouse gas inventories (Vol. 4, Chapter 11). IGES. https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/4_Volume4/V4_11_Ch11_N2O&CO2.pdf','2006 IPCC guidelines for national greenhouse gas inventories'),
+      ('Kennedy, H., Alongi, D. M., Karim, A., Chen, G., Chmura, G. L., Crooks, S., Kairo, J. G., Liao, B., & Lin, G. (2014). Coastal wetlands. In T. Hiraishi, T. Krug, K. Tanabe, N. Srivastava, J. Baasansuren, M. Fukuda, & T. G. Troxler (Eds.), 2013 supplement to the 2006 IPCC guidelines for national greenhouse gas inventories: Wetlands (Chapter 4). IPCC. https://www.ipcc-nggip.iges.or.jp/public/wetlands/pdf/Wetlands_separate_files/WS_Chp4_Coastal_Wetlands.pdf','2013 supplement to the 2006 IPCC guidelines for national greenhouse gas inventories: Wetlands'),
+      ('Yang, P., Tang, K. W., Yang, H., Tong, C., Zhang, L., Lai, D. Y. F., Hong, Y., Tan, L., Zhu, W., & Tang, C. (2023). Contrasting effects of aeration on methane (CH₄) and nitrous oxide (N₂O) emissions from subtropical aquaculture ponds and implications for global warming mitigation. Journal of Hydrology, 617, Article 128876. https://doi.org/10.1016/j.jhydrol.2022.128876','Journal of Hydrology, 617'),
+    ]
+    refs.extend(r for r,_ in screening_refs)
     ref_paragraphs=[]
     italics=['Journal of Industrial Ecology, 26','CalculationSetup.','Environmental management—Life cycle assessment—Principles and framework','How much carbon dioxide is produced per kilowatthour of U.S. electricity generation?','Greenhouse gas emissions of Norwegian seafood products in 2017']
     italics.extend(['Bioresource Technology, 399','Environmental Science & Technology, 45','Applied and Environmental Microbiology, 82','Scientific agent skills: A library of procedural knowledge for research agents','Aquaculture, 574'])
+    italics.extend(i for _,i in screening_refs)
+    assert len(refs)==len(italics)==15
     for txt,ital in sorted(zip(refs,italics)):
-        q=doc.add_paragraph();q.paragraph_format.left_indent=Inches(.5);q.paragraph_format.first_line_indent=Inches(-.5);q.paragraph_format.space_after=Pt(8)
+        q=doc.add_paragraph();q.paragraph_format.left_indent=Inches(.5);q.paragraph_format.first_line_indent=Inches(-.5);q.paragraph_format.space_after=Pt(0);q.paragraph_format.line_spacing=1
         first,rest=txt.split(ital,1);q.add_run(first);q.add_run(ital).italic=True
         suffix,url=rest.rsplit(' ',1);q.add_run(suffix+' ')
         label=url
@@ -261,29 +275,57 @@ def main():
     data_table('Table B1','Restored contributions per kilogram of live-weight shrimp',['Case','Previous subtotal','Airfreight added','Fertilizer added','Expanded subtotal'],[[x['case']]+[f"{float(x[k]):.6f}" for k in ['previous_covered_subtotal','airfreight','fertilizer_supply','updated_covered_subtotal']] for x in restored],[1.1,1.35,1.35,1.35,1.35])
     para('Note. All entries are kg CO₂-eq/kg shrimp. Indiana includes bicarbonate. Alabama has zero bicarbonate in the literature inventory. Fertilizer factors cover supply, not application emissions. Generic aircraft freight is the central background proxy. Short- and medium-haul alternatives give 0.113 to 0.123 for Indiana airfreight and 0.050 to 0.054 for Alabama. These are provider scenarios, not confidence intervals.').runs[0].font.size=Pt(9)
     data_table('Table B2','Evidence and treatment of unresolved processes',['Process','Evidence and current treatment'],[
-        ['Hatchery production','Cao et al. (2011), Table 2, reports 0.0708 and 0.188 kg CO₂-eq/kg harvested shrimp in Chinese systems. External benchmarks only. US production, survival and allocation data are needed.'],
-        ['Farm infrastructure','Al Eissa et al. (2022), Section 2.2.3 reports <0.1% in its preliminary analysis. Source-specific justification, not a verified bound here. Equipment masses and lifetime output are unavailable.'],
-        ['Direct farm GHGs','Heisterkamp et al. (2016) provides experimental evidence of N₂O production. Laboratory incubations do not establish annual US emissions. CH₄ and N₂O remain unresolved.'],
-        ['Effluent and water','N/P discharge is not N₂O/CH₄. Water intake does not specify wastewater treatment. Confirm discharge, sludge fate, and whether pumping is already in farm electricity.'],
-        ['Land','Area lacks occupation time and transformation history. Do not transfer a mangrove-clearing factor to these US cases.'],
+        ['Hatchery production','Cao et al. (2011), Table 2, reports 0.0708 and 0.188 kg CO₂-eq/kg harvested shrimp in Chinese systems. Used as the screening range in Table B3. US production, survival and allocation data are needed.'],
+        ['Farm infrastructure','Al Eissa et al. (2022), Section 2.2.3 reports <0.1% in its preliminary analysis. Table B3 uses it as a screening value. Equipment masses and lifetime output are unavailable.'],
+        ['Direct farm GHGs','Heisterkamp et al. (2016) provides experimental evidence of N₂O production. Laboratory incubations do not establish annual US emissions. Table B3 gives screening estimates, and farm measurements remain missing.'],
+        ['Effluent and water','N/P discharge is not N₂O/CH₄. Pond-fill pumping and discharged N are small in Table B3. Indiana sludge fate and wastewater treatment remain unknown.'],
+        ['Land','Area lacks occupation time. The Alabama ponds date from 1973, so no land-use change falls within 20 years. Do not transfer a mangrove-clearing factor to these US cases.'],
         ['Post-farm stages','Processing, packaging and market distribution are outside the defined farm-gate boundary.']],[1.25,5.25])
-    para(f"Applying each external hatchery benchmark to Indiana would add 2.75% to 7.30% of its covered subtotal. This is a transferability check, not a US estimate or uncertainty interval. Cao et al. also reports infrastructure burdens of 0.0205 and 0.0645 kg CO₂-eq/kg. Neither value is adopted as US baseline data.")
-    para(f"Write total GWP as covered subtotal + unresolved net burden U. An additional {ex['five_percent_reference']:.3f} kg CO₂-eq/kg is 5% of Indiana's subtotal. The 5% value is an illustrative reference, not a cut-off rule. The expanded ranking reverses if U_Indiana − U_Alabama exceeds {ex['unresolved_difference_to_reverse_ranking']:.3f}. Available evidence does not bound that difference, so a complete-farm ranking remains unverified.")
+    para(f"Applying each external hatchery benchmark to Indiana would add 2.75% to 7.30% of its covered subtotal. This is a transferability check, not a US estimate or uncertainty interval. Cao et al. also reports infrastructure burdens of 0.0205 and 0.0645 kg CO₂-eq/kg. Neither value is adopted as US baseline data. Table B3 uses them only as screening ranges.")
+    para(f"Write total GWP as covered subtotal + unresolved net burden U. An additional {ex['five_percent_reference']:.3f} kg CO₂-eq/kg is 5% of Indiana's subtotal. The 5% value is an illustrative reference, not a cut-off rule. The expanded ranking reverses if U_Indiana − U_Alabama exceeds {ex['unresolved_difference_to_reverse_ranking']:.3f}. Table B3 tests this difference with screening estimates. They are not confidence bounds, so a complete-farm ranking remains unverified.")
+
+    # Screening estimates for the burdens drawn as not yet quantified (Step 43).
+    def pick(case,item): return next(x for x in est if x['case']==case and x['item']==item)
+    def span(lo,c,hi):
+        if hi==0: return '0'
+        d=3 if hi<0.1 else 2
+        return f"{lo:.{d}f}–{hi:.{d}f} ({c:.{d}f})"
+    def cell(case,item):
+        x=pick(case,item)
+        return 'Not quantified' if x['central']=='' else span(float(x['low']),float(x['central']),float(x['high']))
+    other=[pick('Alabama',i) for i in ('Pond-fill pumping','Indirect N2O from discharged N','Urea hydrolysis CO2')]
+    other_span=span(*(sum(float(x[k]) for x in other) for k in ('low','central','high')))
+    tot=lambda case,key: span(*(us[case][key][k] for k in ('low','central','high')))
+    page();heading('Appendix B continued');para('Screening estimates for unresolved burdens', 'Heading 2')
+    para('Table B3 converts the evidence in Table B2 into screening ranges for the burdens drawn as not yet quantified in Figure C1. Each value combines a literature factor with stated assumptions about these farms.')
+    data_table('Table B3','Screening estimates per kilogram of live-weight shrimp',['Burden','Indiana','Alabama','Basis'],[
+        ['Hatchery production',cell('Indiana','Hatchery production'),cell('Alabama','Hatchery production'),'Chinese hatchery benchmarks of Cao et al. (2011), central value at their midpoint'],
+        ['Direct N₂O',cell('Indiana','Direct N2O (biofloc tanks)'),cell('Alabama','Direct N2O (pond)'),'Feed N balance with 35% to 40% crude protein and 1.8 ± 0.7% conversion to N₂O-N (Kennedy et al., 2014). Alabama low and central values use the pond fluxes of Yang et al. (2023) over the 13-week grow-out reported by Davis et al. (2018)'],
+        ['Pond CH₄','See tank row',cell('Alabama','Pond CH4 (biogenic)'),'Aerated-pond flux of Yang et al. (2023) scaled by area and time or by feed applied. Lined Alabama ponds likely emit less'],
+        ['Infrastructure',cell('Indiana','Infrastructure'),cell('Alabama','Infrastructure'),'Below 0.1% of the source total for Indiana (Al Eissa et al., 2022) and Chinese pond values for Alabama (Cao et al., 2011)'],
+        ['Land-use change',cell('Indiana','Land-use change'),cell('Alabama','Land-use change'),'No conversion within 20 years. The Alabama ponds were built in 1973 (Alabama Gulf Seafood, 2020)'],
+        ['Other Alabama terms','Not applicable',other_span,'Pond-fill pumping at 3 to 10 m head, discharged N with the EF5 runoff factor, and urea CO₂ (De Klein et al., 2006)'],
+        ['Tank CH₄ and sludge','Not quantified','Not applicable','Sludge mass and disposal route are unknown'],
+        ['Total added',tot('Indiana','unresolved'),tot('Alabama','unresolved'),'Sum of the quantified rows'],
+        ['Covered plus screening',tot('Indiana','total'),tot('Alabama','total'),'Not added to the reported subtotals']],[1.3,1.1,1.1,3.0])
+    para('Note. Values are kg CO₂-eq per kg live-weight shrimp, shown as low–high (central). They are deterministic screening ranges from literature factors and stated assumptions, not confidence intervals or farm measurements. GWP100 uses 27.0 for biogenic CH₄ and 273 for N₂O. Yang et al. (2023) reported sustained-flux GWP values, which were recalculated here. Sources and checks are listed in results/unresolved_2026-11-24/EVIDENCE_NOTES.md.').runs[0].font.size=Pt(9)
+    rk=us['ranking']
+    para(f"Direct N₂O dominates the Indiana additions and pond CH₄ dominates the Alabama additions. The Alabama N₂O range spans a factor of about 40 because measured pond fluxes are far below the nitrogen-balance value. That balance rests on an analogy with wastewater treatment plants, which suits aerated biofloc tanks better than ponds, but no measured biofloc conversion was found. Within these ranges U_Indiana − U_Alabama is at most {rk['worst_case_U_Indiana_minus_U_Alabama']:.2f}. Indiana sludge fate would have to add more than {rk['remaining_margin']:.2f} kg CO₂-eq/kg to reverse the ranking.")
 
     # Keep the detailed input-output schematic in the appendix, as requested.
     page();heading('Appendix C');para('System boundary and inventory flows', 'Heading 2')
-    para('Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, and processes not yet quantified.')
-    figure('C1','Cradle-to-farm-gate inputs and outputs',figures/'cradle_to_farm_gate.png','GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.',6.4)
+    para('Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, screening estimates from Table B3, and processes not yet quantified.')
+    figure('C1','Cradle-to-farm-gate inputs and outputs',figures/'cradle_to_farm_gate.png','GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Dotted outlines show screening ranges in kg CO₂-eq/kg from Table B3. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.',6.4)
     para('The optional farm-water proxy applies to Indiana only. The separate controlled comparison in Figure 4 includes feed supply and farm electricity only, so it has narrower coverage than this diagram. Processing and distribution after harvest fall outside the farm-gate boundary.').runs[0].font.size=Pt(10)
 
     # Save Word and text outputs; PDF rendering is a separate step.
     doc.core_properties.title=TITLE;doc.core_properties.author='Lihong Yang';doc.core_properties.subject='BSE 5984 course report on screening and counterfactual analysis'
-    assert len(doc.inline_shapes)==5 and len(doc.tables)==8
+    assert len(doc.inline_shapes)==5 and len(doc.tables)==9
     assert abs(s['alabama_fixed_fcr']-s['indiana_common']-s['electricity_effect_fixed_fcr'])<1e-9
     ref_ids={id(x) for x in ref_paragraphs}
     body_runs=[node for paragraph in doc.element.iter(qn('w:p')) if id(paragraph) not in ref_ids for node in paragraph.iter(qn('w:t'))]
     visible_text=''.join(node.text or '' for node in body_runs)
-    assert len(ref_paragraphs)==10
+    assert len(ref_paragraphs)==15
     assert not any(mark in visible_text for mark in ';:；：|｜¦'), 'Report punctuation preference violated'
     target=dest/'BSE5984_Final_Report.docx';doc.save(target)
     (dest/'BSE5984_Final_Report_text.txt').write_text('\n\n'.join(textlog))

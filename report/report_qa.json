@@ -1,95 +1,96 @@
 {
   "revision_date": "2026-11-24",
-  "change": "Redraw Appendix C Figure C1 as native draw.io objects with separate blue input, green process and purple output columns. Coverage uses line styles and explicit Not yet quantified labels.",
-  "total_pages": 12,
+  "change": "Add Step 43 literature-based screening estimates for burdens previously drawn as not yet quantified: new Table B3 on its own appendix page, updated Table B2 treatment text, two sentences in Section 3.4, a dotted screening-estimate style with values in Figure C1, and five verified references.",
+  "total_pages": 13,
   "body_pages": 6,
   "reference_pages": 1,
-  "appendix_pages": 5,
+  "appendix_pages": 6,
   "renderer": "LibreOffice 26.8.3.1 861effc5289d539f15c4c18d1ba8579ffd78728b",
+  "page_text_identical_to_previous_commit": [
+    1,
+    2,
+    4,
+    5,
+    8,
+    9,
+    10
+  ],
+  "pages_changed": {
+    "3": "Section 2.4 wording",
+    "6": "Section 3.4 screening sentence",
+    "7": "Five references added, reference spacing reduced to fit one page",
+    "11": "Table B2 treatment text",
+    "12": "New Appendix B continued with Table B3",
+    "13": "Appendix C text, note, and updated Figure C1"
+  },
   "visual_review": {
-    "newly_inspected_pages": [
-      12
-    ],
-    "pages_byte_identical_to_previous_report_render": [
-      1,
-      2,
+    "pages_inspected": [
       3,
-      4,
-      5,
       6,
       7,
-      8,
-      9,
-      10,
-      11
+      11,
+      12,
+      13
     ],
-    "outcome": "Calibri labels, connectors, columns, caption and notes fit without clipping or overflow. Total report remains 12 pages with six main-text pages."
+    "outcome": "No clipped text or overflow. Conclusions stay on page 6, all 15 references and the AI disclosure fit on page 7, Table B3 fits on page 12."
   },
-  "new_values": {
-    "meat_bone_meal_contribution_kg_per_kg_feed": 0.0013,
-    "share_of_ingredient_gwp_pct": 0.15,
-    "per_unit_add_feed": 0.05,
-    "per_unit_add_indiana_shrimp": 0.075,
-    "per_unit_add_indiana_pct": 2.91,
-    "per_unit_add_alabama_shrimp": 0.051
-  },
-  "new_values_source": "Arithmetic on results/run_2026-11-21/background_factors.csv, data/feed_c_lci.csv, FCR 1.50 and 1.02, and the expanded Indiana subtotal. The builder asserts that recomputed ingredient GWP equals 0.912134347.",
-  "allocation_source_checked": "Al Eissa et al. (2022), p. 2009, states that ingredient background data were derived by mass allocation",
+  "screening_source": "results/unresolved_2026-11-24 (scripts/43_quantify_unresolved_burdens.py)",
+  "references_verified": [
+    "Kennedy et al. 2014 (IPCC Wetlands Supplement Ch. 4, Table 4.15 and Annex 4A.5)",
+    "Yang et al. 2023 (J. Hydrology 617, 128876)",
+    "De Klein et al. 2006 (IPCC 2006 Vol. 4 Ch. 11, Table 11.3 and Section 11.4)",
+    "Davis et al. 2018 (Responsible Seafood Advocate)",
+    "Alabama Gulf Seafood 2020"
+  ],
   "scientific_values_unchanged": true,
+  "screening_values_added_to_subtotals": false,
   "LCIA_rerun": false,
   "database_writes": false,
+  "previous_change": {
+    "change": "Redraw Appendix C Figure C1 as native draw.io objects with separate blue input, green process and purple output columns. Coverage uses line styles and explicit Not yet quantified labels.",
+    "diagram": {
+      "backend": "draw.io Desktop 31.0.2",
+      "editable_source": "report/report_figures/cradle_to_farm_gate.drawio",
+      "native_text_objects": 35,
+      "attached_connectors": 12,
+      "font": "Calibri",
+      "pdf_fonts_embedded": true,
+      "png_width_px": 3840,
+      "png_dpi_at_report_width": 600,
+      "categories": {
+        "blue": "Inputs",
+        "green": "Processes",
+        "purple": "Outputs"
+      },
+      "coverage_line_styles": {
+        "solid": "Included",
+        "dash-dot": "Optional scenario",
+        "dashed": "Not yet quantified"
+      },
+      "all_labels_verified_in_vector_pdf": true
+    },
+    "page_text_changed_vs_previous_revision": [
+      12
+    ],
+    "punctuation_check": "Passed for diagram labels and report pages other than the unchanged APA reference page, which retains its documented exemption."
+  },
   "delivered_hashes": {
-    "report/BSE5984_Final_Report.docx": "3d08f5bbd3faf34d74cbda31fdd2fb9e6718263fab51f73f302ed06b65445032",
-    "report/BSE5984_Final_Report.pdf": "2ecae01199cee368a4994843918019099526324dff995cb84e1b5000fc720217",
-    "report/report_figures/cradle_to_farm_gate.drawio": "11d95ea3e215290d589a2dc10e88ce2ff777e24f2a9255ffec965623d51b52ee",
-    "report/report_figures/cradle_to_farm_gate.png": "7174ac349dea8787b46c32a6c2f80695e4824aa408078350679b2a045a9244bb",
-    "report/report_figures/cradle_to_farm_gate.pdf": "06fb073865c895dba4cd2af6da9c2b68c5ccf5a8801392557cc64e8d25a04ae1",
-    "report/report_figures/cradle_to_farm_gate.svg": "effb20d5f722f30fdc18cf83e83ee648b0e82b08ad15c831eb37b32a09c62461"
+    "report/BSE5984_Final_Report.docx": "e71973bf7e4e6e6b8269457fb1f94550edee511d7ca7c05f8595a6435793cd6d",
+    "report/BSE5984_Final_Report.pdf": "7ce85a0d483e8417d47f3b0a96445710e377ad888ce5b320dc17a03e176cab22",
+    "report/report_figures/cradle_to_farm_gate.drawio": "3ee25991f02a84a5b1915ef2d5922491148a926793c8adedcc9adaea1ea4fc09",
+    "report/report_figures/cradle_to_farm_gate.png": "35eb1e7fab73377535564bbf35e3942b425f45f078bfb272104a7ee47dcda546",
+    "report/report_figures/cradle_to_farm_gate.pdf": "7ce3d57e3aa19d5769ec97bf5e4e654365055fb04fe049e8d78a5b3cb28c39ce",
+    "report/report_figures/cradle_to_farm_gate.svg": "3e2cac95fced1f10718ca1c423b82c4d64632862ebac27d021f2661045f6de74"
   },
   "source_hashes": {
-    "scripts/38_update_final_report.py": "bda921e10d44b202db9b287881f8a511dd30a14612f550b43704c320b0a66108",
-    "scripts/42_plot_system_boundary.py": "daa28cb35d802964ddc5a38be3648cfe18faef4d55b3f8ee1fd665d5bd7fadf4",
-    "README.md": "ad823ef5ed7aebe9d4fa1152681653f94e6c189883b60dd46917181c82ed5f86",
+    "scripts/38_update_final_report.py": "1c957fc44bfb5f3fccbc153a5509c7e89ff6453e0b11b2477b388ee6f194e4b2",
+    "scripts/42_plot_system_boundary.py": "6374647d223f98db4f5fc1df82606dc44c23b93f49242068f4e9f0d6a8bb9837",
+    "scripts/43_quantify_unresolved_burdens.py": "5dc6887ced6c82863a11fd6268964030dd07324c6b78e5f29a7f9d143a311bd6",
+    "results/unresolved_2026-11-24/unresolved_estimates.csv": "781b2d6482e7d4ccdf5f99eb15a09125db96c6062ae99a4c01ccb39f31b79a01",
+    "results/unresolved_2026-11-24/unresolved_summary.json": "3e845e597c4cf1c57a80e254bc5f94e787e683a2faa2bb675bafca44e44fe2bf",
+    "README.md": "e1602112b5259820d49428a9f945cb822fd45df84ada5e4c0ec927e8aa0e3e81",
     "requirements.txt": "f537dd1788d2279ef3e0753a1f42047c88b13d87aa3d1594054b620f6805f038"
   },
   "previous_versions": "Deleted on 2026-11-24 when git history was reset. Not recoverable.",
-  "reorganization_2026-11-24": {
-    "figures_moved_to": "report/report_figures (from report/revision_2026-11-24_calibri and report/revision_2026-11-24_boundary/figures)",
-    "builder_output": "report/ in place",
-    "regenerated_figure_pngs_byte_identical": true,
-    "rebuilt_docx_document_xml_identical": true,
-    "rerendered_pdf_page_text_identical": true,
-    "pages": 12
-  },
-  "previous_change": "Explain the low meat-and-bone meal factor (ecoinvent cut-off by-product treatment versus the source study's mass allocation) in Section 2.1 and after Table A2, with a per-unit sensitivity computed from saved factors",
-  "page_text_changed_vs_previous_revision": [
-    12
-  ],
-  "diagram": {
-    "backend": "draw.io Desktop 31.0.2",
-    "editable_source": "report/report_figures/cradle_to_farm_gate.drawio",
-    "native_text_objects": 35,
-    "attached_connectors": 12,
-    "font": "Calibri",
-    "pdf_fonts_embedded": true,
-    "png_width_px": 3840,
-    "png_dpi_at_report_width": 600,
-    "categories": {
-      "blue": "Inputs",
-      "green": "Processes",
-      "purple": "Outputs"
-    },
-    "coverage_line_styles": {
-      "solid": "Included",
-      "dash-dot": "Optional scenario",
-      "dashed": "Not yet quantified"
-    },
-    "all_labels_verified_in_vector_pdf": true
-  },
-  "scientific_files_hash_checked": 231,
-  "all_eight_tables_unchanged": true,
-  "four_other_figures_byte_identical": true,
-  "punctuation_check": "Passed for diagram labels and report pages other than the unchanged APA reference page, which retains its documented exemption.",
-  "baseline_git_commit": "ef1cc341da39c2759cd7549f2f4b3137c7e06df2",
-  "hash_note": "Committed separately on 2026-11-24. Source files match the hashes recorded at the original review. The PNG, PDF, SVG, DOCX and report PDF were re-exported from those identical sources, so their hashes are recomputed here."
+  "baseline_git_commit": "742d287"
 }

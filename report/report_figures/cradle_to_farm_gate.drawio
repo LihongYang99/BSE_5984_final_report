@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <mxfile host="Electron" version="31.0.2" type="device">
   <diagram id="shrimp-boundary" name="Cradle to farm gate">
-    <mxGraphModel dx="1480" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="1300" math="0" shadow="0" background="#FFFFFF">
+    <mxGraphModel dx="1480" dy="1345" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="1345" math="0" shadow="0" background="#FFFFFF">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="canvas" value="" style="fillColor=#FFFFFF;strokeColor=none;locked=1;" vertex="1" parent="1">
-          <mxGeometry x="0" y="0" width="1480" height="1300" as="geometry" />
+          <mxGeometry x="0" y="0" width="1480" height="1345" as="geometry" />
         </mxCell>
         <mxCell id="boundary" value="" style="fillColor=none;strokeColor=#75808B;strokeWidth=2;dashed=1;dashPattern=2 4;" vertex="1" parent="1">
           <mxGeometry x="20" y="140" width="1080" height="950" as="geometry" />
@@ -65,16 +65,16 @@
         <mxCell id="water-title" value="Farm water" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="water">
           <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="water-body" value="Indiana treatment proxy&#10;Other water burdens&#10;not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="water">
+        <mxCell id="water-body" value="Indiana treatment proxy&#10;Alabama pumping &lt; 0.04" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="water">
           <mxGeometry x="16" y="56" width="298" height="106" as="geometry" />
         </mxCell>
-        <mxCell id="infrastructure" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+        <mxCell id="infrastructure" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=3;strokeColor=#597FAD;fillColor=#EFF4FA;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
           <mxGeometry x="45" y="920" width="330" height="140" as="geometry" />
         </mxCell>
         <mxCell id="infrastructure-title" value="Infrastructure and land" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="infrastructure">
           <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="infrastructure-body" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="infrastructure">
+        <mxCell id="infrastructure-body" value="Infrastructure 0–0.06&#10;No land-use change" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="infrastructure">
           <mxGeometry x="16" y="56" width="298" height="76" as="geometry" />
         </mxCell>
         <mxCell id="feed" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
@@ -95,13 +95,13 @@
         <mxCell id="delivery-body" value="Road freight" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="delivery">
           <mxGeometry x="16" y="56" width="248" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="hatchery" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+        <mxCell id="hatchery" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=3;strokeColor=#478676;fillColor=#EEF5F1;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
           <mxGeometry x="800" y="180" width="275" height="160" as="geometry" />
         </mxCell>
         <mxCell id="hatchery-title" value="Hatchery production" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="hatchery">
           <mxGeometry x="16" y="14" width="243" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="hatchery-body" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="hatchery">
+        <mxCell id="hatchery-body" value="Screening estimate&#10;0.07–0.19" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="hatchery">
           <mxGeometry x="16" y="56" width="243" height="96" as="geometry" />
         </mxCell>
         <mxCell id="larval" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
@@ -132,22 +132,31 @@
           <mxGeometry x="16" y="88" width="268" height="84" as="geometry" />
         </mxCell>
         <mxCell id="product" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="640" width="300" height="190" as="geometry" />
+          <mxGeometry x="1150" y="640" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="product-title" value="Product at the farm gate" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="product">
           <mxGeometry x="16" y="14" width="268" height="32" as="geometry" />
         </mxCell>
         <mxCell id="product-body" value="1 kg live-weight shrimp" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="product">
-          <mxGeometry x="16" y="56" width="268" height="126" as="geometry" />
+          <mxGeometry x="16" y="56" width="268" height="76" as="geometry" />
         </mxCell>
-        <mxCell id="direct" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
-          <mxGeometry x="1150" y="900" width="300" height="170" as="geometry" />
+        <mxCell id="direct" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=3;strokeColor=#826C9F;fillColor=#F5F1F9;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="795" width="300" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="direct-title" value="Direct farm outputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="direct">
+        <mxCell id="direct-title" value="Direct farm gases" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="direct">
           <mxGeometry x="16" y="14" width="268" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="direct-body" value="CH₄, N₂O, effluent&#10;and sludge&#10;Impacts not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="direct">
-          <mxGeometry x="16" y="56" width="268" height="106" as="geometry" />
+        <mxCell id="direct-body" value="N₂O 0.01–0.72&#10;Alabama pond CH₄&#10;0.24–0.97" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="direct">
+          <mxGeometry x="16" y="56" width="268" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sludge" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="980" width="300" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="sludge-title" value="Effluent and sludge" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="sludge">
+          <mxGeometry x="16" y="14" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="sludge-body" value="Indiana sludge&#10;not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="sludge">
+          <mxGeometry x="16" y="56" width="268" height="60" as="geometry" />
         </mxCell>
         <mxCell id="outside" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#87939E;fillColor=#F3F4F5;" vertex="1" parent="1">
           <mxGeometry x="470" y="1120" width="980" height="100" as="geometry" />
@@ -175,7 +184,7 @@
         <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.23140495867768596;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="delivery" target="farm">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="hatchery" target="larval">
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=2 2;" edge="1" parent="1" source="hatchery" target="larval">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.7727272727272727;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="larval" target="farm">
@@ -192,7 +201,7 @@
         <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7708333333333334;entryDx=0;entryDy=0;dashed=1;dashPattern=8 3 2 3;" edge="1" parent="1" source="water" target="farm">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.875;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="infrastructure" target="farm">
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.875;entryDx=0;entryDy=0;dashed=1;dashPattern=2 2;" edge="1" parent="1" source="infrastructure" target="farm">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="400" y="990" />
@@ -200,37 +209,46 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.3958333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="farm" target="product">
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.2916666666666667;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="farm" target="product">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.1368421052631579;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="boundary" target="upstream">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="farm" target="direct">
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.3696969696969697;entryDx=0;entryDy=0;dashed=1;dashPattern=2 2;" edge="1" parent="1" source="farm" target="direct">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1125" y="856" />
-              <mxPoint x="1125" y="985" />
-            </Array>
-          </mxGeometry>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.95;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="farm" target="sludge">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="1044.75" y="1042.5" /></Array></mxGeometry>
         </mxCell>
         <mxCell id="key-included" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="45" y="1250" width="32" height="25" as="geometry" />
         </mxCell>
         <mxCell id="legend-included" value="Included" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="93" y="1246" width="420" height="40" as="geometry" />
+          <mxGeometry x="93" y="1246" width="197" height="40" as="geometry" />
         </mxCell>
         <mxCell id="key-optional" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;dashed=1;dashPattern=8 3 2 3;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1250" width="32" height="25" as="geometry" />
+          <mxGeometry x="300" y="1250" width="32" height="25" as="geometry" />
         </mxCell>
         <mxCell id="legend-optional" value="Optional scenario" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="438" y="1246" width="420" height="40" as="geometry" />
+          <mxGeometry x="348" y="1246" width="282" height="40" as="geometry" />
         </mxCell>
         <mxCell id="key-missing" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
-          <mxGeometry x="850" y="1250" width="32" height="25" as="geometry" />
+          <mxGeometry x="1030" y="1250" width="32" height="25" as="geometry" />
         </mxCell>
         <mxCell id="legend-missing" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
-          <mxGeometry x="898" y="1246" width="420" height="40" as="geometry" />
+          <mxGeometry x="1078" y="1246" width="382" height="40" as="geometry" />
+        </mxCell>
+      <mxCell id="key-screening" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=3;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1250" width="32" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-screening" value="Screening estimate" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="698" y="1246" width="322" height="40" as="geometry" />
+        </mxCell>
+      <mxCell id="legend-units" value="Screening values are kg CO₂-eq per kg live-weight shrimp from Appendix B, Table B3" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=22;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1296" width="1400" height="34" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

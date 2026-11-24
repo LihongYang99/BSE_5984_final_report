@@ -12,9 +12,9 @@ Feed C is the estimated Indiana commercial-feed recipe reported by Al Eissa et a
 
 ## Current status and where to start
 
-Steps 01 to 30 document the original model development. Steps 31 to 34 produced the unit-audited GWP screening and controlled Alabama comparison. Step 38 builds the report. Steps 35 to 37 built an earlier report and figure collection. They were deleted on November 24, 2026. Steps 39 to 41 restore known omitted inputs, update the sensitivities, and independently validate the expanded results. Step 42 exports the editable draw.io input-output boundary diagram for Appendix C.
+Steps 01 to 30 document the original model development. Steps 31 to 34 produced the unit-audited GWP screening and controlled Alabama comparison. Step 38 builds the report. Steps 35 to 37 built an earlier report and figure collection. They were deleted on November 24, 2026. Steps 39 to 41 restore known omitted inputs, update the sensitivities, and independently validate the expanded results. Step 42 exports the editable draw.io input-output boundary diagram for Appendix C. Step 43 gives literature-based screening estimates for the burdens that diagram marks as not yet measured.
 
-- Read the [Final Report PDF](report/BSE5984_Final_Report.pdf): six body pages, one reference page, and five appendix pages.
+- Read the [Final Report PDF](report/BSE5984_Final_Report.pdf): six body pages, one reference page, and six appendix pages.
 - For current numerical results, use [expanded_summary.json](results/completeness_2026-11-23/expanded_summary.json) and [expanded_results.csv](results/completeness_2026-11-23/expanded_results.csv).
 - To reproduce the work, follow the [run instructions](#recommended-run-order) with the existing project `.venv`.
 - Read the [completeness evidence review](results/completeness_2026-11-23/EVIDENCE_REVIEW.md) for restored inputs, unresolved burdens, and source applicability. The earlier [METHOD_NOTES.md](results/run_2026-11-21/METHOD_NOTES.md) records the November 21 scope.
@@ -87,7 +87,7 @@ The earlier Step 36 workflow script, the Step 37 styled figure collection (`repo
 
 ## Revised final report (Step 38)
 
-The current report has six body pages, one APA reference page, and five appendix pages. Sections 1.1 and 1.2 synthesize previous research and define the study contribution. Four main-text figures cover the LCA workflow, expanded Indiana hotspots, updated sensitivity analysis, and the original controlled feed-and-electricity comparison. Appendix A contains Tables A1 to A5: farm inputs, feed composition, processing and delivery, GWP factors, and scenario settings. Appendix B documents restored contributions and the evidence for unresolved processes. Appendix C adds Figure C1, a cradle-to-farm-gate input-output diagram referenced in Methods Section 2.1. Methods also includes an assumptions subsection. References and appendices are outside the six-page main-text count.
+The current report has six body pages, one APA reference page, and six appendix pages. Sections 1.1 and 1.2 synthesize previous research and define the study contribution. Four main-text figures cover the LCA workflow, expanded Indiana hotspots, updated sensitivity analysis, and the original controlled feed-and-electricity comparison. Appendix A contains Tables A1 to A5: farm inputs, feed composition, processing and delivery, GWP factors, and scenario settings. Appendix B documents restored contributions and the evidence for unresolved processes, and Table B3 on its own page gives the Step 43 screening estimates. Appendix C adds Figure C1, a cradle-to-farm-gate input-output diagram referenced in Methods Section 2.1. Methods also includes an assumptions subsection. References and appendices are outside the six-page main-text count.
 
 `38_update_final_report.py` reads the November 21 reviewed run and November 23 expanded results, then writes `report/BSE5984_Final_Report.docx` and `report/BSE5984_Final_Report_text.txt` in place. Commit each new version in git instead of creating versioned output directories. Run it after Steps 39 to 42. It reads all five figures from [`report/report_figures/`](report/report_figures/): four drawn by the helpers in `scripts/report_figures/` and the draw.io boundary figure exported by Step 42. All five use Calibri, vector SVG/PDF exports, and PNG images with at least 600 dpi at their report width. The `plot_lca_workflow.py`, `plot_expanded_hotspots.py`, `plot_expanded_sensitivity.py`, and `plot_alabama_comparison.py` helpers in `scripts/report_figures/` regenerate the four main-text figures from saved results. Run each with the project `.venv` before Step 38 if those figures need regeneration. Their shared `figure_fonts.py` registers the installed Microsoft Word Calibri fonts and fixes SVG IDs and PDF/SVG dates so unchanged Matplotlib figures remain byte-identical. Step 42 uses draw.io Desktop instead and checks the exported PDF for Calibri. No font files are copied into the project.
 
@@ -97,7 +97,7 @@ The [report QA record](report/report_qa.json) documents the latest change, pagin
 
 ## Cradle-to-farm-gate boundary diagram (Step 42)
 
-Edit [`cradle_to_farm_gate.drawio`](report/report_figures/cradle_to_farm_gate.drawio) in draw.io Desktop. Its boxes, labels, and attached arrows are native editable objects. Inputs appear in a blue column, production processes in green, and outputs in purple. Coverage is encoded separately with solid outlines for included items, dash-dot outlines for the optional water scenario, and dashed outlines for burdens not yet quantified. Gray identifies post-farm stages outside scope. Hatchery production is not yet quantified even though larval airfreight is included. Upstream GHGs are represented in supply factors, while direct farm gases and effluent/sludge impacts are not yet quantified. Arrow widths do not represent quantities.
+Edit [`cradle_to_farm_gate.drawio`](report/report_figures/cradle_to_farm_gate.drawio) in draw.io Desktop. Its boxes, labels, and attached arrows are native editable objects. Inputs appear in a blue column, production processes in green, and outputs in purple. Coverage is encoded separately with solid outlines for included items, dash-dot outlines for the optional water scenario, dotted outlines (thicker, pattern 2 2) for Step 43 screening estimates, and dashed outlines for burdens not yet quantified. Gray identifies post-farm stages outside scope. Hatchery production, infrastructure and land, and direct farm gases show their Table B3 ranges in kg CO₂-eq per kg shrimp. Indiana effluent and sludge remain not yet quantified. Upstream GHGs are represented in supply factors. Arrow widths do not represent quantities.
 
 `42_plot_system_boundary.py` exports the saved draw.io source to PNG, PDF, and SVG without rebuilding or overwriting manual diagram edits. It needs draw.io Desktop at `/Applications/draw.io.app` and Calibri available to macOS. On this Mac, `~/Library/Fonts/Calibri.ttf` and `Calibrib.ttf` link to the installed Microsoft Word fonts. The exporter uses a fresh temporary draw.io profile and refuses to publish a PDF with substituted fonts. Its 3840-pixel PNG is 600 dpi at the 6.4-inch width used in Appendix C. The SVG keeps text editable and requires Calibri on the viewing computer. Draw.io export metadata may change between runs.
 
@@ -112,6 +112,24 @@ Save diagram edits in draw.io, then export the figure before rebuilding the repo
 
 ```bash
 .venv/bin/python scripts/42_plot_system_boundary.py
+```
+
+## Screening estimates for unresolved burdens (Step 43)
+
+`43_quantify_unresolved_burdens.py` gives low, central, and high values in kg CO₂-eq per kg live-weight shrimp for hatchery production, direct N₂O, pond CH₄, infrastructure, land-use change, Alabama pond-fill pumping, discharged N, and urea CO₂. It runs offline from the expanded subtotals, the audited electricity factor, and literature values, and writes [`results/unresolved_2026-11-24/`](results/unresolved_2026-11-24/). It refuses to overwrite that directory.
+
+| Case | Added by screening estimates | Covered subtotal plus screening |
+| --- | ---: | ---: |
+| Indiana | 0.33–0.92 (central 0.58) | 2.91–3.49 |
+| Alabama | 0.35–1.68 (central 0.75) | 5.96–7.29 |
+
+Direct N₂O dominates the Indiana additions. It uses the IPCC aquaculture nitrogen balance (1.8 ± 0.7% of N released to water emitted as N₂O-N) with an assumed 35–40% feed crude protein. Pond CH₄ dominates the Alabama additions. It uses measured aerated-pond fluxes from subtropical China (Yang et al., 2023) over the 13-week Gulf Shores grow-out. Within these ranges U_Indiana − U_Alabama is at most 0.57, so the ranking does not reverse. Indiana tank CH₄ and sludge fate are not quantified; they would need to exceed 2.47 to reverse it.
+
+These are deterministic screening ranges, not confidence intervals or farm measurements, and they are not added to the reported subtotals. The [evidence notes](results/unresolved_2026-11-24/EVIDENCE_NOTES.md) list every value with its source page and how it was checked, the assumptions, and a source that could not be used (Naegel, 2010).
+
+```bash
+rm -rf results/unresolved_2026-11-24   # only when deliberately regenerating
+.venv/bin/python scripts/43_quantify_unresolved_burdens.py
 ```
 
 ## Inventory completeness correction (Steps 39 to 41)
@@ -166,6 +184,7 @@ final_project/
 └── results/
     ├── review_2026-11-21/         # Literature extraction and initial diagnostic evidence
     ├── completeness_2026-11-23/   # Current expanded results, evidence review, and figures
+    ├── unresolved_2026-11-24/     # Step 43 screening estimates and evidence notes
     └── run_2026-11-21/            # Preserved unit-audited calculation package
         ├── background_factors.csv
         ├── analysis/             # Corrected results and scenario tables
@@ -298,9 +317,9 @@ Varying FCR by ±25% gives 2.110 to 3.044 kg CO₂-eq/kg shrimp, or ±18.12% of 
 
 The original controlled Alabama comparison holds the Feed C supply chain and delivery distance constant and includes feed and farm electricity only. At fixed FCR, the electricity-demand difference adds 3.839430 kg CO₂-eq/kg shrimp. Reducing FCR from 1.50 to 1.02 at Alabama electricity demand offsets 0.597679. The original 1677 km delivery scenario gives 5.664837 within that restricted scope. These controlled results remain separate from the expanded farm-specific subtotals. The comparison cannot establish a causal advantage of biofloc technology or reproduce Alabama’s original feed system.
 
-Larval airfreight and fertilizer supply are now included. Hatchery production, infrastructure, direct farm GHGs, wastewater fate, and land-related burdens remain unresolved. The original paper reports a preliminary infrastructure contribution below 0.1%; this is source-specific evidence, not a verified bound for the present model. Chinese hatchery benchmarks would add 2.75% to 7.30% of Indiana's subtotal, but cannot establish a US range. Direct N₂O production has experimental support, while a suitable annual US farm factor is still missing. Details and primary sources are in [EVIDENCE_REVIEW.md](results/completeness_2026-11-23/EVIDENCE_REVIEW.md).
+Larval airfreight and fertilizer supply are now included. Hatchery production, infrastructure, direct farm GHGs, wastewater fate, and land-related burdens are not measured; Step 43 gives screening ranges for all but Indiana sludge fate. The original paper reports a preliminary infrastructure contribution below 0.1%; this is source-specific evidence, not a verified bound for the present model. Chinese hatchery benchmarks would add 2.75% to 7.30% of Indiana's subtotal, but cannot establish a US range. Direct N₂O production has experimental support, while a suitable annual US farm factor is still missing. Details and primary sources are in [EVIDENCE_REVIEW.md](results/completeness_2026-11-23/EVIDENCE_REVIEW.md).
 
-Write complete farm GWP as the covered subtotal plus unresolved net burden U. The expanded comparison would reverse if U_Indiana − U_Alabama exceeded 3.036 kg CO₂-eq/kg shrimp; available evidence does not bound that difference. Actual water supply, regional grid representativeness, and feed-proxy equivalence also remain unresolved. Post-farm processing and distribution lie outside the chosen boundary. Only GWP is quantified; eutrophication, water scarcity, biodiversity, and economics need separate assessment.
+Write complete farm GWP as the covered subtotal plus unresolved net burden U. The expanded comparison would reverse if U_Indiana − U_Alabama exceeded 3.036 kg CO₂-eq/kg shrimp. The Step 43 screening ranges give at most 0.57, but they are not confidence bounds. Actual water supply, regional grid representativeness, and feed-proxy equivalence also remain unresolved. Post-farm processing and distribution lie outside the chosen boundary. Only GWP is quantified; eutrophication, water scarcity, biodiversity, and economics need separate assessment.
 
 ## Sources and traceability
 

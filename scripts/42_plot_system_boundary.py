@@ -71,13 +71,16 @@ def main():
         'Intended cradle-to-farm-gate boundary and inventory coverage.\n\n'
         'Blue boxes show inputs, green boxes show production processes, and purple '
         'boxes show outputs. Solid outlines indicate included coverage, dash-dot '
-        'outlines indicate an optional scenario, and dashed outlines indicate burdens '
-        'not yet quantified. These burdens are not assumed to be zero.\n\n'
+        'outlines indicate an optional scenario, dotted outlines indicate literature-based '
+        'screening estimates, and dashed outlines indicate burdens not yet quantified. '
+        'These burdens are not assumed to be zero.\n\n'
         'The reference product is 1 kg live-weight shrimp at the farm gate. '
         'Upstream factors include supply-chain GHG emissions. Hatchery production, '
-        'infrastructure, land-related burdens, direct farm gases, and effluent/sludge '
-        'impacts are not yet quantified. Only the optional Indiana water-treatment '
-        'proxy is characterized for farm water. The diagram describes the expanded '
+        'infrastructure, land-use change, direct N2O and pond CH4 have screening ranges '
+        'in kg CO2-eq per kg shrimp from Appendix B, Table B3 (Step 43). These ranges are '
+        'not added to the covered subtotals. Indiana sludge fate is not yet quantified. '
+        'Only the optional Indiana water-treatment proxy is characterized for farm water, '
+        'and Alabama pond-fill pumping is screened below 0.04. The diagram describes the expanded '
         'inventory. The separate controlled comparison includes feed supply and farm '
         'electricity only. Arrows show connections and are not scaled to quantities.\n\n'
         'Farm inputs follow Al Eissa et al. (2022) and Appendix A. '
@@ -90,10 +93,13 @@ def main():
         'font': 'Calibri', 'png_width_px': 3840, 'raster_dpi_at_6_4_inches': 600,
         'color_encoding': {'blue': 'Inputs', 'green': 'Processes', 'purple': 'Outputs'},
         'coverage_encoding': {'solid': 'Included', 'dash-dot': 'Optional scenario',
-                              'dashed': 'Not yet quantified'},
+                              'dotted (2 2, width 3)': 'Screening estimate, Table B3',
+                              'dashed (6 4)': 'Not yet quantified'},
         'sources': ['results/run_2026-11-21/source_inventory_verified.csv',
-                    'results/completeness_2026-11-23/EVIDENCE_REVIEW.md'],
-        'new_calculations': False, 'flow_widths_quantitative': False,
+                    'results/completeness_2026-11-23/EVIDENCE_REVIEW.md',
+                    'results/unresolved_2026-11-24/unresolved_estimates.csv'],
+        'new_calculations': False, 'screening_values_from': 'scripts/43_quantify_unresolved_burdens.py',
+        'flow_widths_quantitative': False,
         'automated_checks': ['Native objects', 'Calibri labels and PDF fonts',
                              'Punctuation', 'Connector references', 'PNG width'],
     }, indent=2) + '\n')

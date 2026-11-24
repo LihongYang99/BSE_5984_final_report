@@ -68,7 +68,7 @@ One-at-a-time scenarios varied F, E, or g by ±25%. Further scenarios combined g
 
 2.4 Model assumptions
 
-Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, external benchmarks, and data gaps.
+Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, screening estimates, and data gaps.
 
 
 ---
@@ -128,7 +128,7 @@ With feed supply and farm electricity included, GWP was 2.317 for Indiana and 5.
 
 With larval transport and fertilizer supply restored, the expanded subtotals are 2.577 for Indiana and 5.613 for Alabama (Appendix B). The fixed-FCR contrast above remains restricted to feed and electricity. Climate, management, scale, and data provenance still confound any technology comparison.
 
-Direct N₂O production has been demonstrated in shrimp, but available laboratory evidence is not a US farm emission factor (Heisterkamp et al., 2016). Hatchery, infrastructure, and wastewater gaps are assessed in Appendix B. GWP alone cannot establish overall sustainability. Eutrophication, water scarcity, biodiversity, and economics require separate assessment.
+Literature screening estimates for hatchery, direct N₂O, pond CH₄, and infrastructure add 0.33–0.92 kg CO₂-eq/kg to Indiana and 0.35–1.68 to Alabama without reversing the ranking, but they are not farm measurements (Table B3). GWP alone cannot establish overall sustainability. Eutrophication, water scarcity, biodiversity, and economics require separate assessment.
 
 4 Conclusions
 
@@ -142,9 +142,15 @@ References
 
 Al Eissa, A., Chen, P., Brown, P. B., & Huang, J.-Y. (2022). Effects of feed formula and farming system on the environmental performance of shrimp production chain from a life cycle perspective. Journal of Industrial Ecology, 26(6), 2006–2019. https://doi.org/10.1111/jiec.13370
 
+Alabama Gulf Seafood. (2020, May 21). Claude Peteet Mariculture Center in Gulf Shores celebrates 50 years of conservation. https://aqua.alabama.gov/articles/story/claude-peteet-mariculture-center-50-years.html
+
 Arbour, A. J., Bhatt, P., Simsek, H., Brown, P. B., & Huang, J.-Y. (2024). Life cycle assessment on environmental feasibility of microalgae-based wastewater treatment for shrimp recirculating aquaculture systems. Bioresource Technology, 399, Article 130578. https://doi.org/10.1016/j.biortech.2024.130578
 
 Cao, L., Diana, J. S., Keoleian, G. A., & Lai, Q. (2011). Life cycle assessment of Chinese shrimp farming systems targeted for export and domestic sales. Environmental Science & Technology, 45(15), 6531–6538. https://doi.org/10.1021/es104058z
+
+Davis, A., Ullman, C., Rhodes, M., Novriadi, R., & Swanepoel, A. (2018, April 9). Automated feeding systems in pond production of Pacific white shrimp. Responsible Seafood Advocate. https://www.globalseafood.org/advocate/automated-feeding-systems-in-pond-production-of-pacific-white-shrimp/
+
+De Klein, C., Novoa, R. S. A., Ogle, S., Smith, K. A., Rochette, P., Wirth, T. C., McConkey, B. G., Mosier, A., & Rypdal, K. (2006). N₂O emissions from managed soils, and CO₂ emissions from lime and urea application. In H. S. Eggleston, L. Buendia, K. Miwa, T. Ngara, & K. Tanabe (Eds.), 2006 IPCC guidelines for national greenhouse gas inventories (Vol. 4, Chapter 11). IGES. https://www.ipcc-nggip.iges.or.jp/public/2006gl/pdf/4_Volume4/V4_11_Ch11_N2O&CO2.pdf
 
 GreenDelta. (n.d.). CalculationSetup. openLCA schema. Retrieved November 21, 2026, from https://greendelta.github.io/olca-schema/classes/CalculationSetup.html
 
@@ -154,11 +160,15 @@ International Organization for Standardization. (2006). Environmental management
 
 Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). Scientific agent skills: A library of procedural knowledge for research agents. arXiv. https://doi.org/10.48550/arXiv.2609.00065
 
+Kennedy, H., Alongi, D. M., Karim, A., Chen, G., Chmura, G. L., Crooks, S., Kairo, J. G., Liao, B., & Lin, G. (2014). Coastal wetlands. In T. Hiraishi, T. Krug, K. Tanabe, N. Srivastava, J. Baasansuren, M. Fukuda, & T. G. Troxler (Eds.), 2013 supplement to the 2006 IPCC guidelines for national greenhouse gas inventories: Wetlands (Chapter 4). IPCC. https://www.ipcc-nggip.iges.or.jp/public/wetlands/pdf/Wetlands_separate_files/WS_Chp4_Coastal_Wetlands.pdf
+
 Sun, Y., Hou, H., Dong, D., Zhang, J., Yang, X., Li, X., & Song, X. (2023). Comparative life cycle assessment of whiteleg shrimp (Penaeus vannamei) cultured in recirculating aquaculture systems (RAS), biofloc technology (BFT) and higher-place ponds (HPP) farming systems in China. Aquaculture, 574, Article 739625. https://doi.org/10.1016/j.aquaculture.2023.739625
 
 U.S. Energy Information Administration. (n.d.). How much carbon dioxide is produced per kilowatthour of U.S. electricity generation? Retrieved November 21, 2026, from https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
 
 Winther, U., Hognes, E. S., Jafarzadeh, S., & Ziegler, F. (2020). Greenhouse gas emissions of Norwegian seafood products in 2017. SINTEF Ocean. https://www.sintef.no/contentassets/0ec2594f7dea45b8b1dec0c44a0133b4/report-carbon-footprint-norwegian-seafood-products-2017_final_040620.pdf
+
+Yang, P., Tang, K. W., Yang, H., Tong, C., Zhang, L., Lai, D. Y. F., Hong, Y., Tan, L., Zhu, W., & Tang, C. (2023). Contrasting effects of aeration on methane (CH₄) and nitrous oxide (N₂O) emissions from subtropical aquaculture ponds and implications for global warming mitigation. Journal of Hydrology, 617, Article 128876. https://doi.org/10.1016/j.jhydrol.2022.128876
 
 AI disclosure. OpenAI Codex assisted with literature extraction, code and unit review, calculations, figures, and writing. Results were checked against saved outputs and sources. The project collected no primary measurements. Evidence-review skills (Kassis et al., 2026) supported the literature synthesis and completeness audit.
 
@@ -346,21 +356,59 @@ Evidence and treatment of unresolved processes
 
 Process	Evidence and current treatment
 
-Hatchery production	Cao et al. (2011), Table 2, reports 0.0708 and 0.188 kg CO₂-eq/kg harvested shrimp in Chinese systems. External benchmarks only. US production, survival and allocation data are needed.
+Hatchery production	Cao et al. (2011), Table 2, reports 0.0708 and 0.188 kg CO₂-eq/kg harvested shrimp in Chinese systems. Used as the screening range in Table B3. US production, survival and allocation data are needed.
 
-Farm infrastructure	Al Eissa et al. (2022), Section 2.2.3 reports <0.1% in its preliminary analysis. Source-specific justification, not a verified bound here. Equipment masses and lifetime output are unavailable.
+Farm infrastructure	Al Eissa et al. (2022), Section 2.2.3 reports <0.1% in its preliminary analysis. Table B3 uses it as a screening value. Equipment masses and lifetime output are unavailable.
 
-Direct farm GHGs	Heisterkamp et al. (2016) provides experimental evidence of N₂O production. Laboratory incubations do not establish annual US emissions. CH₄ and N₂O remain unresolved.
+Direct farm GHGs	Heisterkamp et al. (2016) provides experimental evidence of N₂O production. Laboratory incubations do not establish annual US emissions. Table B3 gives screening estimates, and farm measurements remain missing.
 
-Effluent and water	N/P discharge is not N₂O/CH₄. Water intake does not specify wastewater treatment. Confirm discharge, sludge fate, and whether pumping is already in farm electricity.
+Effluent and water	N/P discharge is not N₂O/CH₄. Pond-fill pumping and discharged N are small in Table B3. Indiana sludge fate and wastewater treatment remain unknown.
 
-Land	Area lacks occupation time and transformation history. Do not transfer a mangrove-clearing factor to these US cases.
+Land	Area lacks occupation time. The Alabama ponds date from 1973, so no land-use change falls within 20 years. Do not transfer a mangrove-clearing factor to these US cases.
 
 Post-farm stages	Processing, packaging and market distribution are outside the defined farm-gate boundary.
 
-Applying each external hatchery benchmark to Indiana would add 2.75% to 7.30% of its covered subtotal. This is a transferability check, not a US estimate or uncertainty interval. Cao et al. also reports infrastructure burdens of 0.0205 and 0.0645 kg CO₂-eq/kg. Neither value is adopted as US baseline data.
+Applying each external hatchery benchmark to Indiana would add 2.75% to 7.30% of its covered subtotal. This is a transferability check, not a US estimate or uncertainty interval. Cao et al. also reports infrastructure burdens of 0.0205 and 0.0645 kg CO₂-eq/kg. Neither value is adopted as US baseline data. Table B3 uses them only as screening ranges.
 
-Write total GWP as covered subtotal + unresolved net burden U. An additional 0.129 kg CO₂-eq/kg is 5% of Indiana's subtotal. The 5% value is an illustrative reference, not a cut-off rule. The expanded ranking reverses if U_Indiana − U_Alabama exceeds 3.036. Available evidence does not bound that difference, so a complete-farm ranking remains unverified.
+Write total GWP as covered subtotal + unresolved net burden U. An additional 0.129 kg CO₂-eq/kg is 5% of Indiana's subtotal. The 5% value is an illustrative reference, not a cut-off rule. The expanded ranking reverses if U_Indiana − U_Alabama exceeds 3.036. Table B3 tests this difference with screening estimates. They are not confidence bounds, so a complete-farm ranking remains unverified.
+
+
+---
+
+
+Appendix B continued
+
+Screening estimates for unresolved burdens
+
+Table B3 converts the evidence in Table B2 into screening ranges for the burdens drawn as not yet quantified in Figure C1. Each value combines a literature factor with stated assumptions about these farms.
+
+Table B3
+
+Screening estimates per kilogram of live-weight shrimp
+
+Burden	Indiana	Alabama	Basis
+
+Hatchery production	0.07–0.19 (0.13)	0.07–0.19 (0.13)	Chinese hatchery benchmarks of Cao et al. (2011), central value at their midpoint
+
+Direct N₂O	0.26–0.72 (0.45)	0.01–0.40 (0.01)	Feed N balance with 35% to 40% crude protein and 1.8 ± 0.7% conversion to N₂O-N (Kennedy et al., 2014). Alabama low and central values use the pond fluxes of Yang et al. (2023) over the 13-week grow-out reported by Davis et al. (2018)
+
+Pond CH₄	See tank row	0.24–0.97 (0.55)	Aerated-pond flux of Yang et al. (2023) scaled by area and time or by feed applied. Lined Alabama ponds likely emit less
+
+Infrastructure	0.000–0.004 (0.002)	0.021–0.065 (0.043)	Below 0.1% of the source total for Indiana (Al Eissa et al., 2022) and Chinese pond values for Alabama (Cao et al., 2011)
+
+Land-use change	0	0	No conversion within 20 years. The Alabama ponds were built in 1973 (Alabama Gulf Seafood, 2020)
+
+Other Alabama terms	Not applicable	0.010–0.051 (0.021)	Pond-fill pumping at 3 to 10 m head, discharged N with the EF5 runoff factor, and urea CO₂ (De Klein et al., 2006)
+
+Tank CH₄ and sludge	Not quantified	Not applicable	Sludge mass and disposal route are unknown
+
+Total added	0.33–0.92 (0.58)	0.35–1.68 (0.75)	Sum of the quantified rows
+
+Covered plus screening	2.91–3.49 (3.16)	5.96–7.29 (6.36)	Not added to the reported subtotals
+
+Note. Values are kg CO₂-eq per kg live-weight shrimp, shown as low–high (central). They are deterministic screening ranges from literature factors and stated assumptions, not confidence intervals or farm measurements. GWP100 uses 27.0 for biogenic CH₄ and 273 for N₂O. Yang et al. (2023) reported sustained-flux GWP values, which were recalculated here. Sources and checks are listed in results/unresolved_2026-11-24/EVIDENCE_NOTES.md.
+
+Direct N₂O dominates the Indiana additions and pond CH₄ dominates the Alabama additions. The Alabama N₂O range spans a factor of about 40 because measured pond fluxes are far below the nitrogen-balance value. That balance rests on an analogy with wastewater treatment plants, which suits aerated biofloc tanks better than ponds, but no measured biofloc conversion was found. Within these ranges U_Indiana − U_Alabama is at most 0.57. Indiana sludge fate would have to add more than 2.47 kg CO₂-eq/kg to reverse the ranking.
 
 
 ---
@@ -370,11 +418,11 @@ Appendix C
 
 System boundary and inventory flows
 
-Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, and processes not yet quantified.
+Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, screening estimates from Table B3, and processes not yet quantified.
 
 
 
-Note. GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.
+Note. GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Dotted outlines show screening ranges in kg CO₂-eq/kg from Table B3. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.
 
 [Figure C1 — cradle_to_farm_gate.png]
 
