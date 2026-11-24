@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="354.330709pt" viewBox="0 0 518.740157 354.330709" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T00:00:00+00:00</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 354.330709 
+L 518.740157 354.330709 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 67.43622 272.834646 
+L 492.80315 272.834646 
+L 492.80315 67.322835 
+L 67.43622 67.322835 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="md8ffc855cc" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#md8ffc855cc" x="126.668412" y="272.834646" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(114.604037 286.717458)">Indiana</text>
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(112.563412 296.483083)">FCR 1.50</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#md8ffc855cc" x="280.119685" y="272.834646" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(241.294685 286.717458)">Alabama counterfactual</text>
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(266.014685 296.483083)">FCR 1.02</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#md8ffc855cc" x="433.570958" y="272.834646" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(394.745958 286.717458)">Alabama counterfactual</text>
+      <text style="font-size: 8px; font-family: 'Calibri'" transform="translate(410.086583 296.483083)">Fixed FCR 1.50</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 67.43622 272.834646 
+L 492.80315 272.834646 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="m0a26dda628" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="272.834646" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="275.834646" transform="rotate(-0 60.43622 275.834646)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 67.43622 246.486978 
+L 492.80315 246.486978 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="246.486978" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="249.486978" transform="rotate(-0 60.43622 249.486978)">1</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 67.43622 220.13931 
+L 492.80315 220.13931 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="220.13931" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="223.13931" transform="rotate(-0 60.43622 223.13931)">2</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 67.43622 193.791641 
+L 492.80315 193.791641 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="193.791641" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="196.791641" transform="rotate(-0 60.43622 196.791641)">3</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 67.43622 167.443973 
+L 492.80315 167.443973 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="167.443973" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="170.443973" transform="rotate(-0 60.43622 170.443973)">4</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 67.43622 141.096305 
+L 492.80315 141.096305 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="141.096305" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="144.096305" transform="rotate(-0 60.43622 144.096305)">5</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <path d="M 67.43622 114.748637 
+L 492.80315 114.748637 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="114.748637" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="117.748637" transform="rotate(-0 60.43622 117.748637)">6</text>
+     </g>
+    </g>
+    <g id="ytick_8">
+     <g id="line2d_18">
+      <path d="M 67.43622 88.400969 
+L 492.80315 88.400969 
+" clip-path="url(#p5a7be59436)" style="fill: none; stroke: #e7eaed; stroke-width: 0.5; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_19">
+      <g>
+       <use xlink:href="#m0a26dda628" x="67.43622" y="88.400969" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: end" x="60.43622" y="91.400969" transform="rotate(-0 60.43622 91.400969)">7</text>
+     </g>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: middle" x="50.38122" y="170.07874" transform="rotate(-90 50.38122 170.07874)">GWP (kg CO₂-eq/kg live shrimp)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 86.771081 272.834646 
+L 166.565743 272.834646 
+L 166.565743 223.623842 
+L 86.771081 223.623842 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #397a86"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 240.222354 272.834646 
+L 320.017016 272.834646 
+L 320.017016 239.371299 
+L 240.222354 239.371299 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #397a86"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 393.673627 272.834646 
+L 473.468289 272.834646 
+L 473.468289 223.623842 
+L 393.673627 223.623842 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #397a86"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 86.771081 223.623842 
+L 166.565743 223.623842 
+L 166.565743 211.797441 
+L 86.771081 211.797441 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #be884c"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 240.222354 239.371299 
+L 320.017016 239.371299 
+L 320.017016 126.38487 
+L 240.222354 126.38487 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #be884c"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 393.673627 223.623842 
+L 473.468289 223.623842 
+L 473.468289 110.637413 
+L 393.673627 110.637413 
+z
+" clip-path="url(#p5a7be59436)" style="fill: #be884c"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 67.43622 272.834646 
+L 67.43622 67.322835 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 67.43622 272.834646 
+L 492.80315 272.834646 
+" style="fill: none; stroke: #000000; stroke-width: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: middle" x="126.668412" y="208.635721" transform="rotate(-0 126.668412 208.635721)">2.317</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: middle" x="280.119685" y="123.22315" transform="rotate(-0 280.119685 123.22315)">5.558</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Calibri'; text-anchor: middle" x="433.570958" y="107.475692" transform="rotate(-0 433.570958 107.475692)">6.156</text>
+   </g>
+   <g id="legend_1">
+    <g id="patch_11">
+     <path d="M 73.73622 78.872835 
+L 87.73622 78.872835 
+L 87.73622 73.972835 
+L 73.73622 73.972835 
+z
+" style="fill: #397a86"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 7px; font-family: 'Calibri'; text-anchor: start" x="93.33622" y="78.872835" transform="rotate(-0 93.33622 78.872835)">Feed supply + delivery</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 73.73622 89.372835 
+L 87.73622 89.372835 
+L 87.73622 84.472835 
+L 73.73622 84.472835 
+z
+" style="fill: #be884c"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 7px; font-family: 'Calibri'; text-anchor: start" x="93.33622" y="89.372835" transform="rotate(-0 93.33622 89.372835)">Farm electricity</text>
+    </g>
+   </g>
+  </g>
+  <g id="text_18">
+   <text style="font-weight: 700; font-size: 11px; font-family: 'Calibri'; text-anchor: start" x="28.530709" y="29.509843" transform="rotate(-0 28.530709 29.509843)">Controlled comparison of feed and electricity</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 7px; font-family: 'Calibri'; fill: #59636d" transform="translate(28.530709 323.775137)">Common feed supply, delivery and grid assumptions. Feed + farm electricity only.</text>
+   <text style="font-size: 7px; font-family: 'Calibri'; fill: #59636d" transform="translate(28.530709 332.320059)">Alabama literature FCR is a scenario input, not verified performance on the modeled feed.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5a7be59436">
+   <rect x="67.43622" y="67.322835" width="425.366929" height="205.511811"/>
+  </clipPath>
+ </defs>
+</svg>

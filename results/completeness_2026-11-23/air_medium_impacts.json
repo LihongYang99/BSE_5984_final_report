@@ -1,0 +1,162 @@
+[
+  {
+    "amount": 0.5672700792458951,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "0f1c06bd-16ab-4e19-b78c-4ee4054286c2",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: aircraft emissions - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 6.0649584104328336e-05,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "efd9a01f-bc47-4a8f-97dc-651fa4891675",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: biogenic (excl. CO2) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 6.796036664346677e-05,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "68fc5fa5-ecf5-4e12-a089-40edcb5418f0",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: direct land use change - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 6.891540874910619e-05,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "e59ebdb9-910c-470d-be99-9b57c1a60232",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: emissions from direct land use change - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.8049309344707001,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "32d234be-9b63-43ec-8a16-187866355c2e",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: fossil - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.23766085522480515,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "386827f3-7130-4e6d-aa44-f83f1e6905c5",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: fossil emissions (excl. aircraft emissions) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": -9.550421056394213e-07,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "6574057c-67ab-444a-9188-b1a0d0c057a9",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: removals from direct land use change - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.758482987929327,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "c2cf0c84-e7a6-402b-bf9d-ae50a26e823d",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2) - Global warming potential (GWP500)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.9278801844830525,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "3ab79161-f9a0-4e8a-8295-8f2c0c74a1e6",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2) - Global warming potential (GWP20)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.805059544421448,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "50bc2e75-0303-42a9-9dd5-7d2b8dc2108d",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.7664200269608406,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "21b3ad99-44c5-4b5b-9d9b-3c75c51153c8",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2) - Global temperature change potential (GTP50)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.7529737874158225,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "8d5c0aba-2a8a-4454-ae45-c8e5f385495c",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2) - Global temperature change potential (GTP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.8077197688058858,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "5c376320-a28f-4202-b6f0-d545a9bb9a59",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: total (excl. biogenic CO2, incl. SLCFs) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 6.525912740055208e-05,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "23819111-b70a-4743-b7d6-a0da6e63a89a",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: biogenic (excl. CO2, incl. SLCFs) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 0.8075859014177872,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "7574d177-7252-4808-a711-46591d970937",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: fossil (excl. biogenic CO2, incl. SLCFs) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  },
+  {
+    "amount": 6.860826069801411e-05,
+    "impactCategory": {
+      "@type": "ImpactCategory",
+      "@id": "f5de8a45-d923-4541-8b87-a80cbfd43242",
+      "category": "ecoinvent 3.11 LCIA Categories/IPCC 2021",
+      "name": "Climate change: direct land use change (incl. SLCFs) - Global warming potential (GWP100)",
+      "refUnit": "kg CO2-Eq"
+    }
+  }
+]

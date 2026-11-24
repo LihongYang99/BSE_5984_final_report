@@ -1,0 +1,9 @@
+ingredient,kg_per_kg_feed,expected_origin,selected_candidate_uuid,process_name,reference_product,reference_unit,location,review_status,review_note
+fish_meal,0.3,Chile,b3b037f4-6b99-33c5-8d45-a157404247bb,"market for fishmeal, 63-65% protein | fishmeal, 63-65% protein | Cutoff, U","fishmeal, 63-65% protein",kg,Global,PROXY_REVIEW,"Global market for fishmeal, 63-65% protein; no Chile-specific process in supplied candidate list; verify sourcing and protein grade"
+poultry_byproduct_meal,0.05,Netherlands,,,,,,MISSING,No name-matched reference product; search rendering/by-product processes and verify not generic poultry meat
+soybean_meal,0.2,United States,355ad6bb-9864-3a8b-a369-39d41b991538,"soybean meal and crude oil production | soybean meal | Cutoff, U",soybean meal,kg,United States of America (the),CANDIDATE_REVIEW,US soybean meal output; production process (not market); confirm upstream market needs and location
+wheat_flour,0.3,Belgium,ff154541-8003-3e3c-b66b-1bc7e4a05fc3,"market for wheat flour | wheat flour | Cutoff, U",wheat flour,kg,Rest of World,PROXY_REVIEW,RoW wheat flour market; mismatches Belgium origin; confirm suitable proxy or use alternative source
+rice_bran,0.05,China,,,,,,MISSING,No name-matched process; find rice milling co-product output and test mass/economic allocation
+fish_oil,0.03,Peru,93103258-6280-3d01-9cd8-6ebc7c5e3afa,"fishmeal and fish oil production, 65-67% protein | fish oil, from anchovy | Cutoff, U","fish oil, from anchovy",kg,Peru,CANDIDATE_REVIEW,Peru anchovy fish oil output; one possible co-production pathway; verify technology and product grade
+soybean_lecithin,0.03,Netherlands,,,,,,MISSING,No name-matched output; soybean oil refining / degumming co-product may require proxy
+supplements,0.04,Not specified,,,,,,MISSING,Composite mixture with unspecified ingredients; cannot be mapped to single process without assumptions

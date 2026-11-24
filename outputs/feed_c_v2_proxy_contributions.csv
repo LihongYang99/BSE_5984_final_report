@@ -1,0 +1,6 @@
+component,fraction,ef,contribution,dataset,process_uuid
+Original 83% ingredients (V1),0.83,,0.8165353928887741,Step 17; ecoinvent 3.11/IPCC 2021,
+Poultry meal -> RoW meat and bone meal,0.05,0.026941154495590716,0.001347057724779536,Step 18; ecoinvent 3.11/IPCC 2021; proxy,36b2c661-ad03-3c43-b53f-9c5980d44d34
+Rice bran -> RoW wheat bran,0.05,0.43552781197221296,0.02177639059861065,ecoinvent 3.11/IPCC 2021; proxy,7dc9b0c9-1adb-3f14-9086-b4a55f519a06
+Soy lecithin -> US refined soybean oil,0.03,0.6425168508451409,0.019275505525354227,ecoinvent 3.11/IPCC 2021; proxy,3071828a-ba48-32a5-8e56-96d95ac6fdd8
+Supplements -> SINTEF vit/min mix,0.04,1.33,0.053200000000000004,"SINTEF (2020), p.51, Norway incl. transport; literature EF",

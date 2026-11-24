@@ -1,0 +1,54 @@
+[
+  {
+    "mode": "implicit",
+    "gwp": 0.1353780587964153,
+    "demand": {
+      "amount": 1.0,
+      "techFlow": {
+        "flow": {
+          "@type": "Flow",
+          "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+          "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+          "flowType": "PRODUCT_FLOW",
+          "name": "electricity, low voltage",
+          "refUnit": "MJ"
+        },
+        "provider": {
+          "@type": "Process",
+          "@id": "483cde5f-7ae5-379e-ae10-54bb8fbbe6a2",
+          "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+          "flowType": "PRODUCT_FLOW",
+          "location": "US",
+          "name": "market group for electricity, low voltage | electricity, low voltage | Cutoff, U",
+          "processType": "UNIT_PROCESS"
+        }
+      }
+    }
+  },
+  {
+    "mode": "explicit_kWh",
+    "gwp": 0.4873610116670967,
+    "demand": {
+      "amount": 3.6,
+      "techFlow": {
+        "flow": {
+          "@type": "Flow",
+          "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+          "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+          "flowType": "PRODUCT_FLOW",
+          "name": "electricity, low voltage",
+          "refUnit": "MJ"
+        },
+        "provider": {
+          "@type": "Process",
+          "@id": "483cde5f-7ae5-379e-ae10-54bb8fbbe6a2",
+          "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+          "flowType": "PRODUCT_FLOW",
+          "location": "US",
+          "name": "market group for electricity, low voltage | electricity, low voltage | Cutoff, U",
+          "processType": "UNIT_PROCESS"
+        }
+      }
+    }
+  }
+]

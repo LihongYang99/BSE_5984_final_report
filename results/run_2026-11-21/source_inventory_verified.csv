@@ -1,0 +1,11 @@
+flow,Indiana,Alabama,unit_per_kg_live_shrimp,source,interpretation
+feed,1.5,1.020,kg,"Al Eissa et al. 2022 Table 2 p2012",Literature inventory; original Feed C and Feed S differ
+farming_electricity,0.921,8.799,kWh,"Al Eissa et al. 2022 Table 2 p2012",Literature; not newly measured
+sodium_bicarbonate,0.110,0,kg,"Al Eissa et al. 2022 Table 2 p2012",Included only in expanded Indiana screening
+freshwater_use,0.075,,m3,"Al Eissa et al. 2022 Table 2 p2012",Source table Alabama cell blank; water treatment unspecified
+seawater,0,1.456,m3,"Al Eissa et al. 2022 Table 2 p2012",Inventory volume; not scarcity-weighted consumption
+land_use,0.084,1.456,m2,"Al Eissa et al. 2022 Table 2 p2012",Area without duration; do not label m2-year
+larvae_airfreight,0.140,0.062,t*km,"Al Eissa et al. 2022 Table 2 p2012",Excluded from current screening; not zero impact
+triple_superphosphate,0,0.0003,kg,"Al Eissa et al. 2022 Table 2 p2012",Excluded from current comparison; not zero impact
+urea,0,0.0017,kg,"Al Eissa et al. 2022 Table 2 p2012",Excluded from current comparison; not zero impact
+feed_delivery,1.509,1.711,t*km,"Al Eissa et al. 2022 Table 2 p2012",Original inventories; controlled scenario uses shared 1006 km instead

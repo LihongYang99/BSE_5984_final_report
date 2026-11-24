@@ -1,0 +1,7 @@
+label,uuid,process_name,location,reference_product,reference_unit,reference_amount,review_status
+electricity_US,483cde5f-7ae5-379e-ae10-54bb8fbbe6a2,"market group for electricity, low voltage | electricity, low voltage | Cutoff, U",United States of America (the),"electricity, low voltage",kWh,1.0,Pending manual approval
+electricity_US_SERC,9c9cc538-9fae-3f22-b413-517fc1b88b3f,"market for electricity, low voltage | electricity, low voltage | Cutoff, U","North America, SERC Reliability Corporation","electricity, low voltage",kWh,1.0,Pending manual approval
+electricity_US_RFC,b217ab31-ead1-3015-80c3-c24d6d33e38d,"market for electricity, low voltage | electricity, low voltage | Cutoff, U","North America, ReliabilityFirst Corporation","electricity, low voltage",kWh,1.0,Pending manual approval
+soybean_meal_US,355ad6bb-9864-3a8b-a369-39d41b991538,"soybean meal and crude oil production | soybean meal | Cutoff, U",United States of America (the),soybean meal,kg,1.0,Pending manual approval
+wheat_flour_RoW,ff154541-8003-3e3c-b66b-1bc7e4a05fc3,"market for wheat flour | wheat flour | Cutoff, U",Rest of World,wheat flour,kg,1.0,Pending manual approval
+fishmeal_Peru,e65f571f-8fcc-3aff-8893-6433e9b2795a,"fishmeal and fish oil production, 63-65% protein, from fish residues | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,1.0,Pending manual approval

@@ -1,0 +1,69 @@
+ingredient,expected_origin,process_name,location,reference_product,unit,uuid,status
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,41d97047-f78f-38eb-a87e-ad09d3c771d7,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,5983eccd-7d05-3051-b980-84d9fa48a952,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fish residues | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,95d9cfd1-c860-3bb4-8100-b74b77ca78ae,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fish residues | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,e65f571f-8fcc-3aff-8893-6433e9b2795a,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fish residues | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,51773084-bd6f-3842-b62f-aa688ac1d6b7,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fish residues | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,fb878620-8eb0-3933-9723-78e1bd27e4bf,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Peru,fishmeal plant,Item(s),97052e67-ad7b-376e-9157-dbf08336829d,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 65-67% protein | fishmeal, 65-67% protein | Cutoff, U",Rest of World,"fishmeal, 65-67% protein",kg,f18759f3-a8cd-3074-a4ed-6a73419729e2,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 65-67% protein | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,e1d19642-8100-39f9-be27-4efacf72e0e9,PENDING_REVIEW
+fish_meal,Chile,"market for fishmeal plant | fishmeal plant | Cutoff, U",Global,fishmeal plant,Item(s),f1dd57c9-7029-396f-8c5b-2c2580e000be,PENDING_REVIEW
+fish_meal,Chile,"market for fishmeal, 63-65% protein | fishmeal, 63-65% protein | Cutoff, U",Global,"fishmeal, 63-65% protein",kg,b3b037f4-6b99-33c5-8d45-a157404247bb,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 65-67% protein | fishmeal, 65-67% protein | Cutoff, U",Peru,"fishmeal, 65-67% protein",kg,9f816b67-f57a-3f8a-a79c-6899eef43535,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 65-67% protein | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,93103258-6280-3d01-9cd8-6ebc7c5e3afa,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,21b92cd0-d31e-3f7a-bf67-42d8900a7356,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,e50463fb-e6d7-3bed-8d3d-be2abc7286ae,PENDING_REVIEW
+fish_meal,Chile,"market for fishmeal, 65-67% protein | fishmeal, 65-67% protein | Cutoff, U",Global,"fishmeal, 65-67% protein",kg,41e3aff1-c840-3a71-931e-37be1c6a1b43,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Rest of World,fishmeal plant,Item(s),bc754ef7-6950-3943-8b17-37a9ea113cda,PENDING_REVIEW
+fish_meal,Chile,"patagonian grenadier, capture by trawler and landing in fish blocks, frozen | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,860c5b05-a2de-3565-8740-4739e76e6b39,PENDING_REVIEW
+fish_meal,Chile,"patagonian grenadier, capture by trawler and landing in fish blocks, frozen | fishmeal, 63-65% protein | Cutoff, U",Latin America and the Caribbean,"fishmeal, 63-65% protein",kg,6ce29d0e-45ca-3cb6-8802-96b25c5c4f95,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,72deeafd-f413-3cc0-83ac-125e80d8c7b2,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,c4931636-e338-3f63-9594-b7fb96131cc3,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,4db80c3b-5a2a-3e73-8019-5a98ba73e282,PENDING_REVIEW
+fish_meal,Chile,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,722f1e02-6694-37f8-bb72-0a7a5272ceb7,PENDING_REVIEW
+soybean_meal,United States,"market for soybean meal | soybean meal | Cutoff, U",Brazil,soybean meal,kg,a2c83432-00d8-3983-ae63-8c5d467d22e2,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean meal | Cutoff, U",United States of America (the),soybean meal,kg,355ad6bb-9864-3a8b-a369-39d41b991538,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",United States of America (the),"soybean oil, crude",kg,1f61155f-2cb6-3807-82e3-1085c8f80d3f,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | soybean meal | Cutoff, U",Rest of World,soybean meal,kg,c88a0e8b-a81d-3262-ada7-1f24136ddac1,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | protein feed, 100% crude | Cutoff, U",Rest of World,"protein feed, 100% crude",kg,ca3786cb-f6be-3067-86ce-f422c5d14093,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | soybean oil, crude | Cutoff, U",Rest of World,"soybean oil, crude",kg,91404319-f75b-3269-9474-b391776bdb8f,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | soybean meal | Cutoff, U","Canada, Quebec",soybean meal,kg,4c9e7d64-d82b-31ac-9f0d-0b6da5bd13ac,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | protein feed, 100% crude | Cutoff, U","Canada, Quebec","protein feed, 100% crude",kg,319d458d-42ca-327f-af4d-1251bcb56b97,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production, mechanical extraction | soybean oil, crude | Cutoff, U","Canada, Quebec","soybean oil, crude",kg,35b36d87-2655-3bb6-b3ab-ac98b75eb384,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean meal | Cutoff, U",Europe,soybean meal,kg,2ce5de08-6bc9-39fb-90ea-6f05dbb36363,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Europe,"soybean oil, crude",kg,a8c33ab5-bd2e-3710-a0e6-7d5d11048366,PENDING_REVIEW
+soybean_meal,United States,"market for soybean meal | soybean meal | Cutoff, U",Rest of World,soybean meal,kg,e58fd02f-e921-3718-851b-0ce7ca96c6e2,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean meal | Cutoff, U",Brazil,soybean meal,kg,21152df8-2c77-3aa5-8e6f-50e353b2e238,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Brazil,"soybean oil, crude",kg,ef9c7a72-b739-34a1-8f87-a635a073d5d7,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean meal | Cutoff, U",Rest of World,soybean meal,kg,be1c811a-29e8-34f4-8c9c-e67393aab1f5,PENDING_REVIEW
+soybean_meal,United States,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Rest of World,"soybean oil, crude",kg,813f8613-6892-3818-903e-b873d3555d81,PENDING_REVIEW
+soybean_meal,United States,"soybean meal to generic market for protein feed | energy feed, gross | Cutoff, U",Global,"energy feed, gross",MJ,c8529163-a010-31fd-91d5-83d4060b3f46,PENDING_REVIEW
+soybean_meal,United States,"soybean meal to generic market for protein feed | protein feed, 100% crude | Cutoff, U",Global,"protein feed, 100% crude",kg,1036a15f-ff63-3abf-a1de-6a1bf7c01969,PENDING_REVIEW
+wheat_flour,Belgium,"batter wheat mix production | wheat flour mix | Cutoff, U",Europe,wheat flour mix,kg,6516d145-e281-32f9-8eb6-be095ec02ee4,PENDING_REVIEW
+wheat_flour,Belgium,"market for wheat flour | wheat flour | Cutoff, U",South Africa,wheat flour,kg,0abb8e7c-7f9f-3a2a-912e-15ad1b76d2c5,PENDING_REVIEW
+wheat_flour,Belgium,"wheat grain processing, dry milling | wheat flour | Cutoff, U",South Africa,wheat flour,kg,ce4f5af8-bce5-3788-b135-0b53535f05c8,PENDING_REVIEW
+wheat_flour,Belgium,"batter wheat mix production | wheat flour mix | Cutoff, U",Rest of World,wheat flour mix,kg,fb7fae08-4f3d-3230-bcfb-c5d25971022e,PENDING_REVIEW
+wheat_flour,Belgium,"market for wheat flour mix | wheat flour mix | Cutoff, U",Global,wheat flour mix,kg,edb714f8-e925-32e8-a7b5-1210c08a5083,PENDING_REVIEW
+wheat_flour,Belgium,"market for wheat flour | wheat flour | Cutoff, U",Rest of World,wheat flour,kg,ff154541-8003-3e3c-b66b-1bc7e4a05fc3,PENDING_REVIEW
+wheat_flour,Belgium,"wheat grain processing, dry milling | wheat flour | Cutoff, U",Rest of World,wheat flour,kg,6aa098df-8d24-31a5-8641-eb3297386253,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,41d97047-f78f-38eb-a87e-ad09d3c771d7,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,5983eccd-7d05-3051-b980-84d9fa48a952,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fish residues | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,95d9cfd1-c860-3bb4-8100-b74b77ca78ae,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fish residues | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,e65f571f-8fcc-3aff-8893-6433e9b2795a,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fish residues | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,51773084-bd6f-3842-b62f-aa688ac1d6b7,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fish residues | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,fb878620-8eb0-3933-9723-78e1bd27e4bf,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Peru,fishmeal plant,Item(s),97052e67-ad7b-376e-9157-dbf08336829d,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 65-67% protein | fishmeal, 65-67% protein | Cutoff, U",Rest of World,"fishmeal, 65-67% protein",kg,f18759f3-a8cd-3074-a4ed-6a73419729e2,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 65-67% protein | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,e1d19642-8100-39f9-be27-4efacf72e0e9,PENDING_REVIEW
+fish_oil,Peru,"market for fish oil, from anchovy | fish oil, from anchovy | Cutoff, U",Global,"fish oil, from anchovy",kg,cc721ec4-d6e9-3530-a7fb-eec127abf9cd,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 65-67% protein | fishmeal, 65-67% protein | Cutoff, U",Peru,"fishmeal, 65-67% protein",kg,9f816b67-f57a-3f8a-a79c-6899eef43535,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 65-67% protein | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,93103258-6280-3d01-9cd8-6ebc7c5e3afa,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,21b92cd0-d31e-3f7a-bf67-42d8900a7356,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy and fish residues | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,e50463fb-e6d7-3bed-8d3d-be2abc7286ae,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Rest of World,fishmeal plant,Item(s),bc754ef7-6950-3943-8b17-37a9ea113cda,PENDING_REVIEW
+fish_oil,Peru,"fish oil to generic market for energy feed | energy feed, gross | Cutoff, U",Global,"energy feed, gross",MJ,ee8cff01-7d23-3747-ab06-b40ce4659c84,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,72deeafd-f413-3cc0-83ac-125e80d8c7b2,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fishmeal, 63-65% protein | Cutoff, U",Peru,"fishmeal, 63-65% protein",kg,c4931636-e338-3f63-9594-b7fb96131cc3,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fish oil, from anchovy | Cutoff, U",Rest of World,"fish oil, from anchovy",kg,4db80c3b-5a2a-3e73-8019-5a98ba73e282,PENDING_REVIEW
+fish_oil,Peru,"fishmeal and fish oil production, 63-65% protein, from fresh anchovy | fishmeal, 63-65% protein | Cutoff, U",Rest of World,"fishmeal, 63-65% protein",kg,722f1e02-6694-37f8-bb72-0a7a5272ceb7,PENDING_REVIEW

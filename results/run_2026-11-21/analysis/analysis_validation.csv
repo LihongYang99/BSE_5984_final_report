@@ -1,0 +1,5 @@
+check,status
+Hotspot sum and shares,PASS
+Sensitivity baseline identities and monotonicity,PASS
+Fixed-FCR electricity effect isolated,PASS
+Common-scope crossover reconstructed,PASS

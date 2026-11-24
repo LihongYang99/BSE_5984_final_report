@@ -1,0 +1,6 @@
+stage,input,original_amount,unit,amount_per_kg_feed,amount_per_kg_shrimp,source
+feed_processing,steam,480.0,kg,0.32,0.48,"Al Eissa et al. (2022), Table 2"
+feed_processing,electricity,195.0,kWh,0.13,0.195,"Al Eissa et al. (2022), Table 2"
+feed_processing,freshwater,2.0,m3,0.0013333333333333333,0.002,"Al Eissa et al. (2022), Table 2"
+feed_processing,land_area,2.1,m2,0.0014,0.0021000000000000003,"Al Eissa et al. (2022), Table 2"
+feed_transport,diesel_truck,1509.0,t*km,1.006,1.509,"Al Eissa et al. (2022), Table 2"

@@ -1,0 +1,7 @@
+label,ef,unit,provider_uuid,process_name,location,reference_product,demand,demand_unit,contribution_sum
+air_generic,0.8399574538879937,t*km,e17442cb-88c0-333a-b12e-c7eacf17e67f,"market for transport, freight, aircraft, unspecified | transport, freight, aircraft, unspecified | Cutoff, U",Global,"transport, freight, aircraft, unspecified",1.0,t*km,0.8399574538879938
+air_short,0.8767347269191308,t*km,87539f6a-8474-3d4f-a652-5bcec41c02bd,"market for transport, freight, aircraft, short haul | transport, freight, aircraft, short haul | Cutoff, U",Global,"transport, freight, aircraft, short haul",1.0,t*km,0.8767347269191312
+air_medium,0.805059544421448,t*km,b0311243-94ba-3864-a0d5-66da9bd29ea1,"market for transport, freight, aircraft, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",Global,"transport, freight, aircraft, medium haul",1.0,t*km,0.8050595444214483
+urea,1.4299439784121963,kg,04d4d042-54c2-3c06-a0a9-572ba0f3a5fc,"market for urea | urea | Cutoff, U",Northern America,urea,1.0,kg,1.4299439784121961
+triple_superphosphate,0.7515609828101805,kg,ce1c647d-1dba-38af-a72c-cab2189fd107,"market for triple superphosphate | triple superphosphate | Cutoff, U",Rest of World,triple superphosphate,1.0,kg,0.751560982810181
+electricity_check,0.4873610116670892,kWh,483cde5f-7ae5-379e-ae10-54bb8fbbe6a2,"market group for electricity, low voltage | electricity, low voltage | Cutoff, U",United States of America (the),"electricity, low voltage",3.6,MJ,0.48736101166708856

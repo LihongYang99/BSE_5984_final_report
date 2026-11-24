@@ -1,0 +1,13 @@
+{
+  "indiana": 2.4591789892446068,
+  "grid_ef": 0.4873610116670967,
+  "oat_fcr_low": 1.9922419962499616,
+  "oat_fcr_high": 2.926115982239252,
+  "indiana_common": 2.3166074637239777,
+  "alabama_common": 5.558358162604219,
+  "alabama_fixed_fcr": 6.156037513637365,
+  "common_scope_grid_crossover": 0.07586688893540823,
+  "alabama_longer_delivery_sensitivity": 5.664837065437913,
+  "electricity_effect_fixed_fcr": 3.8394300499133873,
+  "fcr_effect_fixed_electricity": -0.597679351033146
+}

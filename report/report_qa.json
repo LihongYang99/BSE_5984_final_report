@@ -1,0 +1,52 @@
+{
+  "revision_date": "2026-11-24",
+  "change": "Explain the low meat-and-bone meal factor (ecoinvent cut-off by-product treatment versus the source study's mass allocation) in Section 2.1 and after Table A2, with a per-unit sensitivity computed from saved factors",
+  "total_pages": 12,
+  "body_pages": 6,
+  "reference_pages": 1,
+  "appendix_pages": 5,
+  "renderer": "LibreOffice 26.8.3.1 861effc5289d539f15c4c18d1ba8579ffd78728b",
+  "page_text_changed_vs_apa_revision": [
+    3,
+    9
+  ],
+  "visual_review": {
+    "pages_inspected": [
+      3,
+      9
+    ],
+    "outcome": "No clipped text or overflow. Section 2.4 still ends on page 3 and Table A3 with its formula still fits on page 9."
+  },
+  "new_values": {
+    "meat_bone_meal_contribution_kg_per_kg_feed": 0.0013,
+    "share_of_ingredient_gwp_pct": 0.15,
+    "per_unit_add_feed": 0.05,
+    "per_unit_add_indiana_shrimp": 0.075,
+    "per_unit_add_indiana_pct": 2.91,
+    "per_unit_add_alabama_shrimp": 0.051
+  },
+  "new_values_source": "Arithmetic on results/run_2026-11-21/background_factors.csv, data/feed_c_lci.csv, FCR 1.50 and 1.02, and the expanded Indiana subtotal. The builder asserts that recomputed ingredient GWP equals 0.912134347.",
+  "allocation_source_checked": "Al Eissa et al. (2022), p. 2009, states that ingredient background data were derived by mass allocation",
+  "scientific_values_unchanged": true,
+  "LCIA_rerun": false,
+  "database_writes": false,
+  "delivered_hashes": {
+    "report/BSE5984_Final_Report.docx": "8897afe0d432f762dd56e96cb09ae614cc29c58b8f3ab3abd28fab279bc2ef9c",
+    "report/BSE5984_Final_Report.pdf": "0e69b643b430146979980cc5e2faf20ea0e97801dcb7d950591869c59915bc94"
+  },
+  "source_hashes": {
+    "scripts/38_update_final_report.py": "22d9c53cf09aade2f672b20d68433580597d2bd1543ba8bd82f6b26b0fecc7af",
+    "scripts/42_plot_system_boundary.py": "3aac183b7f6c31af4a839a2855fec830ea5696436abd7f5e4181aab718c34f7b",
+    "scripts/report_figures/figure_fonts.py": "a6e458deeb50f252024c8ad184d829deec621012410a43e7f5b9af1bd152ad1a",
+    "README.md": "b8fc0bcdab5b1615157ffcbb8805c3c9f84543c52e15467b5d2063b97f9117b3"
+  },
+  "previous_versions": "Deleted on 2026-11-24 when git history was reset. Not recoverable.",
+  "reorganization_2026-11-24": {
+    "figures_moved_to": "report/report_figures (from report/revision_2026-11-24_calibri and report/revision_2026-11-24_boundary/figures)",
+    "builder_output": "report/ in place",
+    "regenerated_figure_pngs_byte_identical": true,
+    "rebuilt_docx_document_xml_identical": true,
+    "rerendered_pdf_page_text_identical": true,
+    "pages": 12
+  }
+}

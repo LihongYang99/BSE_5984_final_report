@@ -1,0 +1,4 @@
+scenario,feed_gwp,shrimp_gwp,status
+Legacy retained,1.1994075303794767,2.066366013241343,Superseded: MJ mislabeled kWh
+Corrected screening; no farm water treatment,1.2451653146523878,2.4591789892446068,Proxy-assisted; incomplete boundary
+Corrected screening; 75 kg tap-water proxy,1.2451653146523878,2.549116526071422,Optional proxy; water source unverified

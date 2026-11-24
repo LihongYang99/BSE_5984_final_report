@@ -1,0 +1,10 @@
+electricity: 0.487361012 kg CO2-eq/kWh
+feed_partial: 0.816535393 kg CO2-eq/kg
+meat_bone_meal: 0.026941154 kg CO2-eq/kg
+wheat_bran: 0.435527812 kg CO2-eq/kg
+soybean_oil: 0.642516851 kg CO2-eq/kg
+steam: 0.348644727 kg CO2-eq/kg
+tap_water: 0.001199167 kg CO2-eq/kg
+truck_transport: 0.155575382 kg CO2-eq/t*km
+sodium_bicarbonate: 1.296104777 kg CO2-eq/kg
+RUN_DIRECTORY=results/run_2026-11-21

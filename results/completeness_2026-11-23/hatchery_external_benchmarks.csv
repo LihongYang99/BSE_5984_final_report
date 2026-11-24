@@ -1,0 +1,5 @@
+case,source,external_addon,conditional_total,percent_of_covered_total,status
+Indiana,Cao 2011 semi-intensive hatchery,0.0708,2.647573032788926,2.747622669869796,External China benchmark; not US baseline or uncertainty bound
+Indiana,Cao 2011 intensive hatchery,0.188,2.764773032788926,7.29594720247912,External China benchmark; not US baseline or uncertainty bound
+Alabama,Cao 2011 semi-intensive hatchery,0.0708,5.683891897803418,1.2613369117955524,External China benchmark; not US baseline or uncertainty bound
+Alabama,Cao 2011 intensive hatchery,0.188,5.801091897803418,3.349312703637908,External China benchmark; not US baseline or uncertainty bound

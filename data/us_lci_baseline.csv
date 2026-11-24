@@ -1,0 +1,3 @@
+system,country,state,data_type,electricity_kwh_per_kg,feed_kg_per_kg,source
+Indiana Biofloc,USA,Indiana,Primary farm data,0.921,1.5,"Al Eissa et al. (2022), Table 2"
+Alabama Pond,USA,Alabama,Literature-derived,8.799,1.02,"Al Eissa et al. (2022), Table 2"

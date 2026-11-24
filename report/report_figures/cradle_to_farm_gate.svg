@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="439.370079pt" viewBox="0 0 518.740157 439.370079" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T00:00:00+00:00</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 439.370079 
+L 518.740157 439.370079 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 9.337323 316.346457 
+L 416.548346 316.346457 
+L 416.548346 30.755906 
+L 9.337323 30.755906 
+L 9.337323 316.346457 
+z
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke-dasharray: 1.6,2.4; stroke-dashoffset: 0; stroke: #75808b; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 123.903037 90.070866 
+Q 130.981501 90.070866 137.109636 90.070866 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 134.309636 88.670866 
+L 137.109636 90.070866 
+L 134.309636 91.470866 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 240.619572 90.070866 
+Q 247.698036 90.070866 253.826171 90.070866 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 251.026171 88.670866 
+L 253.826171 90.070866 
+L 251.026171 91.470866 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 315.840061 90.070866 
+Q 321.618595 90.070866 326.446799 90.070866 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 323.646799 88.670866 
+L 326.446799 90.070866 
+L 323.646799 91.470866 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 137.466142 186.732283 
+L 150.434646 186.732283 
+L 150.434646 137.522835 
+L 321.618898 137.522835 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: square"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 323.621164 137.522835 
+Q 325.51029 137.522835 326.449088 137.522835 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 323.649088 136.122835 
+L 326.449088 137.522835 
+L 323.649088 138.922835 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 315.840061 186.732283 
+Q 321.618595 186.732283 326.446799 186.732283 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #657fad; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 323.646799 185.332283 
+L 326.446799 186.732283 
+L 323.646799 188.132283 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #657fad; stroke: #657fad; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 139.468724 274.606299 
+Q 151.733773 274.606299 163.048492 274.606299 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 160.248492 273.206299 
+L 163.048492 274.606299 
+L 160.248492 276.006299 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #a9773e; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 313.837795 274.606299 
+L 321.618898 274.606299 
+L 321.618898 217.488189 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: square"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 323.621164 217.488189 
+Q 325.51029 217.488189 326.449088 217.488189 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 323.649088 216.088189 
+L 326.449088 217.488189 
+L 323.649088 218.888189 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 370.899213 246.240863 
+Q 370.899213 238.35656 370.899213 231.422585 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 369.499213 234.222585 
+L 370.899213 231.422585 
+L 372.299213 234.222585 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #a9773e; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 414.401071 101.055118 
+Q 423.291028 101.055118 431.230656 101.055118 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 428.430656 99.655118 
+L 431.230656 101.055118 
+L 428.430656 102.455118 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 473.091024 136.007753 
+Q 473.091024 154.876139 473.091024 172.794195 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #87939e; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 474.491024 169.994195 
+L 473.091024 172.794195 
+L 471.691024 169.994195 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #87939e; stroke: #87939e; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 108.935433 318.34352 
+Q 108.935433 328.427765 108.935433 337.561681 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 110.335433 334.761681 
+L 108.935433 337.561681 
+L 107.535433 334.761681 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #397a86; stroke: #397a86; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 315.394016 318.34352 
+Q 315.394016 328.427765 315.394016 337.561681 
+" clip-path="url(#pab56fa4196)" style="fill: none; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+    <path d="M 316.794016 334.761681 
+L 315.394016 337.561681 
+L 313.994016 334.761681 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #a9773e; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 18.155906 422.234646 
+L 31.124409 422.234646 
+L 31.124409 412.568504 
+L 18.155906 412.568504 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 140.059843 422.234646 
+L 153.028346 422.234646 
+L 153.028346 412.568504 
+L 140.059843 412.568504 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #eff2f8; stroke-dasharray: 5.44,1.36,0.85,1.36; stroke-dashoffset: 0; stroke: #657fad; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 261.96378 422.234646 
+L 274.932283 422.234646 
+L 274.932283 412.568504 
+L 261.96378 412.568504 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #fbf6ef; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 389.055118 422.234646 
+L 402.023622 422.234646 
+L 402.023622 412.568504 
+L 389.055118 412.568504 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #f3f4f5; stroke: #87939e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 18.155906 123.023622 
+L 121.903937 123.023622 
+L 121.903937 57.11811 
+L 18.155906 57.11811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 140.059843 123.023622 
+L 238.620472 123.023622 
+L 238.620472 57.11811 
+L 140.059843 57.11811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 256.776378 123.023622 
+L 313.837795 123.023622 
+L 313.837795 57.11811 
+L 256.776378 57.11811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_22">
+    <path d="M 329.4 228.472441 
+L 412.398425 228.472441 
+L 412.398425 57.11811 
+L 329.4 57.11811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_23">
+    <path d="M 18.155906 224.07874 
+L 137.466142 224.07874 
+L 137.466142 149.385827 
+L 18.155906 149.385827 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_24">
+    <path d="M 165.99685 224.07874 
+L 313.837795 224.07874 
+L 313.837795 149.385827 
+L 165.99685 149.385827 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #eff2f8; stroke-dasharray: 5.44,1.36,0.85,1.36; stroke-dashoffset: 0; stroke: #657fad; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_25">
+    <path d="M 18.155906 300.968504 
+L 137.466142 300.968504 
+L 137.466142 248.244094 
+L 18.155906 248.244094 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #fbf6ef; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_26">
+    <path d="M 165.99685 300.968504 
+L 313.837795 300.968504 
+L 313.837795 248.244094 
+L 165.99685 248.244094 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_27">
+    <path d="M 329.4 300.968504 
+L 412.398425 300.968504 
+L 412.398425 248.244094 
+L 329.4 248.244094 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #fbf6ef; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_28">
+    <path d="M 434.185512 134.007874 
+L 511.996535 134.007874 
+L 511.996535 57.11811 
+L 434.185512 57.11811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_29">
+    <path d="M 434.185512 300.968504 
+L 511.996535 300.968504 
+L 511.996535 175.748031 
+L 434.185512 175.748031 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #f3f4f5; stroke: #87939e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_30">
+    <path d="M 18.155906 393.23622 
+L 199.714961 393.23622 
+L 199.714961 340.511811 
+L 18.155906 340.511811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #edf4f5; stroke: #397a86; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_31">
+    <path d="M 217.870866 393.23622 
+L 412.398425 393.23622 
+L 412.398425 340.511811 
+L 217.870866 340.511811 
+z
+" clip-path="url(#pab56fa4196)" style="fill: #fbf6ef; stroke-dasharray: 3.145,1.36; stroke-dashoffset: 0; stroke: #a9773e; stroke-width: 0.85; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="18.155906" y="24.946063" transform="rotate(-0 18.155906 24.946063)">Intended cradle-to-farm-gate boundary</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #397a86" x="18.155906" y="39.982677" transform="rotate(-0 18.155906 39.982677)">Cradle</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; text-anchor: start; fill: #59636d" x="77.811024" y="39.982677" transform="rotate(-0 77.811024 39.982677)">Raw materials and upstream supply</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #397a86" x="434.185512" y="39.982677" transform="rotate(-0 434.185512 39.982677)">Farm gate</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="24.380787" y="74.539252" transform="rotate(-0 24.380787 74.539252)">Ingredient production</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 90.311887)">Fishery, crop and</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 101.311887)">by-product supply</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 112.301575)">Ingredient proxies</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="146.284724" y="74.564221" transform="rotate(-0 146.284724 74.564221)">Feed manufacturing</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(146.284724 91.04545)">Common Feed C</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(146.284724 101.311887)">Steam and electricity</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(146.284724 112.311887)">Mill water proxy</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="263.00126" y="74.551002" transform="rotate(-0 263.00126 74.551002)">Delivery</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(263.00126 91.04545)">Road</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(263.00126 101.32495)">freight</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="335.624882" y="74.564221" transform="rotate(-0 335.624882 74.564221)">Shrimp farming</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(335.624882 91.068825)">Indiana biofloc</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(335.624882 101.311887)">or Alabama pond</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(335.624882 110.101575)"/>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(335.624882 123.879762)">Grow-out</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(335.624882 135.0537)">and harvest</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="24.380787" y="166.818719" transform="rotate(-0 24.380787 166.818719)">Farm input supply</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 182.579604)">Electricity</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 194.321416)">Bicarbonate in Indiana</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(24.380787 205.321416)">Fertilizers in Alabama</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="172.221732" y="167.373906" transform="rotate(-0 172.221732 167.373906)">Farm water</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(172.221732 182.579604)">Optional Indiana treatment proxy</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(172.221732 194.321416)">Other water burdens unresolved</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="24.380787" y="265.676986" transform="rotate(-0 24.380787 265.676986)">Hatchery production</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="24.380787" y="282.179684" transform="rotate(-0 24.380787 282.179684)">Unresolved</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="172.221732" y="265.676986" transform="rotate(-0 172.221732 265.676986)">Larval transport</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="172.221732" y="281.450934" transform="rotate(-0 172.221732 281.450934)">Airfreight included</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; fill: #242b33" transform="translate(335.624882 266.475252)">Infrastructure</text>
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; fill: #242b33" transform="translate(335.624882 277.266892)">and land</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="335.624882" y="293.163936" transform="rotate(-0 335.624882 293.163936)">Unresolved</text>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="440.410394" y="74.544393" transform="rotate(-0 440.410394 74.544393)">Product output</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 90.309825)">1 kg live-weight</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 101.311887)">shrimp</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 112.32495)">at the farm gate</text>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="440.410394" y="193.174314" transform="rotate(-0 440.410394 193.174314)">Outside scope</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 208.798121)">Processing</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 219.939746)">Packaging</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 231.683621)">Distribution</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(440.410394 242.683621)">Retail and use</text>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="24.380787" y="357.866859" transform="rotate(-0 24.380787 357.866859)">Upstream GHG emissions</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="24.380787" y="373.718651" transform="rotate(-0 24.380787 373.718651)">Included in background GWP factors</text>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Calibri'; text-anchor: start; fill: #242b33" x="224.095748" y="357.963062" transform="rotate(-0 224.095748 357.963062)">Direct farm outputs</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(224.095748 373.720713)">CH₄, N₂O, effluent and sludge</text>
+    <text style="font-size: 8.8px; font-family: 'Calibri'; fill: #38434c" transform="translate(224.095748 384.705588)">Impacts unresolved</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="36.311811" y="419.526575" transform="rotate(-0 36.311811 419.526575)">Included</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="158.215748" y="419.526575" transform="rotate(-0 158.215748 419.526575)">Optional</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="280.119685" y="419.526575" transform="rotate(-0 280.119685 419.526575)">Unresolved</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 8.5px; font-family: 'Calibri'; text-anchor: start; fill: #38434c" x="407.211024" y="419.526575" transform="rotate(-0 407.211024 419.526575)">Outside scope</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pab56fa4196">
+   <rect x="0" y="0" width="518.740157" height="439.370079"/>
+  </clipPath>
+ </defs>
+</svg>

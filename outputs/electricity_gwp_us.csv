@@ -1,0 +1,17 @@
+impact_category,amount,unit
+Climate change: aircraft emissions - Global warming potential (GWP100),4.85932922706028e-10,kg CO2-Eq
+Climate change: biogenic (excl. CO2) - Global warming potential (GWP100),4.81621712598167e-05,kg CO2-Eq
+Climate change: direct land use change - Global warming potential (GWP100),6.73790797449914e-05,kg CO2-Eq
+Climate change: emissions from direct land use change - Global warming potential (GWP100),6.75569450091698e-05,kg CO2-Eq
+Climate change: fossil - Global warming potential (GWP100),0.1352625175454105,kg CO2-Eq
+Climate change: fossil emissions (excl. aircraft emissions) - Global warming potential (GWP100),0.13526251705947756,kg CO2-Eq
+Climate change: removals from direct land use change - Global warming potential (GWP100),-1.7786526417839813e-07,kg CO2-Eq
+Climate change: total (excl. biogenic CO2) - Global warming potential (GWP500),0.12963225264451975,kg CO2-Eq
+Climate change: total (excl. biogenic CO2) - Global warming potential (GWP20),0.1498181337770847,kg CO2-Eq
+Climate change: total (excl. biogenic CO2) - Global warming potential (GWP100),0.1353780587964153,kg CO2-Eq
+Climate change: total (excl. biogenic CO2) - Global temperature change potential (GTP50),0.1308505813236688,kg CO2-Eq
+Climate change: total (excl. biogenic CO2) - Global temperature change potential (GTP100),0.12920791333805007,kg CO2-Eq
+"Climate change: total (excl. biogenic CO2, incl. SLCFs) - Global warming potential (GWP100)",0.13564238101779424,kg CO2-Eq
+"Climate change: biogenic (excl. CO2, incl. SLCFs) - Global warming potential (GWP100)",6.187536541451206e-05,kg CO2-Eq
+"Climate change: fossil (excl. biogenic CO2, incl. SLCFs) - Global warming potential (GWP100)",0.1355129751273101,kg CO2-Eq
+Climate change: direct land use change (incl. SLCFs) - Global warming potential (GWP100),6.753052506963957e-05,kg CO2-Eq

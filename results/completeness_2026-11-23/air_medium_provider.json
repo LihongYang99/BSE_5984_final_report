@@ -1,0 +1,171 @@
+{
+  "@type": "Process",
+  "@id": "b0311243-94ba-3864-a0d5-66da9bd29ea1",
+  "allocationFactors": [],
+  "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+  "description": "ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/21239/documentation\n\nThis is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'transport, freight, aircraft, medium haul', in the Global geography.;This market contains no transport or losses, as they are irrelevant for the delivered product.;This is delivering the service of transportation of 1 metric ton across the distance of 1 km. This service only considers the transportation of goods. The vehicle operates with kerosene. Its operation is an average flight of a medium-haul aircraft for distance between 1500 km and 4000 km.   The transport node indirectly considers empty trips (if any) by taking into account the total amount of freight transported throughout the lifetime of the mobile infrastructure.\n\nThis activity starts with the service generation.\n\n\nThis activity ends with the service supplied to its consumers. Transport or losses are considered irrelevant for this product.",
+  "exchangeDqSystem": {
+    "@type": "DQSystem",
+    "@id": "e7ac7cf6-5457-453e-99f9-d889826fffe8",
+    "category": "DQS with uncertainties",
+    "name": "ecoinvent Data Quality System"
+  },
+  "exchanges": [
+    {
+      "amount": 1.0,
+      "costValue": 0.04378024422143592,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "220fe333-5329-4a8d-b012-1db429f2383b",
+        "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, aircraft, medium haul",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 1,
+      "isAvoidedProduct": false,
+      "isInput": false,
+      "isQuantitativeReference": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.751824817518248,
+      "costValue": 0.03291507412268539,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "6b0ad975-9550-3fd6-a3bb-08ddd12679c0",
+        "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "GLO",
+        "name": "transport, freight, aircraft, belly-freight, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "220fe333-5329-4a8d-b012-1db429f2383b",
+        "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, aircraft, medium haul",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 3,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.248175182481752,
+      "costValue": 0.010865170098750527,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "48250157-3cd1-3c59-b05f-e5c4545fadfd",
+        "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "GLO",
+        "name": "transport, freight, aircraft, dedicated freight, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "220fe333-5329-4a8d-b012-1db429f2383b",
+        "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, aircraft, medium haul",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 2,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    }
+  ],
+  "isInfrastructureProcess": false,
+  "lastChange": "2024-11-23T12:56:41.808Z",
+  "lastInternalId": 3,
+  "location": {
+    "@type": "Location",
+    "@id": "56bca136-90bb-3a77-9abb-7ce558af711e",
+    "category": "Global/Unlocated",
+    "name": "Global"
+  },
+  "name": "market for transport, freight, aircraft, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+  "parameters": [],
+  "processDocumentation": {
+    "creationDate": "2018-06-14T19:48:57Z",
+    "dataDocumentor": {
+      "@type": "Actor",
+      "@id": "c4597934-ecac-422c-b431-382e85fdcb83",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "[System]"
+    },
+    "dataGenerator": {
+      "@type": "Actor",
+      "@id": "c4597934-ecac-422c-b431-382e85fdcb83",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "[System]"
+    },
+    "isCopyrightProtected": false,
+    "validFrom": "2016-01-01",
+    "validUntil": "2024-12-31"
+  },
+  "processType": "UNIT_PROCESS",
+  "socialAspects": [],
+  "tags": [
+    "Transport"
+  ],
+  "version": "03.02.003"
+}

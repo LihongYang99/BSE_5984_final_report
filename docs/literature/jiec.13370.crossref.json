@@ -1,0 +1,460 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        11,
+        6
+      ]
+    ],
+    "date-time": "2026-11-06T00:15:29Z",
+    "timestamp": 1793924129398,
+    "version": "4.8.0"
+  },
+  "reference-count": 38,
+  "publisher": "Springer Science and Business Media LLC",
+  "issue": "6",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2022,
+            12,
+            20
+          ]
+        ],
+        "date-time": "2022-12-20T00:00:00Z",
+        "timestamp": 1671494400000
+      },
+      "content-version": "vor",
+      "delay-in-days": 19,
+      "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "onlinelibrary.wiley.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "J of Industrial Ecology"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2022,
+        12
+      ]
+    ]
+  },
+  "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>Shrimp is the most popular seafood in the United States; its production plays an important role in the aquaculture industry. However, shrimp farming causes various environment impacts that must be mitigated to ensure the sustainability of shrimp production. This study performed a life cycle assessment (LCA) on two US\u2010based and one Vietnam\u2010based shrimp production chains from cradle to US market covering three farming systems and eight shrimp feed formulae. Midpoint environmental impacts including terrestrial acidification, freshwater eutrophication, and global warming were determined. For the intensive production chain (IPC), feed production was identified as the main contributor to the terrestrial acidification potential (TAP) and global warming potential (GWP), and its freshwater eutrophication potential (FEP) was dominated by shrimp farming. Poultry by\u2010product and fish meals were the feed ingredients contributing high TAP and GWP. However, soybean, wheat, and corn gluten meals produced higher FEP; hence, substituting plant\u2010based proteins for animal\u2010based ones in shrimp feeds did not all have positive environmental consequences. Shrimp farming was the hotspot of all the environmental impacts of the semi\u2010intensive production chain (SPC) and extensive production chain (EPC), except for the TAP of the EPC. Among the three production chains, the IPC had the highest FEP due to the on\u2010farm discharge of phosphorus\u2010containing wastewater, and the SPC caused the highest TAP because of the intensive uses of electricity and fertilizers for pond cultivation. Although the EPC was most sustainable in terms of TAP and FEP, open farming in mangrove areas produced the highest GWP owing to land transformation. This LCA study is expected to serve as US shrimp farmers\u2019 decision\u2010making guidelines to adapt farming practices with lower environmental footprint.</jats:p>",
+  "DOI": "10.1111/jiec.13370",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        5
+      ]
+    ],
+    "date-time": "2022-12-05T03:14:12Z",
+    "timestamp": 1670210052000
+  },
+  "page": "2006-2019",
+  "update-policy": "https://doi.org/10.1002/crossmark_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 32,
+  "title": [
+    "Effects of feed formula and farming system on the environmental performance of shrimp production chain from a life cycle perspective"
+  ],
+  "prefix": "10.1007",
+  "volume": "26",
+  "author": [
+    {
+      "given": "Ahmad",
+      "family": "Al Eissa",
+      "sequence": "first",
+      "affiliation": [
+        {
+          "name": "Department of Food Science Purdue University  West Lafayette Indiana USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0001-5156-8497",
+      "authenticated-orcid": false,
+      "given": "Peng",
+      "family": "Chen",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Forestry and Natural Resources Purdue University  West Lafayette Indiana USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Paul B.",
+      "family": "Brown",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Forestry and Natural Resources Purdue University  West Lafayette Indiana USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "ORCID": "https://orcid.org/0000-0003-0304-0895",
+      "authenticated-orcid": false,
+      "given": "Jen\u2010Yi",
+      "family": "Huang",
+      "sequence": "additional",
+      "affiliation": [
+        {
+          "name": "Department of Food Science Purdue University  West Lafayette Indiana USA"
+        },
+        {
+          "name": "Environmental and Ecological Engineering Purdue University  West Lafayette Indiana USA"
+        }
+      ],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "297",
+  "published-online": {
+    "date-parts": [
+      [
+        2022,
+        12,
+        20
+      ]
+    ]
+  },
+  "reference": [
+    {
+      "key": "e_1_2_9_2_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2005.04.015"
+    },
+    {
+      "key": "e_1_2_9_3_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2006.11.015"
+    },
+    {
+      "key": "e_1_2_9_4_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5950/0738\u20101360\u201027.2.181"
+    },
+    {
+      "key": "e_1_2_9_5_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/1748\u20109326/ac5b3e"
+    },
+    {
+      "key": "e_1_2_9_6_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jclepro.2017.04.139"
+    },
+    {
+      "key": "e_1_2_9_7_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.0c01100"
+    },
+    {
+      "key": "e_1_2_9_8_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/es104058z"
+    },
+    {
+      "key": "e_1_2_9_9_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jclepro.2020.122888"
+    },
+    {
+      "key": "e_1_2_9_10_1",
+      "unstructured": "Clough B. Johnston D. Xuan T. T. Phillips M. J. Pednekar S. S. Thien N. H. Thong Dan T. H. &Thong P. L.(2002).Silvofishery farming systems in Ca Mau province Vietnam. Report prepared under the World Bank NACA WWF and FAO Consortium Program on Shrimp Farming and the Environment. Work in Progress for Public Discussion. Published by the Consortium. 70 pages."
+    },
+    {
+      "key": "e_1_2_9_11_1",
+      "unstructured": "FAO. (2009).Cultured aquatic species fact sheets:Penaeus vannamei.http://www.fao.org/tempref/FI/DOCUMENT/aquaculture/CulturedSpecies/file/en/en_whitelegshrimp.htm"
+    },
+    {
+      "key": "e_1_2_9_12_1",
+      "unstructured": "FAO. (2019).Farmed shrimp supply stayed low in Asia.http://www.fao.org/in\u2010action/globefish/market\u2010reports/resource\u2010detail/en/c/1207655/"
+    },
+    {
+      "key": "e_1_2_9_13_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1088/1748\u20109326/aaa273"
+    },
+    {
+      "key": "e_1_2_9_14_1",
+      "first-page": "13",
+      "article-title": "Evaluation of different aquaculture feed ingredients in Indonesia using life cycle assessment",
+      "volume": "1",
+      "author": "Henriksson P.",
+      "year": "2017",
+      "journal-title": "Indonesian Journal of Life Cycle Assessment and Sustainability"
+    },
+    {
+      "key": "e_1_2_9_15_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11367\u2010011\u20100369\u20104"
+    },
+    {
+      "key": "e_1_2_9_16_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.oneear.2019.10.018"
+    },
+    {
+      "key": "e_1_2_9_17_1",
+      "volume-title": "Environmental management \u2212 Life cycle assessment \u2212 Requirements and guidelines",
+      "author": "ISO",
+      "year": "2006"
+    },
+    {
+      "key": "e_1_2_9_18_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1590/s1806-92902017000900001"
+    },
+    {
+      "key": "e_1_2_9_19_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaeng.2011.10.001"
+    },
+    {
+      "key": "e_1_2_9_20_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2014.11.001"
+    },
+    {
+      "key": "e_1_2_9_21_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.envsci.2010.03.005"
+    },
+    {
+      "key": "e_1_2_9_22_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.fm.2009.05.013"
+    },
+    {
+      "key": "e_1_2_9_23_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2017.10.011"
+    },
+    {
+      "key": "e_1_2_9_24_1",
+      "first-page": "197",
+      "article-title": "Biological, technical, and financial feasibilities study of zero water discharge (ZWD) system application in low salinity white shrimp (Litopenaeus vannamei boone) urban aquaculture, study case: Gresik district, East Java, Indonesia",
+      "volume": "4",
+      "author": "Muhammad H.",
+      "year": "2016",
+      "journal-title": "Journal of Fisheries and Livestock Production"
+    },
+    {
+      "key": "e_1_2_9_25_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.5950/0738\u20101360\u201026.3.173"
+    },
+    {
+      "key": "e_1_2_9_26_1",
+      "unstructured": "NOAA. (2021).U.S. imports of shrimp.https://www.st.nmfs.noaa.gov/apex/f?p=169:2"
+    },
+    {
+      "key": "e_1_2_9_27_1",
+      "unstructured": "Okoro M.(2012).Environmental impact analysis of pulp and paper production. GRIN Verlag."
+    },
+    {
+      "key": "e_1_2_9_28_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1021/acs.est.7b05468"
+    },
+    {
+      "key": "e_1_2_9_29_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1155/2017/7053710"
+    },
+    {
+      "key": "e_1_2_9_30_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2019.734759"
+    },
+    {
+      "key": "e_1_2_9_31_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jfoodeng.2008.06.016"
+    },
+    {
+      "key": "e_1_2_9_32_1",
+      "unstructured": "Ruttanagosrigit W.(1997).Organic matter dynamics in a closed intensive culture system for black tiger prawn (Penaeus monodon)(No. As\u201097\u20101)[Doctoral dissertation Asian Institute of Technology]."
+    },
+    {
+      "key": "e_1_2_9_33_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.jclepro.2013.02.031"
+    },
+    {
+      "key": "e_1_2_9_34_1",
+      "unstructured": "SeaRates. (2020).N\u0103m C\u0103n District Ca Mau Vietnam to Chicago Heights IL USA.https://www.searates.com/freight/?from=ChIJwRHERtr4ozERW0aIphNg7PQ&to=ChIJceJ3ZEIZDogR0ITN2vcHCQs&date=3+Mar +2020&type=fcl&cont(20st)=1"
+    },
+    {
+      "key": "e_1_2_9_35_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11367\u2010017\u20101414\u20108"
+    },
+    {
+      "key": "e_1_2_9_36_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1016/j.aquaculture.2009.01.001"
+    },
+    {
+      "key": "e_1_2_9_37_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1111/are.14237"
+    },
+    {
+      "key": "e_1_2_9_38_1",
+      "doi-asserted-by": "publisher",
+      "DOI": "10.1007/s11367\u2010016\u20101087\u20108"
+    },
+    {
+      "key": "e_1_2_9_39_1",
+      "doi-asserted-by": "crossref",
+      "unstructured": "Yashar D. A.(2012).Development of a method to measure the energy consumption of automatic icemakers in domestic refrigerators with single speed compressors. National Institute of Standards and Technology Technical Note 1759. 51 pages.https://doi.org/10.6028/NIST.TN.1759",
+      "DOI": "10.6028/NIST.TN.1759"
+    }
+  ],
+  "container-title": [
+    "Journal of Industrial Ecology"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jiec.13370",
+      "content-type": "application/pdf",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/full-xml/10.1111/jiec.13370",
+      "content-type": "application/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://onlinelibrary.wiley.com/doi/pdf/10.1111/jiec.13370",
+      "content-type": "unspecified",
+      "content-version": "vor",
+      "intended-application": "similarity-checking"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2026,
+        1,
+        15
+      ]
+    ],
+    "date-time": "2026-01-15T17:15:17Z",
+    "timestamp": 1768497317000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://onlinelibrary.wiley.com/doi/10.1111/jiec.13370"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2022,
+        12
+      ]
+    ]
+  },
+  "references-count": 38,
+  "journal-issue": {
+    "issue": "6",
+    "published-print": {
+      "date-parts": [
+        [
+          2022,
+          12
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "10.1111/jiec.13370"
+  ],
+  "URL": "https://doi.org/10.1111/jiec.13370",
+  "archive": [
+    "Portico"
+  ],
+  "relation": {},
+  "ISSN": [
+    "1088-1980",
+    "1530-9290"
+  ],
+  "issn-type": [
+    {
+      "value": "1088-1980",
+      "type": "print"
+    },
+    {
+      "value": "1530-9290",
+      "type": "electronic"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2022,
+        12
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "2022-12-20",
+      "order": 2,
+      "name": "published",
+      "label": "Published",
+      "group": {
+        "name": "publication_history",
+        "label": "Publication History"
+      }
+    }
+  ]
+}

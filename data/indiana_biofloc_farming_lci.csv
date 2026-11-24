@@ -1,0 +1,6 @@
+stage,flow,direction,original_amount,unit,status,amount_per_kg_shrimp,source,scenario,system_boundary
+farming,live_shrimp,output,1000,kg,REFERENCE_PRODUCT,1.0,"Al Eissa et al. (2022), Table 2",Indiana_closed_biofloc,cradle-to-farm-gate
+farming,feed_c,input,1500,kg,HYBRID_FEED_MODEL_AVAILABLE,1.5,"Al Eissa et al. (2022), Table 2",Indiana_closed_biofloc,cradle-to-farm-gate
+farming,electricity,input,921,kWh,BACKGROUND_PROVIDER_AVAILABLE,0.921,"Al Eissa et al. (2022), Table 2",Indiana_closed_biofloc,cradle-to-farm-gate
+farming,sodium_bicarbonate,input,110,kg,PROXY_PROVIDER_AVAILABLE,0.11,"Al Eissa et al. (2022), Table 2",Indiana_closed_biofloc,cradle-to-farm-gate
+farming,water_use,input,75,m3,WATER_SOURCE_NEEDS_REVIEW,0.075,"Al Eissa et al. (2022), Table 2",Indiana_closed_biofloc,cradle-to-farm-gate

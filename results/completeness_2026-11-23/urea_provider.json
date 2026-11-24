@@ -1,0 +1,298 @@
+{
+  "@type": "Process",
+  "@id": "04d4d042-54c2-3c06-a0a9-572ba0f3a5fc",
+  "allocationFactors": [],
+  "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+  "description": "ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/23044/documentation\n\nThis is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset is a consumption mix, representing the supply of ''urea'' from activities that produce it, to activities that consume it within the geography of this dataset, Northern America. ;If 1 kg of this 'urea' is used as fertiliser, it is equivalent to circa 0.466 kg of Nitrogen as N.;The dataset considers transportation from the producer to the consumer of this product, transportation distances are based on default transport distances for markets (found in file 'Default Transport Assumptions' at https://www.ecoinvent.org/support/documents-and-files/documents-and-files.html).;'Urea' is an organic substance with a CAS no. : 57-13-6. It is called 'urea' under IUPAC naming and its molecular formula is: CH4N2O. It is solid in normal conditions of temperature and pressure. On a consumer level, 'urea' is used in the following products: fertilisers, cosmetics and personal care products and pH regulators and water treatment products. This substance has an industrial use resulting in manufacture of another substance (use of intermediates). On industrial sites, the substance is used for the manufacture of products in the following sectors: chemicals, pulp, paper and paper products, textile, leather or fur and mineral products (e.g. plasters, cement). Based on EU regulations (REGULATION (EU) 2019/1009), if this substance would be used as fertiliser, it could be labelled as N-P-K of: (47-0-0).\n\nThis activity starts at the gate of the activities that produce ''urea'' with the product ready for transportation.\n\nThis activity ends with the supply of 1 kg of ''urea'' to the consumers of this product within the geography of Northern America. Transport is included.",
+  "exchangeDqSystem": {
+    "@type": "DQSystem",
+    "@id": "e7ac7cf6-5457-453e-99f9-d889826fffe8",
+    "category": "DQS with uncertainties",
+    "name": "ecoinvent Data Quality System"
+  },
+  "exchanges": [
+    {
+      "amount": 1.0,
+      "costValue": 0.457,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "name": "urea",
+        "refUnit": "kg"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "93a60a56-a3c8-11da-a746-0800200b9a66",
+        "category": "Technical flow properties",
+        "name": "Mass",
+        "refUnit": "kg"
+      },
+      "internalId": 1,
+      "isAvoidedProduct": false,
+      "isInput": false,
+      "isQuantitativeReference": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "20aadc24-a391-41cf-b340-3e4529f44bde",
+        "name": "kg"
+      }
+    },
+    {
+      "amount": 0.841,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "a7559c8c-22e6-3c41-a55a-43fa38855ad3",
+        "category": "H:Transportation and storage/50:Water transport/501:Sea and coastal water transport/5012:Sea and coastal freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "GLO",
+        "name": "market for transport, freight, sea, container ship, heavy fuel oil | transport, freight, sea, container ship, heavy fuel oil | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "2741cea8-327f-4e0f-9401-b10858dc68f8",
+        "category": "H:Transportation and storage/50:Water transport/501:Sea and coastal water transport/5012:Sea and coastal freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, sea, container ship, heavy fuel oil",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 4,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.841,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.047,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "07f56731-2f13-35f2-84df-83d94148d7ec",
+        "category": "H:Transportation and storage/50:Water transport/502:Inland water transport/5022:Inland freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "market for transport, freight, inland waterways, barge, diesel | transport, freight, inland waterways, barge, diesel | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "068bf76a-bfaa-435c-85ed-3d2bb2c4bb4f",
+        "category": "H:Transportation and storage/50:Water transport/502:Inland water transport/5022:Inland freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, inland waterways, barge, diesel",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 2,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.047,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.148,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "d633130a-339a-3c7c-914e-d60b36006000",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "cfbce515-3f54-4411-ad9d-3d26b7faa15a",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, lorry, diesel, unspecified",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 3,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.148,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 1.0,
+      "costValue": 0.457,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "092389a0-4c52-3449-ba4b-9d5f59d9a3f9",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RNA",
+        "name": "urea production | urea | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "9e0c9c28-7d8f-4f18-a769-bff3a4c8c1e5",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "name": "urea",
+        "refUnit": "kg"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "93a60a56-a3c8-11da-a746-0800200b9a66",
+        "category": "Technical flow properties",
+        "name": "Mass",
+        "refUnit": "kg"
+      },
+      "internalId": 6,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "20aadc24-a391-41cf-b340-3e4529f44bde",
+        "name": "kg"
+      }
+    },
+    {
+      "amount": 0.276,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "a1a6ca7d-1c9e-388e-b31e-a836aa3f48aa",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 5,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.276,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    }
+  ],
+  "isInfrastructureProcess": false,
+  "lastChange": "2024-11-23T12:50:45.983Z",
+  "lastInternalId": 6,
+  "location": {
+    "@type": "Location",
+    "@id": "b320e7db-c758-3ba6-8839-81eb83c9d7d7",
+    "category": "Global/UN",
+    "name": "Northern America"
+  },
+  "name": "market for urea | urea | Cutoff, U",
+  "parameters": [],
+  "processDocumentation": {
+    "creationDate": "2020-06-03T13:45:28Z",
+    "dataDocumentor": {
+      "@type": "Actor",
+      "@id": "847a56f5-d9e5-4a65-ab51-b056e0039130",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "Avraam Symeonidis"
+    },
+    "dataGenerator": {
+      "@type": "Actor",
+      "@id": "847a56f5-d9e5-4a65-ab51-b056e0039130",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "Avraam Symeonidis"
+    },
+    "geographyDescription": "This activity delivers the product of ''urea'' within the geography of Northern America.",
+    "isCopyrightProtected": true,
+    "validFrom": "2016-01-01",
+    "validUntil": "2024-12-31"
+  },
+  "processType": "UNIT_PROCESS",
+  "socialAspects": [],
+  "tags": [
+    "Chemicals",
+    "Agriculture & Animal Husbandry"
+  ],
+  "version": "03.02.003"
+}

@@ -1,0 +1,64 @@
+parameter,multiplier,value,gwp,change_pct,type
+Farm electricity (kWh/kg),0.75,0.69075,2.346964116308258,-4.563103109904909,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.775,0.713775,2.3581856036018927,-4.106792798914427,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.8,0.7368000000000001,2.3694070908955274,-3.650482487923945,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.825,0.759825,2.3806285781891625,-3.194172176933441,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.85,0.78285,2.391850065482797,-2.7378618659429588,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.875,0.805875,2.4030715527764324,-2.2815515549524545,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.9,0.8289000000000001,2.414293040070067,-1.8252412439619725,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.925,0.851925,2.425514527363702,-1.3689309329714683,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.95,0.87495,2.436736014657337,-0.9126206219809863,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),0.975,0.897975,2.447957501950972,-0.456310310990482,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.0,0.921,2.4591789892446068,0.0,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.025,0.944025,2.4704004765382415,0.45631031099049313,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.05,0.9670500000000001,2.4816219638318766,0.9126206219809863,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.075,0.990075,2.4928434511255113,1.3689309329714794,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.1,1.0131000000000001,2.5040649384191465,1.8252412439619725,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.125,1.036125,2.515286425712781,2.2815515549524656,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.15,1.05915,2.5265079130064163,2.7378618659429588,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.175,1.082175,2.537729400300051,3.194172176933452,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.2,1.1052,2.548950887593686,3.650482487923945,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.225,1.128225,2.560172374887321,4.106792798914416,Hypothetical one-at-a-time; others fixed
+Farm electricity (kWh/kg),1.25,1.15125,2.571393862180956,4.563103109904931,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.75,0.3655207587503225,2.346964116308258,-4.563103109904909,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.775,0.377704784042,2.3581856036018927,-4.106792798914427,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.8,0.3898888093336774,2.3694070908955274,-3.650482487923945,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.825,0.40207283462535476,2.3806285781891625,-3.194172176933441,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.85,0.4142568599170322,2.391850065482797,-2.7378618659429588,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.875,0.42644088520870965,2.4030715527764324,-2.2815515549524545,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.9,0.43862491050038704,2.414293040070067,-1.8252412439619725,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.925,0.4508089357920645,2.425514527363702,-1.3689309329714683,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.95,0.4629929610837419,2.436736014657337,-0.9126206219809863,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),0.975,0.4751769863754193,2.447957501950972,-0.456310310990482,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.0,0.4873610116670967,2.4591789892446068,0.0,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.025,0.4995450369587741,2.4704004765382415,0.45631031099049313,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.05,0.5117290622504516,2.4816219638318766,0.9126206219809863,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.075,0.523913087542129,2.4928434511255113,1.3689309329714794,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.1,0.5360971128338065,2.5040649384191465,1.8252412439619725,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.125,0.5482811381254838,2.515286425712781,2.2815515549524656,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.15,0.5604651634171612,2.5265079130064163,2.7378618659429588,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.175,0.5726491887088386,2.537729400300051,3.194172176933452,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.2,0.584833214000516,2.548950887593686,3.650482487923945,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.225,0.5970172392921935,2.560172374887321,4.106792798914416,Hypothetical one-at-a-time; others fixed
+Farm grid (kg CO₂-eq/kWh),1.25,0.6092012645838709,2.5713938621809556,4.563103109904909,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.75,1.125,1.9922419962499616,-18.987515550386014,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.775,1.1625,2.0389356955494264,-17.08876399534739,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.8,1.2000000000000002,2.085629394848891,-15.190012440308799,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.825,1.2374999999999998,2.1323230941483553,-13.291260885270194,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.85,1.275,2.1790167934478193,-11.392509330231615,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.875,1.3125,2.225710492747284,-9.493757775193002,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.9,1.35,2.272404192046749,-7.595006220154388,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.925,1.3875000000000002,2.3190978913462135,-5.696254665115797,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.95,1.4249999999999998,2.365791590645678,-3.797503110077194,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),0.975,1.4625,2.412485289945142,-1.8987515550386136,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.0,1.5,2.4591789892446068,0.0,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.025,1.5374999999999999,2.5058726885440716,1.8987515550386247,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.05,1.5750000000000002,2.5525663878435365,3.797503110077227,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.075,1.6124999999999998,2.5992600871430005,5.6962546651158075,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.1,1.6500000000000001,2.645953786442465,7.59500622015441,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.125,1.6875,2.69264748574193,9.493757775193012,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.15,1.7249999999999999,2.7393411850413942,11.392509330231615,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.175,1.7625000000000002,2.786034884340859,13.29126088527024,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.2,1.7999999999999998,2.832728583640323,15.19001244030882,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.225,1.8375000000000001,2.879422282939788,17.08876399534742,Hypothetical one-at-a-time; others fixed
+FCR (kg feed/kg shrimp),1.25,1.875,2.926115982239252,18.987515550386004,Hypothetical one-at-a-time; others fixed

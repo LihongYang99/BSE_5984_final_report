@@ -1,0 +1,42 @@
+﻿name,uuid,category
+CML v4.8 2016,eb7d8b82-2578-41b6-9b9b-98862df04548,ecoinvent 3.11 LCIA Methods
+CML v4.8 2016 no LT,47f86689-b60a-4d52-9d6a-3db3c5b662fd,ecoinvent 3.11 LCIA Methods
+Crustal Scarcity Indicator 2020,0b6c1b11-2c53-447e-9026-54c3442f3ef2,ecoinvent 3.11 LCIA Methods
+Cumulative Energy Demand (CED),d5670fb2-f6de-4b83-9b47-81c2a7081e3a,ecoinvent 3.11 LCIA Methods
+Cumulative Exergy Demand (CExD),47dcc2ae-8ed9-4924-986b-8be31e1a6558,ecoinvent 3.11 LCIA Methods
+EF v3.0,22db5d07-5266-41aa-88cd-8472bd7570ab,ecoinvent 3.11 LCIA Methods
+EF v3.0 no LT,a84f1e02-ec8e-43cd-8c52-607093bf80af,ecoinvent 3.11 LCIA Methods
+EF v3.1,2618fc94-ddc7-4ebb-8b73-2ac22f1d06c5,ecoinvent 3.11 LCIA Methods
+EF v3.1 no LT,d0136066-578d-4634-a094-cf33cc8efc17,ecoinvent 3.11 LCIA Methods
+EPS 2020d,7979d5ed-1678-4abe-a7b8-144ada5c9753,ecoinvent 3.11 LCIA Methods
+EPS 2020d no LT,8d93175c-7762-45d2-b6f7-41f3dfe08e35,ecoinvent 3.11 LCIA Methods
+Ecological Footprint,6955a96b-2aae-439f-a29b-66c44b5d78b5,ecoinvent 3.11 LCIA Methods
+Ecological Scarcity 2021,4dc3ce1b-8fc7-4bd0-811f-179050bd8ffb,ecoinvent 3.11 LCIA Methods
+Ecological Scarcity 2021 no LT,0643fc19-5506-4bdf-a634-d06be1f3b561,ecoinvent 3.11 LCIA Methods
+Ecosystem Damage Potential,c1b85d37-6498-4b73-a9d9-34bbc434d79c,ecoinvent 3.11 LCIA Methods
+"IMPACT World+ v2.1, footprint version",7d2bbb0b-f87d-47a3-b8fb-34b0b0b3a333,ecoinvent 3.11 LCIA Methods
+IPCC 2013,0f84f3d9-5edf-4676-9287-2c0666132b2d,ecoinvent 3.11 LCIA Methods
+IPCC 2013 no LT,7218b47f-9cb7-447d-9313-8f1aada445ab,ecoinvent 3.11 LCIA Methods
+IPCC 2021,9488e228-f9d7-4921-b616-0cad160d96f7,ecoinvent 3.11 LCIA Methods
+IPCC 2021 (incl. biogenic CO2),90c47e13-8fc1-4de1-8319-8917f197bc7f,ecoinvent 3.11 LCIA Methods
+IPCC 2021 (incl. biogenic CO2) no LT,862ef37b-7320-425d-ab2a-4dde94458f55,ecoinvent 3.11 LCIA Methods
+IPCC 2021 no LT,c66b6c7e-6885-4682-bc73-d4b23e783390,ecoinvent 3.11 LCIA Methods
+Inventory results and indicators,63e66822-5bed-4690-b809-dfe751850d67,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (E)",025fbc71-bee5-4f42-83e1-4f88cac9065f,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (E) no LT",0b47c2b8-6209-4f0f-a46e-30cd369cb78c,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (H)",3a538f77-a79a-4b83-9c46-8df9b8f316c7,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (H) no LT",8932293b-e574-4ccd-9cfc-224184890601,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (I)",6a30d1e4-6b0c-48e6-a572-9db6d94a63f9,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, endpoint (I) no LT",805a12e4-1802-45bc-be51-6993f05fb039,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (E)",883bcbc9-d494-4020-b16d-2b2f71c44e15,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (E) no LT",b35da2b4-0124-4b4f-b2cd-0280279d35fe,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (H)",61966689-76aa-4b3b-94f1-81989199433f,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (H) no LT",647de4df-453a-443e-a06e-670e633ddd76,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (I)",34291ef0-8b88-48bd-a22c-986cd7f6b05d,ecoinvent 3.11 LCIA Methods
+"ReCiPe 2016 v1.03, midpoint (I) no LT",13fc6eb2-b466-4ca8-8358-d9a3b625d7a9,ecoinvent 3.11 LCIA Methods
+TRACI v2.1,6a98a41c-f241-427f-84f0-42cf242d5443,ecoinvent 3.11 LCIA Methods
+TRACI v2.1 no LT,1ac50550-a158-40f3-8f31-0c5473d9f08f,ecoinvent 3.11 LCIA Methods
+"USEtox v2.13, endpoint",b324fb12-5b34-4cc8-931d-880d9759d079,ecoinvent 3.11 LCIA Methods
+"USEtox v2.13, endpoint no LT",adcadb9c-6e2b-4ba6-9943-60aa40158564,ecoinvent 3.11 LCIA Methods
+"USEtox v2.13, midpoint",e0b2473a-c94d-4138-9d74-3c0b2cfe6de7,ecoinvent 3.11 LCIA Methods
+"USEtox v2.13, midpoint no LT",685e9ee7-1e68-4152-9a7a-a7c8829c7d98,ecoinvent 3.11 LCIA Methods

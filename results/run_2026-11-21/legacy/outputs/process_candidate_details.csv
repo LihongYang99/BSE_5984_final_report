@@ -1,0 +1,175 @@
+﻿group,name,location,reference_flow,unit,uuid,process_type,system_model,description
+electricity,"electricity production, photovoltaic, 3kWp slanted-roof installation, multi-Si, panel, mounted | electricity, low voltage | Cutoff, U","China, Anhui (安徽)","electricity, low voltage",kWh,ecca224f-f065-3380-8ea5-eee7aa0a41b4,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/14131/documentation
+
+This dataset represents the production of grid-connected low voltage electricity with a 3 kWp building integrated photovoltaic (PV) module in China - Anhui in 2012. The 3 kWp module has been chosen as basic module for building integrated PV electricity production. Larger modules can easily be built with these 3 kWp modules without producing a significant error in environmental impact calculations. The module is a multi-Si panel installed on a slanted roof.;An inverter is used to convert the low voltage DC power into AC power.;[This dataset is meant to replace the following datasets:]
+
+From the PV module installed and ready to be used.
+
+This activity ends with low voltage electricity produced with the 3 kWp module, assuming an average yield. 
+
+This dataset includes tap water use for cleaning the module and it’s treatment."
+electricity,"electricity production, photovoltaic, 3kWp slanted-roof installation, multi-Si, panel, mounted | electricity, low voltage | Cutoff, U","China, Beijing (北京)","electricity, low voltage",kWh,1d6dc768-e8d6-3c21-a8b5-fbab880ef1b7,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/16194/documentation
+
+This dataset represents the production of grid-connected low voltage electricity with a 3 kWp building integrated photovoltaic (PV) module. The 3 kWp module has been chosen as basic module for building integrated PV electricity production. Larger modules can easily be built with these 3 kWp modules without producing a significant error in environmental impact calculations. The module is a multi-Si panel installed on a slanted roof.;An inverter is used to convert the low voltage DC power into AC power.
+
+From the PV module installed and ready to be used.
+
+This activity ends with low voltage electricity produced with the 3 kWp module, assuming an average yield. 
+
+This dataset includes tap water use for cleaning the module and it’s treatment."
+electricity,"electricity production, photovoltaic, 3kWp slanted-roof installation, multi-Si, panel, mounted | electricity, low voltage | Cutoff, U","China, Chongqing (重庆)","electricity, low voltage",kWh,809c8bc1-1d87-3496-89df-28ef45558b8d,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/16144/documentation
+
+This dataset represents the production of grid-connected low voltage electricity with a 3 kWp building integrated photovoltaic (PV) module. The 3 kWp module has been chosen as basic module for building integrated PV electricity production. Larger modules can easily be built with these 3 kWp modules without producing a significant error in environmental impact calculations. The module is a multi-Si panel installed on a slanted roof.;An inverter is used to convert the low voltage DC power into AC power.
+
+From the PV module installed and ready to be used.
+
+This activity ends with low voltage electricity produced with the 3 kWp module, assuming an average yield. 
+
+This dataset includes tap water use for cleaning the module and it’s treatment."
+fishmeal,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Peru,fishmeal plant,Item(s),97052e67-ad7b-376e-9157-dbf08336829d,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/18041/documentation
+
+The activity represents the construction and maintenance along its lifetime of a fishmeal and fish oil (reduction) plant, expressed as the installed capacity required to process 1000 kg of raw material . The life cycle inventories were produced based on a representative sample of 3 Peruvian plants and their activity. ~200 fishmeal plants existed in Peru as of 2016. This dataset may be adapted to other global production sites.;System boundaries of FMFO production and relations between activities
+
+From construction of the plant, through maintenance.
+
+End of life treatment of the plant"
+fishmeal,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Rest of World,fishmeal plant,Item(s),bc754ef7-6950-3943-8b17-37a9ea113cda,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/17955/documentation
+
+The activity represents the construction and maintenance along its lifetime of a fishmeal and fish oil (reduction) plant, expressed as the installed capacity required to process 1000 kg of raw material. The life cycle inventories were produced based on a representative sample of 3 Peruvian plants and their activity. ~200 fishmeal plants existed in Peru as of 2016. This dataset may be adapted to other global production sites.;System boundaries of FMFO production and relations between activities
+
+From construction of the plant, through maintenance.
+
+End of life treatment of the plant"
+fishmeal,"fishmeal and fish oil production, 63-65% protein, from fish residues | fish oil, from anchovy | Cutoff, U",Peru,"fish oil, from anchovy",kg,95d9cfd1-c860-3bb4-8100-b74b77ca78ae,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/18439/documentation
+
+The activity represents the co-production of fishmeal and fish oil in a reduction plant. The life cycle inventories were produced based on a representative sample of 2 Peruvian plants and their activity.~200 fishmeal plants existed in Peru as of 2016. This activity can be used to modelfishmeal production in other geographies, after substituting the fish provision exchanges.;System boundaries of FMFO production and relations between activities
+
+From delivery of raw material to the plant, through its Use phase (production), including all upstream activities (e.g. provision of fuels, electricity and chemicals)"
+soybean_meal,"market for soybean meal | soybean meal | Cutoff, U",Brazil,soybean meal,kg,a2c83432-00d8-3983-ae63-8c5d467d22e2,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/19509/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'soybean meal', in the geography of Brazil.;This is dataset represents the transport of 1 kg of soybean meal from the milling facility to the farm that soybean meal is used as animal feed. No losses are considered in this dataset.;The product 'soybean meal' is an animal feed from milled soybeans. 'Soybean meal' is produced by means of solvent extraction (pre-cracking of soybeans, dehulling, oil extraction and meal processing) in a oil mill producing soybean meal and crude oil. The meal and hulls are later consumed as animal feed.
+
+The activity starts at the gate of the milling plant.
+
+The activity ends with the provision of soybean meal to the farm that is used as animal feed."
+soybean_meal,"market for soybean meal | soybean meal | Cutoff, U",Rest of World,soybean meal,kg,e58fd02f-e921-3718-851b-0ce7ca96c6e2,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/21439/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'soybean meal', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'soybean meal' is an animal feed from milled soybeans. 'Soybean meal' is produced by means of solvent extraction (pre-cracking of soybeans, dehulling, oil extraction and meal processing) in a oil mill producing soybean meal and crude oil. The meal and hulls are later consumed as animal feed.
+
+This activity starts at the gate of the activities that produce 'soybean meal',  within the geography of Global.
+
+This activity ends with the supply of 'soybean meal',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included."
+soybean_meal,"soybean meal and crude oil production | soybean meal | Cutoff, U",Brazil,soybean meal,kg,21152df8-2c77-3aa5-8e6f-50e353b2e238,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/678/documentation
+
+This dataset represents the operation of a mill with regards the processing of 1 kg of soybeans. The products and respective uses are indicated as follows: 1) crude oil: further refined to become edible or used as it is to produce biodiesel; 2) meal and hulls that are consumed as animal feed. Lecithin that is used as an emulsifier in the food industry is also reported as a third product in one literature, but its was disregarded as its amount represents less than 1% of total outputs and no economic market value for it was found.; Although no primary data was obtained from producers, secondary data used in this dataset represents the general industrial process of most Brazilian mills (oil obtained via combination of mechanical and solvent extraction). Different sources vary mainly in terms of electricity consumption and type of energy feedstock used to supply the boiler.  Data used in this dataset represents the average of 3 sources (indicated in the Bibliography); the exception applies to data gaps, in which case information from the existing ecoinvent dataset were adopted.   
+
+This activity starts after the receive of soybean from the field. Following operational processes go from pre-cracking of soybeans through crude oil production. 
+
+System boundary is at the oil mill (gate-to-gate). No further treatment of crude to refined oil is included."
+wheat_flour,"batter wheat mix production | wheat flour mix | Cutoff, U",Europe,wheat flour mix,kg,6516d145-e281-32f9-8eb6-be095ec02ee4,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/19728/documentation
+
+This activity represents the production of wheat mix for batter to produce fish sticks, also named fish fingers. The wheat is then grinded at a milling plant in  to produce wheat flour. The flour is then freighted by truck to an ingredient and food additiove processing plant. The composition of the final wheat mix produced is: a) 80% wheat flour arriving from the mill i; b) less than 10% wheat starch ; c) less than 10% salt; d) less than 5% sunflower oil; e) pH regulators ; and f) less than 1% vitamins A and C. Kraft paper is used for packaging.
+
+Provision of raw materials, transport to mill and activities at the mill, including use of energy.
+
+The transport from the mill to the fish stick processing factory are not included."
+wheat_flour,"batter wheat mix production | wheat flour mix | Cutoff, U",Rest of World,wheat flour mix,kg,fb7fae08-4f3d-3230-bcfb-c5d25971022e,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/20636/documentation
+
+This activity represents the production of wheat mix for batter to produce fish sticks, also named fish fingers. The wheat is then grinded at a milling plant in  to produce wheat flour. The flour is then freighted by truck to an ingredient and food additiove processing plant. The composition of the final wheat mix produced is: a) 80% wheat flour arriving from the mill i; b) less than 10% wheat starch ; c) less than 10% salt; d) less than 5% sunflower oil; e) pH regulators ; and f) less than 1% vitamins A and C. Kraft paper is used for packaging.
+
+Provision of raw materials, transport to mill and activities at the mill, including use of energy.
+
+The transport from the mill to the fish stick processing factory are not included."
+wheat_flour,"market for wheat flour mix | wheat flour mix | Cutoff, U",Global,wheat flour mix,kg,edb714f8-e925-32e8-a7b5-1210c08a5083,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/19625/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset represents the supply of wheat flour mix from activities that produce it within the geography of this dataset.;The transport amounts are based on the default transport distances for markets, provided in the 'Default Transport Assumptions' file available on the ecoinvent website (https://www.ecoinvent.org/support/documents-and-files/documents-and-files.html). See exchange comments for additional details.
+
+This activity starts at the gate of the activities that produce wheat flour mix within the geography of this dataset, with the product ready for transportation.
+
+This activity ends with the supply of wheat flour mix to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included."
+rapeseed_meal,"market for rape meal | rape meal | Cutoff, U",Global,rape meal,kg,3467fbbe-d0c4-3cf1-bc79-08dc66af63af,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/5274/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for 'rape meal', in the Global geography. This is a constrained market for consequential system model, for attributional system models, this is a regular market. In the case of consequential system model, details about the marginal consumer can be found in the comment of the conditional exchange (by-product).;In this market, expert judgement was used to develop product specific transport distance estimations.;The product 'rape meal' is a by-product from the operation of a rape oil mill. 'Rape oil, crude' is produced by means of cold-press extraction in an oil mill producing rape meal and crude oil. Rape meal is used mainly as a protein feed for animals.
+
+This activity starts at the gate of the activities that produce 'rape meal',  within the geography of Global.
+
+This activity ends with the supply of 'rape meal',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included."
+rapeseed_meal,"rape meal to generic market for protein feed | energy feed, gross | Cutoff, U",Global,"energy feed, gross",MJ,ad1fe901-6f09-398a-bd40-11eb6571af44,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/2067/documentation
+
+This activity is a linking activity, i.e. it connects rape meal with generic protein feed market. Rape meal is used mainly as a feed for animals, thus traded on generic feed market with other protein - containing products.
+
+Rape meal is a by-product from rape oil production. This linking activity has the rape meal as input (negative reference product) and produces protein and energy feed as outputs."
+rapeseed_meal,"rape meal to generic market for protein feed | protein feed, 100% crude | Cutoff, U",Global,"protein feed, 100% crude",kg,b4838a5b-6e73-3a3c-8c6d-8bc8bbbac7dd,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/2099/documentation
+
+This activity is a linking activity, i.e. it connects rape meal with generic protein feed market. Rape meal is used mainly as a feed for animals, thus traded on generic feed market with other protein - containing products.
+
+Rape meal is a by-product from rape oil production. This linking activity has the rape meal as input (negative reference product) and produces protein and energy feed as outputs."
+fish_oil,"fish oil to generic market for energy feed | energy feed, gross | Cutoff, U",Global,"energy feed, gross",MJ,ee8cff01-7d23-3747-ab06-b40ce4659c84,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/19153/documentation
+
+This activity is a linking activity, i.e. it connects fish oil  with the generic market for energy feed. Fish oil is used partially as a feed for animals, thus traded on generic feed market with other protein - containing products.
+
+The activity starts with the reception of fish oil.
+
+Valid for all linking activities: The activity models the part of fish oil which contributes to the generic market for energy feed."
+fish_oil,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Peru,fishmeal plant,Item(s),97052e67-ad7b-376e-9157-dbf08336829d,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/18041/documentation
+
+The activity represents the construction and maintenance along its lifetime of a fishmeal and fish oil (reduction) plant, expressed as the installed capacity required to process 1000 kg of raw material . The life cycle inventories were produced based on a representative sample of 3 Peruvian plants and their activity. ~200 fishmeal plants existed in Peru as of 2016. This dataset may be adapted to other global production sites.;System boundaries of FMFO production and relations between activities
+
+From construction of the plant, through maintenance.
+
+End of life treatment of the plant"
+fish_oil,"fishmeal and fish oil plant construction and maintenance | fishmeal plant | Cutoff, U",Rest of World,fishmeal plant,Item(s),bc754ef7-6950-3943-8b17-37a9ea113cda,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/17955/documentation
+
+The activity represents the construction and maintenance along its lifetime of a fishmeal and fish oil (reduction) plant, expressed as the installed capacity required to process 1000 kg of raw material. The life cycle inventories were produced based on a representative sample of 3 Peruvian plants and their activity. ~200 fishmeal plants existed in Peru as of 2016. This dataset may be adapted to other global production sites.;System boundaries of FMFO production and relations between activities
+
+From construction of the plant, through maintenance.
+
+End of life treatment of the plant"
+brown_sugar,"market for sugar, from sugarcane | sugar, from sugarcane | Cutoff, U",Global,"sugar, from sugarcane",kg,d052c66f-fbce-3995-8f55-55164c1f33f0,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/6564/documentation
+
+This is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This is the market for  'sugar, from sugarcane', in the Global geography.;Transport from producers to consumers of this product in the geography covered by the market is included.;The product 'sugar, from sugarcane' is a processed agricultural product. The industrial process diverts 50% of sugarcane juice for raw sugar production and the other 50%, along with molasses (a by-product of sugar crystallization process), is diverted to ethanol production process.
+
+This activity starts at the gate of the activities that produce 'sugar, from sugarcane',  within the geography of Global.
+
+This activity ends with the supply of 'sugar, from sugarcane',  to the consumers of this product. Transport is included. Product losses during transportation are assumed negligible and are therefore not included."
+brown_sugar,"sugarcane processing, modern annexed plant | sugar, from sugarcane | Cutoff, U",Brazil,"sugar, from sugarcane",kg,7d898aa3-50fa-3980-b202-975d32d8a07a,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/21396/documentation
+
+This dataset represents a modern sugarcane mill processing of 4 million metric tonnes of sugarcane stalks per year for the production of raw sugar, ethanol (anhydrous and hydrated) and electricity. The plant operates 200 days per season. ;The industrial process diverts 50% of sugarcane juice for row sugar production and the other 50%, along with molasses (a by-product of sugar crystallization process), is diverted to ethanol production process. Plant configuration includes reduction of overall energy consumption to maximize of electricity output. It considers high-pressure boilers (65 bar, 485°C), application of thermal integration strategies reducing 20% of low-pressure steam demand, electrical drives in the crushing mills and molecular sieves for anhydrous ethanol production. ;Overall process efficiencies assumed were 96% for sugars extraction, 89.5% for ethanol fermentation and 76.5% for sugar recovery as raw sugar. Each 1000 kg of cane stalks yields 51.4 kg of raw sugar, 32.6 L of hydrated ethanol (93% w/w), 22.8 L of anhydrous ethanol (99.6% w/w); and 111.3 kWh of surplus electricity.
+
+This activity starts when sugarcane arrives at the industrial area.
+
+The dataset includes the sugarcane conversion into raw sugar, ethanol and surplus electricity. Processing equipment, chemical inputs, industrial area, water use treatment, and emissions to air are included in the inventory.  Sugarcane processed arrives with 5% of vegetal impurities (sugarcane straw) and 1% of mineral impurities (dirt). No additional sugarcane straw recovery and industrial use is considered.
+The activity ends when products are available at factory gate.
+
+"
+brown_sugar,"sugarcane processing, traditional annexed plant | sugar, from sugarcane | Cutoff, U",Brazil,"sugar, from sugarcane",kg,b3da3b3a-1cf7-3f4b-b45c-636e2fd16838,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/21153/documentation
+
+This dataset represents a typical Brazilian sugarcane mill processing of 2 million metric tonnes of sugarcane stalks per year for the production of raw sugar, ethanol (anhydrous and hydrated) and surplus bagasse. The plant operates 200 days per season. ;The industrial process diverts 50% of sugarcane juice for row sugar production and the other 50%, along with molasses (a by-product of sugar crystallization process), is diverted to ethanol production process. It considers high-pressure boilers (22 bar, 300°C), mechanical drives in the crushing mills and azeotropic distillation for anhydrous ethanol production. ;Overall process efficiencies assumed were 96% for sugars extraction, 90% for ethanol fermentation and 76.5% for sugar recovery as raw sugar. Each 1000 kg of cane stalks yields 51.3 kg of raw sugar, 32.3 L of hydrated ethanol (93% w/w), 23.0 L of anhydrous ethanol (99.6% w/w); 6.0 kWh of surplus electricity; and 81.8 kg of surplus bagasse (50% moisture).
+
+This activity starts when sugarcane arrives at the industrial area.
+
+The dataset includes the sugarcane conversion into raw sugar, ethanol and surplus bagasse. Processing equipment, chemical inputs, industrial area, water use treatment, and emissions to air are included in the inventory.  Sugarcane processed arrives with 5% of vegetal impurities (sugarcane straw) and 1% of mineral impurities (dirt). The dataset doesn't include the surplus electricity production in traditional mills. No additional sugarcane straw recovery and industrial use is considered.
+The activity ends when products are available at factory gate."
+quicklime,"hydrated lime production, loose | hydrated lime, loose | Cutoff, U","Canada, Quebec","hydrated lime, loose",kg,5bdfc596-f536-3db4-98ca-ac62dba2d417,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/11764/documentation
+
+This dataset represents the production of hydrated lime in Quebec (Canada), from quicklime in pieces.;Hydrated lime is used in a variety of industrial applications including water treatment, as an anti-stripping agent in asphalt, and in soil stabilization. Some hydrated limes are sold into the food grade market as well.;Hydrated lime Ca(OH)2 is a dry powder produced by reacting quicklime with a sufficient amount of water to satisfy the quicklime's natural affinity for moisture. The process converts CaO to Ca(OH)2. The amount of water required depends on both the subtle characteristics of the quicklime and the type of hydrating equipment available. Hydrated lime easily forms as a suspension or slurry and is often pumped to various process locations within industrial plants. The resulting solution is strongly alkaline, having a pH of 12.4. Most hydrated limes contain approximately 75 percent CaO and 25 percent H2O.;Electricity and water consumption were provided by the only hydrated lime producer in Quebec. A weighted average of their two (2) hydrated lime plants is used.;Infrastructure data was extrapolated from ""lime production, hydrated, loose weight, GLO 2000-2002"" ecoinvent dataset: The value of the infrastructure is normalized with a annual production capacity of about 20'000 tons of product per year. The estimated lifespan of the machines is 25 years. There are no significant dust emissions as a dust control system is installed.
+
+From the reception of quicklime in pieces at the factory gate.
+
+This activity ends with the hydrated lime, loose, at the plant gate.
+
+This dataset includes the processes: slaking, crushing, dust abatement (cyclone), transportation and storing. A part of the total heating energy for ""production"" and ""administration"" is included. Equipment included in the infrastructure: 1 swing hammer crusher, 2 cyclone dust catchers, 1 lime slaking plant, 2 conveyor worms, and 1 silo."
+quicklime,"hydrated lime production, loose | hydrated lime, loose | Cutoff, U",Switzerland,"hydrated lime, loose",kg,7f3a208c-5715-3fe0-b3d7-23459fdc23c5,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/5337/documentation
+
+This dataset represents the production of 1 kg of hydrated lime. The infrastructure data is estimated based on a tour and sketches of the process, and normalized with a annual production capacity of about 20'000 tons of product per year. There are no significant dust emissions as a dust control system is installed.;[This dataset was already contained in the ecoinvent database version 2. It was not individually updated during the transfer to ecoinvent version 3. Life Cycle Impact Assessment results may still have changed, as they are affected by changes in the supply chain, i.e. in other datasets. This dataset was generated following the ecoinvent quality guidelines for version 2. It may have been subject to central changes described in the ecoinvent version 3 change report (http://www.ecoinvent.org/database/ecoinvent-version-3/reports-of-changes/), and the results of the central updates were reviewed extensively. The changes added e.g. consistent water flows and other information throughout the database. The documentation of this dataset can be found in the ecoinvent reports of version 2, which are still available via the ecoinvent website. The change report linked above covers all central changes that were made during the conversion process.]
+
+From the reception of quicklime in pieces at the factory gate.
+
+This activity ends with the hydrated lime produced. The dataset includes the different production processes (slaking, crushing, dust abatement (cyclone), transportation and storing), the total heating energy for ""production"" and ""administration"", and the infrastructure."
+quicklime,"hydrated lime production, loose | hydrated lime, loose | Cutoff, U",Rest of World,"hydrated lime, loose",kg,08189ca6-338c-3280-9f3f-6e0e2ffffc67,ProcessType.UNIT_PROCESS,Cutoff (name label),"ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/2079/documentation
+
+Infrastructure data are estimated based on a site visit and sketches of the process. The value of the infrastructure is normalized with a annual production capacity of about 20'000 tons of product per year. The estimated lifespan of the machines is 25 years. There are no significant dust emissions as a dust control system is installed. This product exists also packed.
+
+From the reception of quicklime in pieces at the factory gate.
+
+Includes the processes: slaking, crushing, dust abatement (cyclone), transportation and storing. A part of the total heating energy for ""production"" and ""administration"" is included. Equipment included in the infrastructure: 1 swing hammer crusher, 2 cyclone dust catchers, 1 lime slaking plant, 2 conveyor worms, and 1 silo."

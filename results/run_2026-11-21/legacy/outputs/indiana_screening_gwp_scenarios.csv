@@ -1,0 +1,3 @@
+scenario,gwp_per_kg_shrimp,water_assumption
+Without treated-water proxy,2.066366013241343,Water supply treatment excluded
+With RoW tap-water proxy,2.156303550068158,75 kg treated tap water assumed

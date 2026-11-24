@@ -1,0 +1,508 @@
+{
+  "@type": "Process",
+  "@id": "ce1c647d-1dba-38af-a72c-cab2189fd107",
+  "allocationFactors": [],
+  "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+  "description": "ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/23198/documentation\n\nThis is a market activity. Each market represents the consumption mix of a product in a given geography, connecting suppliers with consumers of the same product in the same geographical area. Markets group the producers and also the imports of the product (if relevant) within the same geographical area. They also account for transport to the consumer and for the losses during that process, when relevant.;This dataset is a consumption mix, representing the supply of ''triple superphosphate'' from activities that produce it, to activities that consume it within the geography of this dataset, Global. ;If 1 kg of this 'triple superphosphate' is used as fertiliser, it is equivalent to circa 0.46 kg of Phosphorus as P2O5.;The dataset considers transportation from the producer to the consumer of this product, transportation distances are based on default transport distances for markets (found in file 'Default Transport Assumptions' at https://www.ecoinvent.org/support/documents-and-files/documents-and-files.html).;'Triple superphosphate' is an inorganic substance, mixture of phosphate fertiliser. It is solid in normal conditions of temperature and pressure. Based on EU regulations (REGULATION (EU) 2019/1009), if this substance would be used as fertiliser, it could be labelled as N-P-K of: (0-20-0).\n\nThis activity starts at the gate of the activities that produce ''triple superphosphate'' with the product ready for transportation.\n\nThis activity ends with the supply of 1 kg of ''triple superphosphate'' to the consumers of this product within the geography of Global. Transport is included.",
+  "exchangeDqSystem": {
+    "@type": "DQSystem",
+    "@id": "e7ac7cf6-5457-453e-99f9-d889826fffe8",
+    "category": "DQS with uncertainties",
+    "name": "ecoinvent Data Quality System"
+  },
+  "exchanges": [
+    {
+      "amount": 1.0,
+      "costValue": 0.182928494949495,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "8b637456-e860-5565-9052-47319e1ce3ae",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "name": "triple superphosphate",
+        "refUnit": "kg"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "93a60a56-a3c8-11da-a746-0800200b9a66",
+        "category": "Technical flow properties",
+        "name": "Mass",
+        "refUnit": "kg"
+      },
+      "internalId": 1,
+      "isAvoidedProduct": false,
+      "isInput": false,
+      "isQuantitativeReference": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "20aadc24-a391-41cf-b340-3e4529f44bde",
+        "name": "kg"
+      }
+    },
+    {
+      "amount": 0.016937241812870967,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "4895cbd7-f83c-3835-a5f9-359b02ad3eaf",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "location": "BR",
+        "name": "market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "cfbce515-3f54-4411-ad9d-3d26b7faa15a",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, lorry, diesel, unspecified",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 5,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.016937241812870967,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.047,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "07f56731-2f13-35f2-84df-83d94148d7ec",
+        "category": "H:Transportation and storage/50:Water transport/502:Inland water transport/5022:Inland freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "market for transport, freight, inland waterways, barge, diesel | transport, freight, inland waterways, barge, diesel | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "068bf76a-bfaa-435c-85ed-3d2bb2c4bb4f",
+        "category": "H:Transportation and storage/50:Water transport/502:Inland water transport/5022:Inland freight water transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, inland waterways, barge, diesel",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 2,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.047,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.005069979230388792,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "295bf4c7-7eab-360e-9039-6e890f4b3886",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "ZA",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 6,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.005069979230388792,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.0026517472267832613,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "c72fe0f3-bec3-32ab-86c8-6f4eeb8bd760",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "location": "ZA",
+        "name": "market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "cfbce515-3f54-4411-ad9d-3d26b7faa15a",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, lorry, diesel, unspecified",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 4,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.0026517472267832613,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.07894019648216383,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "a1a6ca7d-1c9e-388e-b31e-a836aa3f48aa",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 9,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.07894019648216383,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.02002196268027392,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "51090f85-83a7-351e-a1ff-e8498c7353fe",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "IN",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 10,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.02002196268027392,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.12841101096034577,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "d633130a-339a-3c7c-914e-d60b36006000",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "market for transport, freight, lorry, unspecified | transport, freight, lorry, diesel, unspecified | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "cfbce515-3f54-4411-ad9d-3d26b7faa15a",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/492:Other land transport/4923:Freight transport by road",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, lorry, diesel, unspecified",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 3,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.12841101096034577,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.07226705908415267,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "658ec19c-ca5b-325c-baf7-6bdfbcd3b838",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "CN",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 8,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.07226705908415267,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 0.0997008025230208,
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "3cfa0481-6290-3651-a2a9-dc47b0732066",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "market for transport, freight, train, fleet average | transport, freight, train, fleet average | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "Transport distances from the ecoinvent default trasport distances estimates for Fertilisers and nitrogen compounds.",
+      "dqEntry": "(5;5;5;5;5)",
+      "flow": {
+        "@type": "Flow",
+        "@id": "0ace02fa-eca5-482d-a829-c18e46a52db4",
+        "category": "H:Transportation and storage/49:Land transport and transport via pipelines/491:Transport via railways/4912:Freight rail transport",
+        "flowType": "PRODUCT_FLOW",
+        "name": "transport, freight, train, fleet average",
+        "refUnit": "t*km"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "838aaa20-0117-11db-92e3-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Mass transport",
+        "refUnit": "t*km"
+      },
+      "internalId": 7,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "uncertainty": {
+        "distributionType": "LOG_NORMAL_DISTRIBUTION",
+        "geomMean": 0.0997008025230208,
+        "geomSd": 1.4139824580805163
+      },
+      "unit": {
+        "@type": "Unit",
+        "@id": "0dea4ed8-bb6b-4049-b2b4-b2c413ef2180",
+        "name": "t*km"
+      }
+    },
+    {
+      "amount": 1.0,
+      "costValue": 0.182928494949495,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "d1306498-d34b-3f81-8979-ddefe673eac7",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "location": "RoW",
+        "name": "triple superphosphate production | triple superphosphate | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "8b637456-e860-5565-9052-47319e1ce3ae",
+        "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+        "flowType": "PRODUCT_FLOW",
+        "name": "triple superphosphate",
+        "refUnit": "kg"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "93a60a56-a3c8-11da-a746-0800200b9a66",
+        "category": "Technical flow properties",
+        "name": "Mass",
+        "refUnit": "kg"
+      },
+      "internalId": 11,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "20aadc24-a391-41cf-b340-3e4529f44bde",
+        "name": "kg"
+      }
+    }
+  ],
+  "isInfrastructureProcess": false,
+  "lastChange": "2024-11-23T12:50:45.647Z",
+  "lastInternalId": 11,
+  "location": {
+    "@type": "Location",
+    "@id": "f1965a85-7bc2-35d2-afe2-2023aa5ab50d",
+    "category": "Global/Unlocated",
+    "name": "Rest of World"
+  },
+  "name": "market for triple superphosphate | triple superphosphate | Cutoff, U",
+  "parameters": [],
+  "processDocumentation": {
+    "creationDate": "2020-06-03T13:45:27Z",
+    "dataDocumentor": {
+      "@type": "Actor",
+      "@id": "847a56f5-d9e5-4a65-ab51-b056e0039130",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "Avraam Symeonidis"
+    },
+    "dataGenerator": {
+      "@type": "Actor",
+      "@id": "847a56f5-d9e5-4a65-ab51-b056e0039130",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "Avraam Symeonidis"
+    },
+    "geographyDescription": "This activity delivers the product of ''triple superphosphate'' within the geography of Global.",
+    "isCopyrightProtected": true,
+    "validFrom": "2016-01-01",
+    "validUntil": "2024-12-31"
+  },
+  "processType": "UNIT_PROCESS",
+  "socialAspects": [],
+  "tags": [
+    "Chemicals",
+    "Agriculture & Animal Husbandry"
+  ],
+  "version": "03.02.003"
+}

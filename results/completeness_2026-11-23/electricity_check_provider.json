@@ -1,0 +1,474 @@
+{
+  "@type": "Process",
+  "@id": "483cde5f-7ae5-379e-ae10-54bb8fbbe6a2",
+  "allocationFactors": [],
+  "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+  "description": "ecoQuery: https://ecoquery.ecoinvent.org/3.11/cutoff/dataset/13479/documentation\n\nThis dataset is a market group. Market groups represent a 'market of markets'. Their purpose is to group a set of markets into larger, geographically relevant datasets.;Market groups are created for convenience and ease of use. They only group other markets and/or market groups contained within their geography.;Losses and relevant exchanges (transport, transport infrastructure, etc.) are not included in this dataset. They are present in the contained markets.  ;This is the market group for 'electricity, low voltage', in United States.\n\nThis activity starts at the gate of markets that deliver 'electricity, low voltage', in geographies contained within the geography of this dataset.\n\nThis activity ends with the supply of 'electricity, low voltage',  to the consumers of this product within the geography of United States.",
+  "exchangeDqSystem": {
+    "@type": "DQSystem",
+    "@id": "e7ac7cf6-5457-453e-99f9-d889826fffe8",
+    "category": "DQS with uncertainties",
+    "name": "ecoinvent Data Quality System"
+  },
+  "exchanges": [
+    {
+      "amount": 1.0,
+      "costValue": 0.10699999999999998,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 1,
+      "isAvoidedProduct": false,
+      "isInput": false,
+      "isQuantitativeReference": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.004147,
+      "costValue": 0.0004437289999999998,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "90e20f66-ff58-3cb5-baa0-a20ee39adac2",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "PR",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 10,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.0015659624165296191,
+      "costValue": 0.00016755797856866925,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "2d9f1969-cd9e-3a31-804a-6136a58479ac",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-ASCC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 4,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.05945523197293864,
+      "costValue": 0.006361709821104436,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "847153a5-a6c0-3f89-a0e0-7f4db824b5d1",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-NPCC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 8,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.10501967038975389,
+      "costValue": 0.01123710473170366,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "4c3daedc-18c8-3c5f-b9f8-3a7e320c0cfd",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-TRE",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 9,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.0021338181661181136,
+      "costValue": 0.00022831854377463825,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "a40acfd0-4661-3edb-97b9-4b2e5b8d4354",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-HICC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 3,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.11509780942685262,
+      "costValue": 0.012315465608673226,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "e284235c-f1ac-33b7-bd36-eced79c56049",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-MRO",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 2,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.31943802823259215,
+      "costValue": 0.03417986902088736,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "9c9cc538-9fae-3f22-b413-517fc1b88b3f",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-SERC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 5,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.21673064416699028,
+      "costValue": 0.023190178925867954,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "b217ab31-ead1-3015-80c3-c24d6d33e38d",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-RFC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 6,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    },
+    {
+      "amount": 0.17641183522822468,
+      "costValue": 0.018876066369420033,
+      "currency": {
+        "@type": "Currency",
+        "@id": "a20e36f3-bf5d-4e53-82f8-f6991df9a554",
+        "category": "Producer price index",
+        "name": "Euro 2005"
+      },
+      "defaultProvider": {
+        "@type": "Process",
+        "@id": "6283dbbe-cdb6-3c75-88f7-aa3f3015bed3",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "location": "US-WECC",
+        "name": "market for electricity, low voltage | electricity, low voltage | Cutoff, U",
+        "processType": "UNIT_PROCESS"
+      },
+      "description": "",
+      "flow": {
+        "@type": "Flow",
+        "@id": "d69294d7-8d64-4915-a896-9996a014c410",
+        "category": "D:Electricity, gas, steam and air conditioning supply/35:Electricity, gas, steam and air conditioning supply/351:Electric power generation, transmission and distribution/3510:Electric power generation, transmission and distribution",
+        "flowType": "PRODUCT_FLOW",
+        "name": "electricity, low voltage",
+        "refUnit": "MJ"
+      },
+      "flowProperty": {
+        "@type": "FlowProperty",
+        "@id": "f6811440-ee37-11de-8a39-0800200c9a66",
+        "category": "Technical flow properties",
+        "name": "Energy",
+        "refUnit": "MJ"
+      },
+      "internalId": 7,
+      "isAvoidedProduct": false,
+      "isInput": true,
+      "unit": {
+        "@type": "Unit",
+        "@id": "86ad2244-1f0e-4912-af53-7865283103e4",
+        "name": "kWh"
+      }
+    }
+  ],
+  "isInfrastructureProcess": false,
+  "lastChange": "2024-11-23T12:53:11.283Z",
+  "lastInternalId": 10,
+  "location": {
+    "@type": "Location",
+    "@id": "0b3b97fa-6688-3c56-88ee-4ae80ec0c3c2",
+    "category": "Country",
+    "name": "United States of America (the)"
+  },
+  "name": "market group for electricity, low voltage | electricity, low voltage | Cutoff, U",
+  "parameters": [],
+  "processDocumentation": {
+    "creationDate": "2015-07-02T19:07:27Z",
+    "dataDocumentor": {
+      "@type": "Actor",
+      "@id": "c4597934-ecac-422c-b431-382e85fdcb83",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "[System]"
+    },
+    "dataGenerator": {
+      "@type": "Actor",
+      "@id": "c4597934-ecac-422c-b431-382e85fdcb83",
+      "category": "ecoinvent 3.11 Actors",
+      "name": "[System]"
+    },
+    "dataTreatmentDescription": "The composition is based on the relative production volumes represented by the inputs (markets and market groups). Any extrapolation in these inputs therefore affects this dataset.",
+    "isCopyrightProtected": true,
+    "samplingDescription": "Represents all markets contained in the geography of the dataset.",
+    "validFrom": "2015-01-01",
+    "validUntil": "2024-12-31"
+  },
+  "processType": "UNIT_PROCESS",
+  "socialAspects": [],
+  "tags": [
+    "Electricity"
+  ],
+  "version": "03.01.003"
+}

@@ -1,0 +1,134 @@
+check,status
+Explicit kWh equals legacy MJ times 3.6,PASS
+Feed fractions sum to one,PASS
+Independent Indiana reconstruction,PASS
+Common scope omits bicarbonate in both cases,PASS
+Alabama counterfactual reconstruction,PASS
+Fixed-FCR electricity contrast,PASS
+Energy and FCR contrast adds to total difference,PASS
+Archive hash: README.md,PASS
+Archive hash: figures/fig06_feed_c_proxy_contributions.png,PASS
+Original preserved: figures/fig06_feed_c_proxy_contributions.png,PASS
+Archive hash: figures/fig03_electricity_gwp_audit.png,PASS
+Original preserved: figures/fig03_electricity_gwp_audit.png,PASS
+Archive hash: figures/fig06_feed_c_proxy_contributions.pdf,PASS
+Original preserved: figures/fig06_feed_c_proxy_contributions.pdf,PASS
+Archive hash: figures/fig05_rice_bran_sensitivity.pdf,PASS
+Original preserved: figures/fig05_rice_bran_sensitivity.pdf,PASS
+Archive hash: figures/fig07_feed_c_hotspots.png,PASS
+Original preserved: figures/fig07_feed_c_hotspots.png,PASS
+Archive hash: figures/fig07_feed_c_hotspots.pdf,PASS
+Original preserved: figures/fig07_feed_c_hotspots.pdf,PASS
+Archive hash: figures/fig05_rice_bran_sensitivity.png,PASS
+Original preserved: figures/fig05_rice_bran_sensitivity.png,PASS
+Archive hash: figures/fig01_US_electricity.pdf,PASS
+Original preserved: figures/fig01_US_electricity.pdf,PASS
+Archive hash: figures/fig01_US_electricity.png,PASS
+Original preserved: figures/fig01_US_electricity.png,PASS
+Archive hash: figures/fig02_US_feed.pdf,PASS
+Original preserved: figures/fig02_US_feed.pdf,PASS
+Archive hash: figures/fig04_electricity_only_shrimp_gwp.pdf,PASS
+Original preserved: figures/fig04_electricity_only_shrimp_gwp.pdf,PASS
+Archive hash: figures/fig02_US_feed.png,PASS
+Original preserved: figures/fig02_US_feed.png,PASS
+Archive hash: figures/fig04_electricity_only_shrimp_gwp.png,PASS
+Original preserved: figures/fig04_electricity_only_shrimp_gwp.png,PASS
+Archive hash: scripts/02_find_processes.py,PASS
+Archive hash: scripts/04_plot_us_LCI.py,PASS
+Archive hash: scripts/20_prepare_missing_data_register.py.py,PASS
+Archive hash: scripts/30_validate_farming_providers.py,PASS
+Archive hash: scripts/15_verify_feed_model.py,PASS
+Archive hash: scripts/17_calculate_feed_gwp.py,PASS
+Archive hash: scripts/31_calculate_indiana_farming_gwp.py,PASS
+Archive hash: scripts/25_refine_processing_providers.py,PASS
+Archive hash: scripts/22_feed_proxy_100pct_scenario.py,PASS
+Archive hash: scripts/14_build_feed_screening.py,PASS
+Archive hash: scripts/21_rice_bran_sensitivity.py,PASS
+Archive hash: scripts/32_audit_units_and_background.py,PASS
+Archive hash: scripts/11_find_feed_providers.py,PASS
+Archive hash: scripts/12_find_missing_feed_providers.py,PASS
+Archive hash: scripts/29_prepare_indiana_lci.py,PASS
+Archive hash: scripts/05_validate_background.py,PASS
+Archive hash: scripts/19_find_remaining_ingredient_routes.py,PASS
+Archive hash: scripts/06_calculate_electricity_gwp.py,PASS
+Archive hash: scripts/01_test_connection.py,PASS
+Archive hash: scripts/24_find_processing_providers.py,PASS
+Archive hash: scripts/09_electricity_only_shrimp.py,PASS
+Archive hash: scripts/13_review_missing_providers.py,PASS
+Archive hash: scripts/10_prepare_feed_lci.py,PASS
+Archive hash: scripts/26_select_truck_provider.py,PASS
+Archive hash: scripts/23_prepare_feed_processing_lci.py,PASS
+Archive hash: scripts/07_check_electricity_system.py,PASS
+Archive hash: scripts/16_create_feed_product_system.py,PASS
+Archive hash: scripts/28_plot_hotspot.py,PASS
+Archive hash: scripts/27_calculate_feed_processing_gwp.py,PASS
+Archive hash: scripts/18_test_poultry_proxy.py,PASS
+Archive hash: scripts/08_audit_electricity_gwp.py,PASS
+Archive hash: scripts/03_prepare_us_LCI.py,PASS
+Archive hash: data/indiana_biofloc_farming_lci.csv,PASS
+Original preserved: data/indiana_biofloc_farming_lci.csv,PASS
+Archive hash: data/feed_c_missing_data_register.csv,PASS
+Original preserved: data/feed_c_missing_data_register.csv,PASS
+Archive hash: data/feed_c_processing_transport_lci.csv,PASS
+Original preserved: data/feed_c_processing_transport_lci.csv,PASS
+Archive hash: data/us_lci_baseline.csv,PASS
+Original preserved: data/us_lci_baseline.csv,PASS
+Archive hash: data/feed_c_lci.csv,PASS
+Original preserved: data/feed_c_lci.csv,PASS
+Archive hash: data/feed_provider_mapping_review.csv,PASS
+Original preserved: data/feed_provider_mapping_review.csv,PASS
+Archive hash: outputs/feed_c_v2_proxy_contributions.csv,PASS
+Original preserved: outputs/feed_c_v2_proxy_contributions.csv,PASS
+Archive hash: outputs/remaining_feed_routes.csv,PASS
+Original preserved: outputs/remaining_feed_routes.csv,PASS
+Archive hash: outputs/processing_provider_shortlist.csv,PASS
+Original preserved: outputs/processing_provider_shortlist.csv,PASS
+Archive hash: outputs/rice_bran_sensitivity.csv,PASS
+Original preserved: outputs/rice_bran_sensitivity.csv,PASS
+Archive hash: outputs/indiana_screening_gwp_scenarios.csv,PASS
+Original preserved: outputs/indiana_screening_gwp_scenarios.csv,PASS
+Archive hash: outputs/indiana_farming_inputs_gwp.csv,PASS
+Original preserved: outputs/indiana_farming_inputs_gwp.csv,PASS
+Archive hash: outputs/farming_provider_mapping.csv,PASS
+Original preserved: outputs/farming_provider_mapping.csv,PASS
+Archive hash: outputs/electricity_gwp_us.csv,PASS
+Original preserved: outputs/electricity_gwp_us.csv,PASS
+Archive hash: outputs/generic_truck_candidates.csv,PASS
+Original preserved: outputs/generic_truck_candidates.csv,PASS
+Archive hash: outputs/feed_c_partial_ipcc2021.csv,PASS
+Original preserved: outputs/feed_c_partial_ipcc2021.csv,PASS
+Archive hash: outputs/feed_processing_provider_candidates.csv,PASS
+Original preserved: outputs/feed_processing_provider_candidates.csv,PASS
+Archive hash: outputs/process_name_matches.csv,PASS
+Original preserved: outputs/process_name_matches.csv,PASS
+Archive hash: outputs/poultry_proxy_scenario.csv,PASS
+Original preserved: outputs/poultry_proxy_scenario.csv,PASS
+Archive hash: outputs/feed_c_partial_gwp_summary.csv,PASS
+Original preserved: outputs/feed_c_partial_gwp_summary.csv,PASS
+Archive hash: outputs/electricity_gwp_contributions.csv,PASS
+Original preserved: outputs/electricity_gwp_contributions.csv,PASS
+Archive hash: outputs/feed_c_v2_proxy_summary.csv,PASS
+Original preserved: outputs/feed_c_v2_proxy_summary.csv,PASS
+Archive hash: outputs/process_candidate_details.csv,PASS
+Original preserved: outputs/process_candidate_details.csv,PASS
+Archive hash: outputs/lcia_methods.csv,PASS
+Original preserved: outputs/lcia_methods.csv,PASS
+Archive hash: outputs/feed_c_hotspot_analysis.csv,PASS
+Original preserved: outputs/feed_c_hotspot_analysis.csv,PASS
+Archive hash: outputs/missing_feed_provider_candidates.csv,PASS
+Original preserved: outputs/missing_feed_provider_candidates.csv,PASS
+Archive hash: outputs/electricity_only_shrimp_gwp.csv,PASS
+Original preserved: outputs/electricity_only_shrimp_gwp.csv,PASS
+Archive hash: outputs/feed_processing_transport_gwp.csv,PASS
+Original preserved: outputs/feed_processing_transport_gwp.csv,PASS
+Archive hash: outputs/background_mapping_review.csv,PASS
+Original preserved: outputs/background_mapping_review.csv,PASS
+Archive hash: outputs/feed_provider_candidates.csv,PASS
+Original preserved: outputs/feed_provider_candidates.csv,PASS
+Finite numeric CSV: indiana_hotspots.csv,PASS
+Finite numeric CSV: alabama_controlled_comparison.csv,PASS
+Finite numeric CSV: analysis_validation.csv,PASS
+Finite numeric CSV: sensitivity_oat.csv,PASS
+Finite numeric CSV: indiana_results.csv,PASS
+Finite numeric CSV: grid_sensitivity.csv,PASS
+Finite numeric CSV: grid_fcr_surface.csv,PASS

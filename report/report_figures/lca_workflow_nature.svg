@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="518.740157pt" height="396.850394pt" viewBox="0 0 518.740157 396.850394" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-11-26T00:00:00+00:00</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 396.850394 
+L 518.740157 396.850394 
+L 518.740157 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 25.31452 136.873701 
+L 317.883969 136.873701 
+L 317.883969 56.670236 
+L 25.31452 56.670236 
+z
+" clip-path="url(#pd9c4bf11b1)" style="fill: #f7f9fa; stroke: #c9d2d8; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 25.31452 237.594331 
+L 317.883969 237.594331 
+L 317.883969 157.390866 
+L 25.31452 157.390866 
+z
+" clip-path="url(#pd9c4bf11b1)" style="fill: #f7f9fa; stroke: #c9d2d8; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 25.31452 338.314961 
+L 317.883969 338.314961 
+L 317.883969 258.111496 
+L 25.31452 258.111496 
+z
+" clip-path="url(#pd9c4bf11b1)" style="fill: #f7f9fa; stroke: #c9d2d8; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 361.769386 338.314961 
+L 498.301795 338.314961 
+L 498.301795 56.670236 
+L 361.769386 56.670236 
+z
+" clip-path="url(#pd9c4bf11b1)" style="fill: #edf3f5; stroke: #9db8be; stroke-width: 0.65; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 325.658706 96.771969 
+Q 339.830607 96.771969 354.002508 96.771969 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 328.858706 98.371969 
+L 325.658706 96.771969 
+L 328.858706 95.171969 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 350.802508 95.171969 
+L 354.002508 96.771969 
+L 350.802508 98.371969 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 325.658706 197.492598 
+Q 339.830607 197.492598 354.002508 197.492598 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 328.858706 199.092598 
+L 325.658706 197.492598 
+L 328.858706 195.892598 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 350.802508 195.892598 
+L 354.002508 197.492598 
+L 350.802508 199.092598 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 325.658706 298.213228 
+Q 339.830607 298.213228 354.002508 298.213228 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 328.858706 299.813228 
+L 325.658706 298.213228 
+L 328.858706 296.613228 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 350.802508 296.613228 
+L 354.002508 298.213228 
+L 350.802508 299.813228 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 174.037323 141.25927 
+Q 174.037323 147.132466 174.037323 153.005662 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 172.437323 144.45927 
+L 174.037323 141.25927 
+L 175.637323 144.45927 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 175.637323 149.805662 
+L 174.037323 153.005662 
+L 172.437323 149.805662 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 174.037323 241.9799 
+Q 174.037323 247.853096 174.037323 253.726291 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 172.437323 245.1799 
+L 174.037323 241.9799 
+L 175.637323 245.1799 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+    <path d="M 175.637323 250.526291 
+L 174.037323 253.726291 
+L 172.437323 250.526291 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #242b33; stroke-width: 0.8; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 25.31452 136.873701 
+L 25.31452 56.670236 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 2"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 25.31452 237.594331 
+L 25.31452 157.390866 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 2"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 25.31452 338.314961 
+L 25.31452 258.111496 
+" clip-path="url(#pd9c4bf11b1)" style="fill: none; stroke: #397a86; stroke-width: 2"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #242b33" x="25.31452" y="26.860417" transform="rotate(-0 25.31452 26.860417)">Life cycle assessment workflow</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #59636d" x="25.31452" y="44.018268" transform="rotate(-0 25.31452 44.018268)">Scenario-based GWP screening of U.S. shrimp aquaculture</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="35.066835" y="71.218772" transform="rotate(-0 35.066835 71.218772)">01</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #242b33" x="59.447622" y="71.218772" transform="rotate(-0 59.447622 71.218772)">Goal and scope definition</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 95.853754)">Functional unit of 1 kg live-weight shrimp</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 108.253754)">Intended cradle-to-farm-gate boundary</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 121.330004)">Indiana main case and Alabama counterfactual</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="35.066835" y="171.939402" transform="rotate(-0 35.066835 171.939402)">02</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #242b33" x="59.447622" y="171.939402" transform="rotate(-0 59.447622 171.939402)">Life cycle inventory (LCI)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 196.576259)">Literature inputs of feed, farm electricity and bicarbonate</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 208.976259)">Background from ecoinvent 3.11 Cut-off</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 221.374384)">Explicit feed proxies, processing and delivery</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="35.066835" y="272.660031" transform="rotate(-0 35.066835 272.660031)">03</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #242b33" x="59.447622" y="272.660031" transform="rotate(-0 59.447622 272.660031)">Life cycle impact assessment (LCIA)</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 297.283139)">openLCA + Python with explicit unit validation</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 309.681264)">IPCC 2021 GWP100, excluding biogenic CO₂</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(35.066835 322.081264)">Output in kg CO₂-eq per kg live shrimp</text>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="376.397858" y="70.845732" transform="rotate(-0 376.397858 70.845732)">04</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #242b33" x="376.397858" y="87.632504" transform="rotate(-0 376.397858 87.632504)">Interpretation</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="376.397858" y="124.596732" transform="rotate(-0 376.397858 124.596732)">Identify hotspots</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 142.656715)">Feed and farm-stage</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 155.319215)">GWP contributions</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="376.397858" y="184.283031" transform="rotate(-0 376.397858 184.283031)">Test scenarios</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 202.329264)">Electricity, grid and FCR</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 215.019264)">Alabama counterfactual</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 226.323639)">Fixed-FCR comparison</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 8.5px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #397a86" x="376.397858" y="260.756102" transform="rotate(-0 376.397858 260.756102)">Evaluate findings</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 278.80421)">Consistency checks</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 290.80421)">Proxy and boundary limits</text>
+    <text style="font-size: 8px; font-family: 'Calibri', sans-serif; fill: #263944" transform="translate(376.397858 303.478585)">Conditional conclusions</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 7.5px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #59636d" x="25.31452" y="361.070362" transform="rotate(-0 25.31452 361.070362)">Partial GWP screening with explicit proxies and no new farm measurements.</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 7px; font-family: 'Calibri', sans-serif; text-anchor: start; fill: #59636d" x="25.31452" y="374.872819" transform="rotate(-0 25.31452 374.872819)">Four-phase framework from ISO 14040 (2006). Arrows indicate iteration and feedback.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pd9c4bf11b1">
+   <rect x="15.562205" y="11.905512" width="487.615748" height="373.03937"/>
+  </clipPath>
+ </defs>
+</svg>

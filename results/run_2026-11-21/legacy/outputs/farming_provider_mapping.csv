@@ -1,0 +1,5 @@
+label,process_uuid,process_name,location,reference_product,unit,quantity_per_kg_shrimp,validation,assumption
+electricity_US,483cde5f-7ae5-379e-ae10-54bb8fbbe6a2,"market group for electricity, low voltage | electricity, low voltage | Cutoff, U",United States of America (the),"electricity, low voltage",kWh,0.921,PASS,Background geography requires review
+sodium_bicarbonate_RoW,e93a63af-e80f-31c8-b9e9-c49d2a3c5e5d,"market for sodium bicarbonate | sodium bicarbonate | Cutoff, U",Rest of World,sodium bicarbonate,kg,0.11,PASS,Background geography requires review
+tap_water_RoW_proxy,6354808d-1c16-3d24-a016-9da90503bf67,"market for tap water | tap water | Cutoff, U",Rest of World,tap water,kg,75.0,PASS,Treated tap-water proxy; source unverified
+tap_water_Global_proxy,0b1b340c-ca7d-3c98-912f-ef873f3f8e7c,"market group for tap water | tap water | Cutoff, U",Global,tap water,kg,75.0,PASS,Treated tap-water proxy; source unverified

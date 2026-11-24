@@ -1,0 +1,20 @@
+{
+  "indiana": 2.576773032788926,
+  "alabama": 5.613091897803418,
+  "indiana_addition": 0.11759404354431913,
+  "fcr_low": 2.109836039794281,
+  "fcr_high": 3.043710025783571,
+  "fcr_pct": 18.120998126453692,
+  "electricity_pct": 4.354860575938857,
+  "farm_grid_low": 2.17396354104353,
+  "farm_grid_high": 2.86471354104353,
+  "mill_grid_low": 2.088678143768446,
+  "mill_grid_high": 2.9256781437684465,
+  "feed_pct": 72.4839925058148,
+  "electricity_pct_share": 17.419442303755435,
+  "bicarbonate_pct": 5.532948525401138,
+  "air_pct": 4.563616665028633,
+  "unresolved_difference_to_reverse_ranking": 3.036318865014492,
+  "five_percent_reference": 0.1288386516394463,
+  "optional_water": 2.666710569615741
+}

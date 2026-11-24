@@ -1,0 +1,29 @@
+ingredient,process_name,location,reference_product,unit,uuid,status
+rice_bran,"land use change, paddy rice | land use change, paddy rice | Cutoff, U",India,"land use change, paddy rice",ha,424f6471-5d28-35a9-87de-b3380c92fe39,UPSTREAM_ONLY_REVIEW
+rice_bran,"land use change, paddy rice | land use change, paddy rice | Cutoff, U",China,"land use change, paddy rice",ha,dbf4dc52-1384-3f9e-bebf-39ddeda62e70,UPSTREAM_ONLY_REVIEW
+rice_bran,"market for land use change, paddy rice | land use change, paddy rice | Cutoff, U",China,"land use change, paddy rice",ha,7e078ce7-7f19-30f9-9ee5-45dfdf9321e6,UPSTREAM_ONLY_REVIEW
+rice_bran,"market for land use change, paddy rice | land use change, paddy rice | Cutoff, U",India,"land use change, paddy rice",ha,1b12965d-596a-3009-b5d2-04026a925bc5,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | fatty acid methyl ester | Cutoff, U",Brazil,fatty acid methyl ester,kg,b4023faa-4bad-36db-8dc6-045c79b90556,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | fatty acid methyl ester | Cutoff, U",Rest of World,fatty acid methyl ester,kg,8801818b-5877-3a74-8f18-9583e54819d2,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | fatty acid methyl ester | Cutoff, U",United States of America (the),fatty acid methyl ester,kg,2db31a44-46fc-3000-a52c-46195e189d8e,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | glycerine | Cutoff, U",Brazil,glycerine,kg,8163d2cd-b2a6-3068-a302-b4ae95be4292,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | glycerine | Cutoff, U",Rest of World,glycerine,kg,7a18e15b-244d-3bd1-bef5-d532e6f4c193,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"esterification of soybean oil | glycerine | Cutoff, U",United States of America (the),glycerine,kg,4ec071ef-dd52-3f69-ad51-3ecc20921dd5,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"fatty acid production, from soybean oil | fatty acid | Cutoff, U",Rest of World,fatty acid,kg,2eaf98cb-eb7a-395e-8db5-7a9d6f5be7e1,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"fatty acid production, from soybean oil | fatty acid | Cutoff, U",Europe,fatty acid,kg,892313f5-5db5-3060-a07e-067e44fa5763,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"market for soybean oil, crude | soybean oil, crude | Cutoff, U",Rest of World,"soybean oil, crude",kg,137ae4db-d07b-3641-ab96-4a218f698408,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"market for soybean oil, crude | soybean oil, crude | Cutoff, U",Europe,"soybean oil, crude",kg,9a13d130-8d4c-33e2-a3fc-e1c31f67a6a3,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"market for soybean oil, refined | soybean oil, refined | Cutoff, U",Global,"soybean oil, refined",kg,b0529749-cd55-33cc-a599-d747c040a9cc,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",United States of America (the),"soybean oil, crude",kg,1f61155f-2cb6-3807-82e3-1085c8f80d3f,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Europe,"soybean oil, crude",kg,a8c33ab5-bd2e-3710-a0e6-7d5d11048366,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Brazil,"soybean oil, crude",kg,ef9c7a72-b739-34a1-8f87-a635a073d5d7,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production | soybean oil, crude | Cutoff, U",Rest of World,"soybean oil, crude",kg,813f8613-6892-3818-903e-b873d3555d81,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production, mechanical extraction | soybean oil, crude | Cutoff, U",Rest of World,"soybean oil, crude",kg,91404319-f75b-3269-9474-b391776bdb8f,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean meal and crude oil production, mechanical extraction | soybean oil, crude | Cutoff, U","Canada, Quebec","soybean oil, crude",kg,35b36d87-2655-3bb6-b3ab-ac98b75eb384,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soap | Cutoff, U",United States of America (the),soap,kg,94ace9ac-b573-3af9-8e12-ee6eedd995bf,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soap | Cutoff, U",Europe,soap,kg,b405938f-fd93-3699-b4d0-0f9c2369920a,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soap | Cutoff, U",Rest of World,soap,kg,16e27752-dbf6-35e3-93ec-c841774fe355,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soybean oil, refined | Cutoff, U",United States of America (the),"soybean oil, refined",kg,3071828a-ba48-32a5-8e56-96d95ac6fdd8,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soybean oil, refined | Cutoff, U",Europe,"soybean oil, refined",kg,c173c3f1-4eaa-37df-8641-198043351589,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil refinery operation | soybean oil, refined | Cutoff, U",Rest of World,"soybean oil, refined",kg,98852cdd-4287-3c70-813f-b7f67c0870aa,UPSTREAM_ONLY_REVIEW
+soybean_lecithin,"soybean oil, refined, to generic market for vegetable oil, refined | vegetable oil, refined | Cutoff, U",Global,"vegetable oil, refined",kg,1eca5bb9-478c-3583-89aa-d05d54e492e8,UPSTREAM_ONLY_REVIEW

@@ -1,0 +1,8 @@
+Editorial reference review, November 23, 2026
+
+Sources consulted for high-level article organization and analytical framing, not as shrimp-model data sources:
+1. Yang and Rosentrater (2019). https://www.mdpi.com/1996-1073/12/23/4502
+2. Yang and Wang (2025). https://www.frontiersin.org/journals/sustainable-food-systems/articles/10.3389/fsufs.2025.1585467/full
+
+Adapted general features: explicit research objective; hierarchical methods separating inventory, impact assessment and sensitivity; quantitative results linked to model drivers; scenario-dependent conclusions and generalizability limits.
+Original wording was written for this project. No source numerical results, affiliation, endorsement, TEA analysis, or additional impact categories were imported.

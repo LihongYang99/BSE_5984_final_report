@@ -1,0 +1,9 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+
+# macOS and Office/LibreOffice lock files
+.DS_Store
+~$*
+.~lock.*#

@@ -1,0 +1,381 @@
+Scenario-Based Life Cycle Screening of U.S. Shrimp Aquaculture
+Energy Demand, Feed Efficiency, and Environmental Trade-offs
+
+Lihong Yang, BSE 5984 Sustainable Agroecosystems
+November 24, 2026
+
+Abstract
+
+This study examines feed and electricity demand in Indiana biofloc shrimp production and an Alabama pond counterfactual. Literature inventories and ecoinvent backgrounds were used to calculate 100-year global warming potential (GWP) per kilogram of live-weight shrimp. An inventory audit restored larval airfreight and Alabama fertilizer supply. Indiana's covered GWP increased to 2.577 kg CO₂-eq/kg, with feed contributing 72.48%. Varying feed conversion ratio (FCR) by ±25% changed this subtotal by ±18.12%, compared with ±4.35% for farm electricity. The Alabama counterfactual reached 5.613. Hatchery production and direct farm emissions remain unresolved. These are expanded inventory subtotals, not complete farm carbon footprints or evidence of a technological advantage.
+
+1 Introduction
+
+Feed formulation, electricity demand, and inventory coverage can all affect comparisons of shrimp production systems. Al Eissa et al. (2022) examined these factors across shrimp supply chains and supplied the foreground data used here. This study tests farm electricity demand, grid intensity, and FCR while holding feed supply constant. The functional unit is 1 kg live-weight shrimp at the farm gate. The intended boundary is cradle-to-farm-gate, but the available inventory supports only partial GWP screening. Figure 1 follows the LCA framework of the International Organization for Standardization (ISO, 2006).
+
+
+
+Note. Arrows show feedback between LCA phases. Inventory coverage remains incomplete, and ISO conformity has not been established.
+
+[Figure 1 — lca_workflow_nature.png]
+
+
+---
+
+
+1.1 Evidence from previous studies
+
+Feed supply and electricity are established priorities in shrimp LCA. Cao et al. (2011) assessed Chinese intensive and semi-intensive production and identified both as major contributors to GWP. They also evaluated electricity-mix changes and lower FCR. Sun et al. (2023) compared Chinese recirculating aquaculture systems, biofloc technology, and higher-place ponds. Electricity was a major driver, and higher-place ponds had the highest GWP among their cases. Together, these studies show that the magnitude and ranking of impacts depend on operating inputs and background energy supply. Identifying feed and electricity hotspots or applying sensitivity analysis is therefore an established approach.
+
+The study by Al Eissa et al. (2022) provides the closest precedent and the foreground inventory for this project. Their cradle-to-US-market assessment compared three production chains and eight feed formulations. Feed production was the main GWP contributor for the Indiana chain, while feed substitutions produced trade-offs across impact categories. Their comparison included differences in recipes, delivery distances, farming inputs, and post-harvest operations. It addressed the performance of those supply chains. The present farm-gate analysis asks how selected differences contribute when feed supply and the comparison boundary are held constant.
+
+Wastewater studies show why climate results need a broader environmental context. Arbour et al. (2024) assessed microalgae treatment using the same Indiana farm background described by Al Eissa et al. (2022), so it is a related extension rather than independent farm evidence. The modeled treatment improved eutrophication outcomes without reducing GWP. Results also depended on electricity supply and the treatment of algal coproducts. These findings support assessing nutrient management alongside energy use, while keeping benefits outside this report’s GWP calculation explicit.
+
+The studies differ in geography, system boundaries, feed backgrounds, and impact methods. Their absolute footprints cannot be compared directly with the covered subtotals reported here. This targeted narrative synthesis establishes the basis for the scenarios and their interpretation. It does not establish an exhaustive literature gap or priority claim.
+
+1.2 Study objective and contribution
+
+The study asks how much of the modeled Indiana–Alabama difference remains when both cases share Feed C, delivery distance, and a national electricity factor, and how that difference responds to FCR and grid intensity. The contribution is a reproducible, case-specific decomposition of published inventories. A fixed-FCR contrast isolates the electricity-demand effect within the model. Retaining each case’s literature FCR in a separate contrast exposes the feed-efficiency offset. Farm-only and farm-plus-mill grid scenarios then distinguish changes at different supply-chain stages.
+
+The analysis also separates quantified inputs from unresolved burdens and evaluates when those gaps could overturn the covered-inventory ranking. The electricity-unit correction is internal quality control, not a new LCA method or a criticism of the source studies. This is an analytical extension using secondary data. It provides neither new farm measurements nor causal evidence that one farming technology performs better.
+
+
+---
+
+
+2 Materials and methods
+
+2.1 Inventory and background data
+
+Feed C is the estimated Indiana commercial-feed recipe reported by Al Eissa et al. (2022). The manufacturer did not disclose the full formulation. This is the only recipe modeled here, and both cases use it. Appendix A gives the farm inputs (Table A1), feed recipe (Table A2), and processing inventory (Table A3). Appendix C, Figure C1 maps the intended cradle-to-farm-gate boundary, inputs, product output, and unresolved flows.
+
+Table 1
+
+Selected literature inputs per kilogram of live-weight shrimp
+
+Note. Inputs are from Al Eissa et al. (2022, Tables 1 and 2). Both inventories are secondary literature data.
+
+The recipe contains 30% fishmeal, 5% poultry by-product meal, 20% soybean meal, 30% wheat flour, 5% rice bran, 3% fish oil, 3% soybean lecithin, and 4% supplements by mass (Al Eissa et al., 2022, Table 1).
+
+Background datasets cover 83% of Feed C ingredient mass. The remaining 17% uses meat-and-bone meal for poultry meal, wheat bran for rice bran, refined soybean oil for lecithin, and Norwegian vitamin/mineral mix for supplements at 1.33 kg CO₂-eq/kg (Winther et al., 2020, p. 51). Feed processing and 1006 km delivery are included. The proxies are not fully harmonized. The meat-and-bone meal factor is especially low because of how its dataset treats a rendering by-product, whereas the source study used mass allocation (Al Eissa et al., 2022, p. 2009). Appendix A evaluates its effect.
+
+2.2 Life cycle impact assessment
+
+GWP was calculated with openLCA 2.7, Python 3.12, ecoinvent 3.11 Cut-off, and IPCC 2021 GWP100 excluding biogenic CO₂. Units and flow properties were specified (GreenDelta, n.d.). Covered GWP is G = F × C + E × g + B + L + Q. Here, F is FCR, C delivered feed GWP, E farm electricity, g the grid factor, B bicarbonate, L larval airfreight, and Q fertilizer supply. The original feed-and-electricity contrast is retained separately. Factors are in Table A4, and the completeness audit is in Appendix B.
+
+2.3 Scenario design and consistency checks
+
+One-at-a-time scenarios varied F, E, or g by ±25%. Further scenarios combined grid factors of 0.05 to 0.80 kg CO₂-eq/kWh with FCR values of 1 to 2. Alabama was evaluated at its literature FCR and at fixed FCR 1.50, with other inputs held constant. Checks covered returned reference demands, contribution sums, and baseline identities. These deterministic ranges are not confidence intervals. Appendix A, Table A5 lists the scenario settings.
+
+2.4 Model assumptions
+
+Both cases share Feed C, processing inputs, 1006 km delivery, and a national electricity proxy. Alabama retains its literature FCR. Performance on this recipe is unverified. Airfreight and fertilizer quantities use literature values and documented background proxies. Unknown farm burdens remain unresolved, not zero. Appendix B distinguishes restored inputs, external benchmarks, and data gaps.
+
+
+---
+
+
+3 Results and discussion
+
+3.1 Indiana hotspots and model consistency
+
+The U.S. electricity factor remains 0.487361 kg CO₂-eq/kWh and delivered Feed C GWP remains 1.245165 kg CO₂-eq/kg feed. Restoring larval airfreight adds 0.118 to Indiana's earlier 2.459 subtotal, giving 2.577. Figure 2 shows contributions to this expanded inventory. Unresolved burdens are not represented by zero-valued bars.
+
+
+
+Note. Covered GWP is 2.577. Feed contributes 72.48%, electricity 17.42%, bicarbonate 5.53%, and larval airfreight 4.56%. Optional farm-water treatment is separate.
+
+[Figure 2 — expanded_hotspots.png]
+
+The electricity audit corrected a per-MJ result to an explicit 1 kWh demand (3.6 MJ). The 2023 U.S. benchmark of about 0.367 kg direct CO₂/kWh provides a scale check, but its generation boundary differs from delivered life-cycle GWP (U.S. Energy Information Administration, n.d.). New process-target calculations reproduced the reviewed electricity factor. Contribution sums reconciled and no database entities were written.
+
+The optional 75 kg treated-water proxy raises the subtotal to 2.667. Hatchery production, direct farm GHGs, and wastewater fate still need suitable data. Published hatchery results provide an external sensitivity check, not a US replacement factor (Cao et al., 2011) and are assessed in Appendix B.
+
+Feed dominance is consistent with the Indiana result of Al Eissa et al. (2022). Its contribution share is not directly comparable because this model uses different feed proxies and omits post-farm stages and unresolved burdens. The stronger electricity role in Sun et al. (2023) also cautions against transferring a hotspot ranking across farms without checking their inventories and electricity backgrounds.
+
+
+---
+
+
+3.2 Sensitivity to feed efficiency and electricity
+
+
+
+Note. In panel a, farm electricity and farm-grid responses overlap. Panel b varies the farm grid alone or both farm and feed-mill grids. The black point marks the reviewed baseline.
+
+[Figure 3 — expanded_sensitivity.png]
+
+Varying FCR from 1.125 to 1.875 gives 2.110 to 3.044 kg CO₂-eq/kg shrimp, or ±18.12% of the expanded subtotal. A ±25% change in farm electricity or grid intensity changes that subtotal by ±4.35%. The electricity responses overlap through E × g. Larval transport is fixed in these scenarios. Survival, growth, and operating responses are not predicted, and unresolved emissions could change the percentage sensitivities.
+
+Farm-only grid scenarios give 2.174 to 2.865 kg CO₂-eq/kg shrimp. Changing farm and mill grids gives 2.089 to 2.926. Ingredient backgrounds remain fixed. The second case assumes coordinated electricity changes across farm and mill. The updated joint grid/FCR surface is supplied separately. These deterministic ranges describe the covered inventory, not uncertainty bounds for the whole farm.
+
+
+---
+
+
+3.3 Controlled comparison with the Alabama inventory
+
+Both cases used the same Feed C supply chain, 1006 km delivery, and national grid factor. Alabama retained its literature FCR as a counterfactual input. Performance on this recipe has not been verified. Holding FCR fixed isolated the effect of farm electricity demand (Figure 4).
+
+
+
+Note. Both cases use the same modeled feed and exclude bicarbonate. The Alabama counterfactual does not reproduce its original production system.
+
+[Figure 4 — alabama_comparison_clarified.png]
+
+With feed supply and farm electricity included, GWP was 2.317 for Indiana and 5.558 kg CO₂-eq/kg shrimp for the Alabama counterfactual. Alabama reached 6.156 at fixed FCR 1.50. Higher electricity demand added 3.839, while the lower literature FCR offset 0.598. With the mill grid fixed, the literature-FCR ranking reversed near a shared farm-grid factor of 0.076. Increasing Alabama delivery to 1677 km raised its subtotal to 5.665.
+
+3.4 Interpretation and limitations
+
+With larval transport and fertilizer supply restored, the expanded subtotals are 2.577 for Indiana and 5.613 for Alabama (Appendix B). The fixed-FCR contrast above remains restricted to feed and electricity. Climate, management, scale, and data provenance still confound any technology comparison.
+
+Direct N₂O production has been demonstrated in shrimp, but available laboratory evidence is not a US farm emission factor (Heisterkamp et al., 2016). Hatchery, infrastructure, and wastewater gaps are assessed in Appendix B. GWP alone cannot establish overall sustainability. Eutrophication, water scarcity, biodiversity, and economics require separate assessment.
+
+4 Conclusions
+
+Feed dominates Indiana’s covered inventory, while electricity dominates the Alabama counterfactual. The common-feed comparison separates modeled electricity and FCR effects. The completeness audit identifies missing evidence that must be resolved before these subtotals can support farming-technology decisions.
+
+
+---
+
+
+References
+
+Al Eissa, A., Chen, P., Brown, P. B., & Huang, J.-Y. (2022). Effects of feed formula and farming system on the environmental performance of shrimp production chain from a life cycle perspective. Journal of Industrial Ecology, 26(6), 2006–2019. https://doi.org/10.1111/jiec.13370
+
+Arbour, A. J., Bhatt, P., Simsek, H., Brown, P. B., & Huang, J.-Y. (2024). Life cycle assessment on environmental feasibility of microalgae-based wastewater treatment for shrimp recirculating aquaculture systems. Bioresource Technology, 399, Article 130578. https://doi.org/10.1016/j.biortech.2024.130578
+
+Cao, L., Diana, J. S., Keoleian, G. A., & Lai, Q. (2011). Life cycle assessment of Chinese shrimp farming systems targeted for export and domestic sales. Environmental Science & Technology, 45(15), 6531–6538. https://doi.org/10.1021/es104058z
+
+GreenDelta. (n.d.). CalculationSetup. openLCA schema. Retrieved November 21, 2026, from https://greendelta.github.io/olca-schema/classes/CalculationSetup.html
+
+Heisterkamp, I. M., Schramm, A., de Beer, D., & Stief, P. (2016). Direct nitrous oxide emission from the aquacultured Pacific white shrimp (Litopenaeus vannamei). Applied and Environmental Microbiology, 82(13), 4028–4034. https://doi.org/10.1128/AEM.00396-16
+
+International Organization for Standardization. (2006). Environmental management—Life cycle assessment—Principles and framework (ISO Standard No. 14040:2006). https://www.iso.org/standard/37456.html
+
+Kassis, T., Agarwal, V., He, Y., Patel, D., & Brueckner, A. M. (2026). Scientific agent skills: A library of procedural knowledge for research agents. arXiv. https://doi.org/10.48550/arXiv.2609.00065
+
+Sun, Y., Hou, H., Dong, D., Zhang, J., Yang, X., Li, X., & Song, X. (2023). Comparative life cycle assessment of whiteleg shrimp (Penaeus vannamei) cultured in recirculating aquaculture systems (RAS), biofloc technology (BFT) and higher-place ponds (HPP) farming systems in China. Aquaculture, 574, Article 739625. https://doi.org/10.1016/j.aquaculture.2023.739625
+
+U.S. Energy Information Administration. (n.d.). How much carbon dioxide is produced per kilowatthour of U.S. electricity generation? Retrieved November 21, 2026, from https://www.eia.gov/tools/faqs/faq.php?id=74&t=11
+
+Winther, U., Hognes, E. S., Jafarzadeh, S., & Ziegler, F. (2020). Greenhouse gas emissions of Norwegian seafood products in 2017. SINTEF Ocean. https://www.sintef.no/contentassets/0ec2594f7dea45b8b1dec0c44a0133b4/report-carbon-footprint-norwegian-seafood-products-2017_final_040620.pdf
+
+AI disclosure. OpenAI Codex assisted with literature extraction, code and unit review, calculations, figures, and writing. Results were checked against saved outputs and sources. The project collected no primary measurements. Evidence-review skills (Kassis et al., 2026) supported the literature synthesis and completeness audit.
+
+
+---
+
+
+Appendix A
+
+Core data and modeling assumptions
+
+These tables document the inputs behind the six-page main text. References and appendices are presented separately. Values are literature inputs, background calculations, proxies, or scenario settings. None are new farm measurements.
+
+Table A1
+
+Literature farm inventory per kilogram of live-weight shrimp
+
+Input	Indiana	Alabama	Unit	Use in this model
+
+Feed / FCR	1.5	1.020	kg	Common Feed C with literature FCR retained
+
+Farm electricity	0.921	8.799	kWh	Included in both cases
+
+Sodium bicarbonate	0.110	0	kg	Included in Indiana. Omitted from the common comparison
+
+Freshwater	0.075	Not reported	m3	Optional Indiana treatment proxy. Alabama unreported
+
+Seawater	0	1.456	m3	Resource quantity with pumping coverage unresolved
+
+Farm land area	0.084	1.456	m2	Occupation/land-change data incomplete
+
+Larval airfreight	0.140	0.062	t*km	Restored using a generic aircraft freight proxy
+
+Triple superphosphate	0	0.0003	kg	Supply restored. Application emissions unresolved
+
+Urea	0	0.0017	kg	Supply restored. Application emissions unresolved
+
+Original feed transport	1.509	1.711	t*km	Replaced by common 1006 km scenario
+
+Note. Data from Al Eissa et al. (2022), Table 2, p. 2012, checked in source_inventory_verified.csv. The original feed transport totals reflect different recipes and routes. The controlled comparison uses a common supply chain instead. A blank literature cell is not a zero. Restored supply inputs are calculated separately from unresolved farm emissions. Land area lacks a time dimension and is not expressed as m²-year.
+
+The farm-water scenario converts 0.075 m³ to 75 kg at 1000 kg/m³ and applies a treated tap-water proxy. It does not establish the actual treatment process or quantify water scarcity. Appendix B evaluates unresolved larval rearing, infrastructure, direct farm GHGs, and wastewater burdens. Post-farm processing and distribution lie outside the selected farm-gate boundary.
+
+
+---
+
+
+Appendix A continued
+
+Feed composition and supply
+
+Table A2
+
+Estimated Feed C recipe and ingredient representation
+
+Ingredient	kg/kg feed	Representation
+
+Fish meal	0.300	Included in the 83% background model
+
+Poultry byproduct meal	0.050	Meat-and-bone meal proxy
+
+Soybean meal	0.200	Included in the 83% background model
+
+Wheat flour	0.300	Included in the 83% background model
+
+Rice bran	0.050	Wheat bran proxy
+
+Fish oil	0.030	Included in the 83% background model
+
+Soybean lecithin	0.030	Refined soybean oil proxy
+
+Supplements	0.040	Norwegian vitamin/mineral mix proxy
+
+Note. Recipe from Al Eissa et al. (2022), Table 1, p. 2009. The commercial formula was estimated and was not fully disclosed by the manufacturer. The four original ingredients cover 83% of recipe mass, and proxies cover the remaining 17%. The 1.33 kg CO₂-eq/kg supplement factor is for vitamin/mineral mix delivered to a Norwegian feed mill (Winther et al., 2020, p. 51), applied here to the undisclosed supplement blend. Proxy geography, allocation, and LCIA are not fully harmonized.
+
+The meat-and-bone meal proxy has a factor of only 0.027 kg CO₂-eq/kg. This low value reflects how the ecoinvent cut-off dataset treats a rendering by-product, which assigns it little of the upstream animal-production burden. Al Eissa et al. (2022, p. 2009) derived ingredient backgrounds by mass allocation instead, so this proxy probably understates poultry by-product meal. In the model it contributes 0.0013 kg CO₂-eq/kg feed, or 0.15% of ingredient GWP. Each additional 1 kg CO₂-eq/kg assigned to this 5% fraction would add 0.050 kg CO₂-eq/kg feed and 0.075 kg CO₂-eq/kg Indiana shrimp, or 2.91% of its covered subtotal. The Alabama counterfactual would rise by 0.051. The baseline factor is retained because no validated US poultry-meal factor is available.
+
+Table A3
+
+Processing and delivery inputs per kilogram of modeled feed
+
+Input	Quantity	Unit	Treatment
+
+Steam	0.320	kg	Included
+
+Mill electricity	0.130	kWh	National electricity proxy
+
+Mill freshwater	1.333	kg	Treated tap-water proxy
+
+Mill land area	0.0014	m²	Unresolved because occupation duration is unavailable
+
+Feed delivery	1.006	t·km	1 kg feed over 1006 km
+
+Note. Inputs from Al Eissa et al. (2022), Table 2, were normalized from 480 kg steam, 195 kWh electricity, 2 m³ water, and 2.1 m² land per 1500 kg feed. Water conversion assumes 1000 kg/m³. The 1006 km route is applied to both cases. The separate Alabama delivery sensitivity uses 1677 km.
+
+Delivered feed GWP equals ingredient GWP + 0.320 × steam factor + 0.130 × mill grid factor + 1.333 × water factor + 1.006 × truck factor. The same inputs per kilogram of feed are used at each FCR.
+
+
+---
+
+
+Appendix A continued
+
+Impact factors and scenario settings
+
+Table A4
+
+GWP factors used in the calculations
+
+Input or aggregate	kg CO₂-eq per unit	Unit
+
+Low-voltage electricity (US)	0.487361012	kWh
+
+83% ingredient model	0.816535393	kg
+
+Meat-and-bone meal (RoW)	0.026941154	kg
+
+Wheat bran (RoW)	0.435527812	kg
+
+Refined soybean oil (US)	0.642516851	kg
+
+Chemical-industry steam (RoW)	0.348644727	kg
+
+Tap water (RoW)	0.001199167	kg
+
+Diesel freight (global)	0.155575382	t*km
+
+Sodium bicarbonate (RoW)	1.296104777	kg
+
+Aircraft freight (global)	0.839957454	t*km
+
+Urea (North America)	1.429943978	kg
+
+Triple superphosphate (RoW)	0.751560983	kg
+
+Vitamin/mineral mix (Norway)	1.330000000	kg
+
+Note. RoW = rest of world. Background factors are saved openLCA calculations from background_factors.csv and added_background_factors.csv, using ecoinvent 3.11 Cut-off and IPCC 2021 GWP100 excluding biogenic CO₂. The supplement factor is from Winther et al. (2020). The 83% model factor is per kg nominal feed, already mass-weighted. It must not be multiplied by 0.83 again. Provider names and UUIDs are retained in the CSV. Displayed factors are rounded, and calculations use full precision.
+
+Table A5
+
+Deterministic scenario settings
+
+Scenario	Settings and fixed inputs
+
+One input at a time	FCR, farm electricity, or farm grid × 0.75 to 1.25 with all other inputs fixed
+
+Grid scenarios	0.05 to 0.80 kg CO₂-eq/kWh for the farm only or farm plus mill. Ingredient backgrounds fixed
+
+Joint grid and FCR	Same grid range with FCR 1 to 2
+
+Alabama counterfactual	8.799 kWh/kg shrimp and FCR 1.02 with common Feed C, grid, and 1006 km delivery
+
+Fixed-FCR comparison	FCR 1.50 in both cases. Change only farm electricity from 0.921 to 8.799 kWh/kg
+
+Delivery sensitivity	Alabama route of 1677 km with other counterfactual inputs fixed
+
+Note. Scenario ranges are prescribed, not confidence intervals or measured operating changes. Alabama FCR on the modeled recipe is unverified. The common comparison includes feed and farm electricity only. Bicarbonate is removed from both subtotals. The national grid factor is not an Indiana farm measurement.
+
+
+---
+
+
+Appendix B
+
+Inventory completeness and unresolved burdens
+
+The completeness audit restores inputs with reported quantities and evaluates the remaining omissions. Expanded subtotals retain the approved common Feed C supply. They do not assume unknown processes are environmentally harmless.
+
+Table B1
+
+Restored contributions per kilogram of live-weight shrimp
+
+Case	Previous subtotal	Airfreight added	Fertilizer added	Expanded subtotal
+
+Indiana	2.459179	0.117594	0.000000	2.576773
+
+Alabama	5.558358	0.052077	0.002656	5.613092
+
+Note. All entries are kg CO₂-eq/kg shrimp. Indiana includes bicarbonate. Alabama has zero bicarbonate in the literature inventory. Fertilizer factors cover supply, not application emissions. Generic aircraft freight is the central background proxy. Short- and medium-haul alternatives give 0.113 to 0.123 for Indiana airfreight and 0.050 to 0.054 for Alabama. These are provider scenarios, not confidence intervals.
+
+Table B2
+
+Evidence and treatment of unresolved processes
+
+Process	Evidence and current treatment
+
+Hatchery production	Cao et al. (2011), Table 2, reports 0.0708 and 0.188 kg CO₂-eq/kg harvested shrimp in Chinese systems. External benchmarks only. US production, survival and allocation data are needed.
+
+Farm infrastructure	Al Eissa et al. (2022), Section 2.2.3 reports <0.1% in its preliminary analysis. Source-specific justification, not a verified bound here. Equipment masses and lifetime output are unavailable.
+
+Direct farm GHGs	Heisterkamp et al. (2016) provides experimental evidence of N₂O production. Laboratory incubations do not establish annual US emissions. CH₄ and N₂O remain unresolved.
+
+Effluent and water	N/P discharge is not N₂O/CH₄. Water intake does not specify wastewater treatment. Confirm discharge, sludge fate, and whether pumping is already in farm electricity.
+
+Land	Area lacks occupation time and transformation history. Do not transfer a mangrove-clearing factor to these US cases.
+
+Post-farm stages	Processing, packaging and market distribution are outside the defined farm-gate boundary.
+
+Applying each external hatchery benchmark to Indiana would add 2.75% to 7.30% of its covered subtotal. This is a transferability check, not a US estimate or uncertainty interval. Cao et al. also reports infrastructure burdens of 0.0205 and 0.0645 kg CO₂-eq/kg. Neither value is adopted as US baseline data.
+
+Write total GWP as covered subtotal + unresolved net burden U. An additional 0.129 kg CO₂-eq/kg is 5% of Indiana's subtotal. The 5% value is an illustrative reference, not a cut-off rule. The expanded ranking reverses if U_Indiana − U_Alabama exceeds 3.036. Available evidence does not bound that difference, so a complete-farm ranking remains unverified.
+
+
+---
+
+
+Appendix C
+
+System boundary and inventory flows
+
+Figure C1 shows the intended system boundary for the expanded inventory. It follows the product from upstream material supply to harvested live shrimp. Included supplies, optional treatment, and unresolved processes are distinguished explicitly.
+
+
+
+Note. GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Unresolved burdens are not zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.
+
+[Figure C1 — cradle_to_farm_gate.png]
+
+The optional farm-water proxy applies to Indiana only. The separate controlled comparison in Figure 4 includes feed supply and farm electricity only, so it has narrower coverage than this diagram. Processing and distribution after harvest fall outside the farm-gate boundary.

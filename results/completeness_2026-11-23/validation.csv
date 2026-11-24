@@ -1,0 +1,175 @@
+check,passed
+recipe mass,True
+Process and ProductSystem electricity agree,True
+air_generic contribution sum,True
+air_generic returned reference demand,True
+air_short contribution sum,True
+air_short returned reference demand,True
+air_medium contribution sum,True
+air_medium returned reference demand,True
+urea contribution sum,True
+urea returned reference demand,True
+triple_superphosphate contribution sum,True
+triple_superphosphate returned reference demand,True
+electricity_check contribution sum,True
+electricity_check returned reference demand,True
+no product systems added or removed,True
+read-only calculation recorded,True
+Indiana previous_covered_subtotal,True
+Indiana airfreight,True
+Indiana fertilizer_supply,True
+Indiana added_gwp,True
+Indiana updated_covered_subtotal,True
+Indiana hotspot sum,True
+Indiana hotspot shares,True
+Alabama previous_covered_subtotal,True
+Alabama airfreight,True
+Alabama fertilizer_supply,True
+Alabama added_gwp,True
+Alabama updated_covered_subtotal,True
+Alabama hotspot sum,True
+Alabama hotspot shares,True
+summary Indiana,True
+summary Alabama,True
+optional water,True
+ranking reversal threshold,True
+all one-at-a-time scenarios,True
+all farm-grid scenarios,True
+all farm-and-mill scenarios,True
+all joint grid/FCR scenarios,True
+Indiana Cao 2011 semi-intensive hatchery,True
+Indiana Cao 2011 intensive hatchery,True
+Alabama Cao 2011 semi-intensive hatchery,True
+Alabama Cao 2011 intensive hatchery,True
+fixed-FCR electricity contrast retained,True
+preserved results/run_2026-11-21/analysis/summary.json,True
+preserved results/run_2026-11-21/analysis/indiana_hotspots.csv,True
+preserved results/run_2026-11-21/analysis/alabama_controlled_comparison.csv,True
+preserved results/run_2026-11-21/analysis/analysis_validation.csv,True
+preserved results/run_2026-11-21/analysis/sensitivity_oat.csv,True
+preserved results/run_2026-11-21/analysis/indiana_results.csv,True
+preserved results/run_2026-11-21/analysis/grid_sensitivity.csv,True
+preserved results/run_2026-11-21/analysis/grid_fcr_surface.csv,True
+preserved results/run_2026-11-21/figures/fig11_alabama_comparison.pdf,True
+preserved results/run_2026-11-21/figures/fig08_indiana_hotspots.pdf,True
+preserved results/run_2026-11-21/figures/fig11_alabama_comparison.png,True
+preserved results/run_2026-11-21/figures/fig08_indiana_hotspots.png,True
+preserved results/run_2026-11-21/figures/fig09_sensitivity.png,True
+preserved results/run_2026-11-21/figures/fig09_sensitivity.pdf,True
+preserved results/run_2026-11-21/figures/fig10_grid_fcr_surface.png,True
+preserved results/run_2026-11-21/figures/fig10_grid_fcr_surface.pdf,True
+preserved results/run_2026-11-21/reviewed_scripts/02_find_processes.py,True
+preserved results/run_2026-11-21/reviewed_scripts/04_plot_us_LCI.py,True
+preserved results/run_2026-11-21/reviewed_scripts/35_build_final_report.py,True
+preserved results/run_2026-11-21/reviewed_scripts/20_prepare_missing_data_register.py.py,True
+preserved results/run_2026-11-21/reviewed_scripts/30_validate_farming_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/15_verify_feed_model.py,True
+preserved results/run_2026-11-21/reviewed_scripts/17_calculate_feed_gwp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/31_calculate_indiana_farming_gwp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/25_refine_processing_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/22_feed_proxy_100pct_scenario.py,True
+preserved results/run_2026-11-21/reviewed_scripts/14_build_feed_screening.py,True
+preserved results/run_2026-11-21/reviewed_scripts/21_rice_bran_sensitivity.py,True
+preserved results/run_2026-11-21/reviewed_scripts/32_audit_units_and_background.py,True
+preserved results/run_2026-11-21/reviewed_scripts/11_find_feed_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/12_find_missing_feed_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/29_prepare_indiana_lci.py,True
+preserved results/run_2026-11-21/reviewed_scripts/05_validate_background.py,True
+preserved results/run_2026-11-21/reviewed_scripts/19_find_remaining_ingredient_routes.py,True
+preserved results/run_2026-11-21/reviewed_scripts/06_calculate_electricity_gwp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/01_test_connection.py,True
+preserved results/run_2026-11-21/reviewed_scripts/24_find_processing_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/09_electricity_only_shrimp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/13_review_missing_providers.py,True
+preserved results/run_2026-11-21/reviewed_scripts/10_prepare_feed_lci.py,True
+preserved results/run_2026-11-21/reviewed_scripts/26_select_truck_provider.py,True
+preserved results/run_2026-11-21/reviewed_scripts/34_validate_reviewed_results.py,True
+preserved results/run_2026-11-21/reviewed_scripts/23_prepare_feed_processing_lci.py,True
+preserved results/run_2026-11-21/reviewed_scripts/07_check_electricity_system.py,True
+preserved results/run_2026-11-21/reviewed_scripts/16_create_feed_product_system.py,True
+preserved results/run_2026-11-21/reviewed_scripts/28_plot_hotspot.py,True
+preserved results/run_2026-11-21/reviewed_scripts/27_calculate_feed_processing_gwp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/18_test_poultry_proxy.py,True
+preserved results/run_2026-11-21/reviewed_scripts/08_audit_electricity_gwp.py,True
+preserved results/run_2026-11-21/reviewed_scripts/33_scenarios_and_figures.py,True
+preserved results/run_2026-11-21/reviewed_scripts/03_prepare_us_LCI.py,True
+preserved results/run_2026-11-21/background_factors.csv,True
+preserved results/run_2026-11-21/report/BSE5984_Final_Report.docx,True
+preserved results/run_2026-11-21/report/BSE5984_Final_Report.pdf,True
+preserved results/run_2026-11-21/README_snapshot.md,True
+preserved results/run_2026-11-21/legacy/README.md,True
+preserved results/run_2026-11-21/legacy/figures/fig06_feed_c_proxy_contributions.png,True
+preserved results/run_2026-11-21/legacy/figures/fig03_electricity_gwp_audit.png,True
+preserved results/run_2026-11-21/legacy/figures/fig06_feed_c_proxy_contributions.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig05_rice_bran_sensitivity.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig07_feed_c_hotspots.png,True
+preserved results/run_2026-11-21/legacy/figures/fig07_feed_c_hotspots.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig05_rice_bran_sensitivity.png,True
+preserved results/run_2026-11-21/legacy/figures/fig01_US_electricity.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig01_US_electricity.png,True
+preserved results/run_2026-11-21/legacy/figures/fig02_US_feed.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig04_electricity_only_shrimp_gwp.pdf,True
+preserved results/run_2026-11-21/legacy/figures/fig02_US_feed.png,True
+preserved results/run_2026-11-21/legacy/figures/fig04_electricity_only_shrimp_gwp.png,True
+preserved results/run_2026-11-21/legacy/scripts/02_find_processes.py,True
+preserved results/run_2026-11-21/legacy/scripts/04_plot_us_LCI.py,True
+preserved results/run_2026-11-21/legacy/scripts/20_prepare_missing_data_register.py.py,True
+preserved results/run_2026-11-21/legacy/scripts/30_validate_farming_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/15_verify_feed_model.py,True
+preserved results/run_2026-11-21/legacy/scripts/17_calculate_feed_gwp.py,True
+preserved results/run_2026-11-21/legacy/scripts/31_calculate_indiana_farming_gwp.py,True
+preserved results/run_2026-11-21/legacy/scripts/25_refine_processing_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/22_feed_proxy_100pct_scenario.py,True
+preserved results/run_2026-11-21/legacy/scripts/14_build_feed_screening.py,True
+preserved results/run_2026-11-21/legacy/scripts/21_rice_bran_sensitivity.py,True
+preserved results/run_2026-11-21/legacy/scripts/32_audit_units_and_background.py,True
+preserved results/run_2026-11-21/legacy/scripts/11_find_feed_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/12_find_missing_feed_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/29_prepare_indiana_lci.py,True
+preserved results/run_2026-11-21/legacy/scripts/05_validate_background.py,True
+preserved results/run_2026-11-21/legacy/scripts/19_find_remaining_ingredient_routes.py,True
+preserved results/run_2026-11-21/legacy/scripts/06_calculate_electricity_gwp.py,True
+preserved results/run_2026-11-21/legacy/scripts/01_test_connection.py,True
+preserved results/run_2026-11-21/legacy/scripts/24_find_processing_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/09_electricity_only_shrimp.py,True
+preserved results/run_2026-11-21/legacy/scripts/13_review_missing_providers.py,True
+preserved results/run_2026-11-21/legacy/scripts/10_prepare_feed_lci.py,True
+preserved results/run_2026-11-21/legacy/scripts/26_select_truck_provider.py,True
+preserved results/run_2026-11-21/legacy/scripts/23_prepare_feed_processing_lci.py,True
+preserved results/run_2026-11-21/legacy/scripts/07_check_electricity_system.py,True
+preserved results/run_2026-11-21/legacy/scripts/16_create_feed_product_system.py,True
+preserved results/run_2026-11-21/legacy/scripts/28_plot_hotspot.py,True
+preserved results/run_2026-11-21/legacy/scripts/27_calculate_feed_processing_gwp.py,True
+preserved results/run_2026-11-21/legacy/scripts/18_test_poultry_proxy.py,True
+preserved results/run_2026-11-21/legacy/scripts/08_audit_electricity_gwp.py,True
+preserved results/run_2026-11-21/legacy/scripts/03_prepare_us_LCI.py,True
+preserved results/run_2026-11-21/legacy/data/indiana_biofloc_farming_lci.csv,True
+preserved results/run_2026-11-21/legacy/data/feed_c_missing_data_register.csv,True
+preserved results/run_2026-11-21/legacy/data/feed_c_processing_transport_lci.csv,True
+preserved results/run_2026-11-21/legacy/data/us_lci_baseline.csv,True
+preserved results/run_2026-11-21/legacy/data/feed_c_lci.csv,True
+preserved results/run_2026-11-21/legacy/data/feed_provider_mapping_review.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_c_v2_proxy_contributions.csv,True
+preserved results/run_2026-11-21/legacy/outputs/remaining_feed_routes.csv,True
+preserved results/run_2026-11-21/legacy/outputs/processing_provider_shortlist.csv,True
+preserved results/run_2026-11-21/legacy/outputs/rice_bran_sensitivity.csv,True
+preserved results/run_2026-11-21/legacy/outputs/indiana_screening_gwp_scenarios.csv,True
+preserved results/run_2026-11-21/legacy/outputs/indiana_farming_inputs_gwp.csv,True
+preserved results/run_2026-11-21/legacy/outputs/farming_provider_mapping.csv,True
+preserved results/run_2026-11-21/legacy/outputs/electricity_gwp_us.csv,True
+preserved results/run_2026-11-21/legacy/outputs/generic_truck_candidates.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_c_partial_ipcc2021.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_processing_provider_candidates.csv,True
+preserved results/run_2026-11-21/legacy/outputs/process_name_matches.csv,True
+preserved results/run_2026-11-21/legacy/outputs/poultry_proxy_scenario.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_c_partial_gwp_summary.csv,True
+preserved results/run_2026-11-21/legacy/outputs/electricity_gwp_contributions.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_c_v2_proxy_summary.csv,True
+preserved results/run_2026-11-21/legacy/outputs/process_candidate_details.csv,True
+preserved results/run_2026-11-21/legacy/outputs/lcia_methods.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_c_hotspot_analysis.csv,True
+preserved results/run_2026-11-21/legacy/outputs/missing_feed_provider_candidates.csv,True
+preserved results/run_2026-11-21/legacy/outputs/electricity_only_shrimp_gwp.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_processing_transport_gwp.csv,True
+preserved results/run_2026-11-21/legacy/outputs/background_mapping_review.csv,True
+preserved results/run_2026-11-21/legacy/outputs/feed_provider_candidates.csv,True

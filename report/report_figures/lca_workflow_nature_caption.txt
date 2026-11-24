@@ -1,0 +1,6 @@
+Figure. LCA framework and its application to the U.S. shrimp aquaculture screening study.
+
+The four phases are goal and scope definition, life cycle inventory analysis, life cycle impact assessment, and interpretation. Bidirectional arrows represent iteration and feedback. The project implements a partial GWP screening inventory with explicit proxies. Alabama uses the common Feed C supply chain as a counterfactual. The fixed-FCR comparison separates the electricity-demand contrast from feed efficiency. This diagram does not assert ISO conformity or complete life-cycle inventory coverage.
+
+Framework source. International Organization for Standardization. (2006). Environmental management—Life cycle assessment—Principles and framework (ISO 14040, 2006). https://www.iso.org/standard/37456.html
+Project content in results/run_2026-11-21/METHOD_NOTES.md.

@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-11-21T22:26:39.039021-05:00",
+  "method_uuid": "9488e228-f9d7-4921-b616-0cad160d96f7",
+  "category": "Climate change: total (excl. biogenic CO2) - Global warming potential (GWP100)",
+  "ipc_port": 8080,
+  "database_access": "read-only; existing systems",
+  "database_name": "Not verified through IPC; no database writes performed",
+  "limitation": "Root links checked; not an exhaustive audit of all upstream exchanges"
+}

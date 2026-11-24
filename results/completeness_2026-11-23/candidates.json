@@ -1,0 +1,290 @@
+[
+  {
+    "@type": "Process",
+    "@id": "48250157-3cd1-3c59-b05f-e5c4545fadfd",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, dedicated freight, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "b6c3ee76-263c-3a52-96ea-2a74894cb920",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, all distances to generic market for transport, freight, aircraft, unspecified | transport, freight, aircraft, unspecified | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "e17442cb-88c0-333a-b12e-c7eacf17e67f",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft, unspecified | transport, freight, aircraft, unspecified | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "352520d8-4ff0-3598-8804-303e9a1f64b5",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RNA",
+    "name": "market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "7ad8b783-c267-37b5-b4e0-3dfabbcb8a40",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "CN",
+    "name": "market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "87539f6a-8474-3d4f-a652-5bcec41c02bd",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft, short haul | transport, freight, aircraft, short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "339c11e8-172b-3b4a-b07a-c504b9264c9d",
+    "category": "C:Manufacturing/22:Manufacture of rubber and plastics products/222:Manufacture of plastics products/2220:Manufacture of plastics products",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for urea formaldehyde foam slab, hard | urea formaldehyde foam slab, hard | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "32302df7-603f-3ab4-8b61-1abdd44ce4f2",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2013:Manufacture of plastics and synthetic rubber in primary forms",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RoW",
+    "name": "market for urea formaldehyde resin | urea formaldehyde resin | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "4584f0d3-e51d-32ad-a7cd-e594969fedec",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "CN",
+    "name": "market for urea | urea | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "a82924d7-04d3-323a-8e7a-ccef589a275c",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft with reefer, cooling | transport, freight, aircraft with reefer, cooling | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "464eed01-dfba-38d4-bf61-1b50686a5a07",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, dedicated freight, very short haul | transport, freight, aircraft, very short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "9421a190-6c6a-3b45-bfac-e0041191dfd6",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, belly-freight, long haul | transport, freight, aircraft, long haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "20198d9b-4c09-31cc-8ac0-9c7a40fcf04f",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RER",
+    "name": "market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "f43e532e-292a-353b-8a27-48383198afe7",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, belly-freight, short haul | transport, freight, aircraft, short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "b0311243-94ba-3864-a0d5-66da9bd29ea1",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "9ff0b8cc-ba83-38e5-a2c4-86b25d42945a",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft, long haul | transport, freight, aircraft, long haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "585042af-a1ee-3e7e-a047-2efe42e3156d",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft with reefer, cooling | transport, freight, aircraft with reefer, cooling | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "8ffe42e6-9fd4-3bec-90c6-2774aa8172ab",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft with reefer, freezing | transport, freight, aircraft with reefer, freezing | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "f764eeaa-1795-3f5e-b8d7-8a1a5443705a",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, belly-freight, very short haul | transport, freight, aircraft, very short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "f9325d7b-a53f-397d-adbe-901472e494f9",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, dedicated freight, long haul | transport, freight, aircraft, long haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "ce1c647d-1dba-38af-a72c-cab2189fd107",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RoW",
+    "name": "market for triple superphosphate | triple superphosphate | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "b707d644-3c81-3c2d-9cde-72aa89885c89",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2013:Manufacture of plastics and synthetic rubber in primary forms",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RER",
+    "name": "market for urea formaldehyde resin | urea formaldehyde resin | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "6ccd045f-2f81-3b2f-8b67-2e04b8b2fea0",
+    "category": "C:Manufacturing/22:Manufacture of rubber and plastics products/222:Manufacture of plastics products/2220:Manufacture of plastics products",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for urea formaldehyde foam, in situ foaming | urea formaldehyde foam, in situ foaming | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "72f83199-ae57-31cf-81ee-08e9f96f5442",
+    "category": "H:Transportation and storage/51:Air transport/512:Freight air transport/5120:Freight air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft with reefer, freezing | transport, freight, aircraft with reefer, freezing | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "963c881a-64f4-3a01-9739-20223ea8a77c",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RER",
+    "name": "market for urea | urea | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "5106c87c-a81f-3f49-9507-0e8d473bef42",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, dedicated freight, short haul | transport, freight, aircraft, short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "2866a1cb-91a3-3dcf-8ac9-abe8e73795da",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RoW",
+    "name": "market for urea | urea | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "04d4d042-54c2-3c06-a0a9-572ba0f3a5fc",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RNA",
+    "name": "market for urea | urea | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "7683e8e0-16a3-381e-88dc-48c845e5efb4",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "market for transport, freight, aircraft, very short haul | transport, freight, aircraft, very short haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "3c050f54-7648-3b4b-8898-62f7bcab4cde",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RER",
+    "name": "market for triple superphosphate | triple superphosphate | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "07254e80-a778-3165-b0a6-68576e2f183a",
+    "category": "C:Manufacturing/20:Manufacture of chemicals and chemical products/201:Manufacture of basic chemicals, fertilizers and nitrogen compounds, plastics/2012:Manufacture of fertilizers and nitrogen compounds",
+    "flowType": "PRODUCT_FLOW",
+    "location": "RoW",
+    "name": "market for urea ammonium nitrate mix | urea ammonium nitrate mix | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  },
+  {
+    "@type": "Process",
+    "@id": "6b0ad975-9550-3fd6-a3bb-08ddd12679c0",
+    "category": "H:Transportation and storage/51:Air transport/511:Passenger air transport/5110:Passenger air transport",
+    "flowType": "PRODUCT_FLOW",
+    "location": "GLO",
+    "name": "transport, freight, aircraft, belly-freight, medium haul | transport, freight, aircraft, medium haul | Cutoff, U",
+    "processType": "UNIT_PROCESS"
+  }
+]

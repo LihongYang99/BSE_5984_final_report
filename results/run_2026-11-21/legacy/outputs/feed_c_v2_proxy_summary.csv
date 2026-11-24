@@ -1,0 +1,4 @@
+scenario,gwp_per_kg_nominal_feed,gwp_per_kg_live_shrimp,notes
+V1 83% partial ingredient supply,0.8165353928887741,1.2248030893331612,Unmodeled 17%; processing/transport excluded
+V2 100%-mass proxy hybrid,0.9121343467375185,1.3682015201062776,ecoinvent proxies + SINTEF premix literature EF; processing/transport excluded
+V2 sensitivity: Campos PBM factor,0.947087289012739,1.4206309335191085,"Substitutes 0.726 kg CO2e/kg PBM, Campos 2020 CML economic allocation; methods mixed"

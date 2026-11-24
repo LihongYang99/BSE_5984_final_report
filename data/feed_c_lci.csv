@@ -1,0 +1,9 @@
+ingredient,mass_kg,kg_per_kg_feed,kg_per_kg_shrimp,source
+fish_meal,450,0.3,0.45,"Al Eissa et al. (2022), Table 1, Feed C"
+poultry_byproduct_meal,75,0.05,0.075,"Al Eissa et al. (2022), Table 1, Feed C"
+soybean_meal,300,0.2,0.3,"Al Eissa et al. (2022), Table 1, Feed C"
+wheat_flour,450,0.3,0.45,"Al Eissa et al. (2022), Table 1, Feed C"
+rice_bran,75,0.05,0.075,"Al Eissa et al. (2022), Table 1, Feed C"
+fish_oil,45,0.03,0.045,"Al Eissa et al. (2022), Table 1, Feed C"
+soybean_lecithin,45,0.03,0.045,"Al Eissa et al. (2022), Table 1, Feed C"
+supplements,60,0.04,0.06,"Al Eissa et al. (2022), Table 1, Feed C"

@@ -1,0 +1,24 @@
+{
+  "claim": "The intended farm-gate scope is broader than the currently quantified inventory",
+  "archetype": "schematic-led composite",
+  "backend": "Python Matplotlib",
+  "size_mm": [
+    183,
+    155
+  ],
+  "font": "Calibri",
+  "raster_dpi": 600,
+  "scope": "Expanded covered inventory, with unresolved processes marked separately",
+  "sources": [
+    "results/run_2026-11-21/source_inventory_verified.csv",
+    "results/completeness_2026-11-23/EVIDENCE_REVIEW.md"
+  ],
+  "new_calculations": false,
+  "flow_widths_quantitative": false,
+  "automated_checks": [
+    "Calibri",
+    "punctuation",
+    "canvas bounds",
+    "text fits boxes"
+  ]
+}

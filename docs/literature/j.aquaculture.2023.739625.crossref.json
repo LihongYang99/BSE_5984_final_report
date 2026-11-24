@@ -1,0 +1,902 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        10,
+        9
+      ]
+    ],
+    "date-time": "2026-10-09T21:37:42Z",
+    "timestamp": 1791581862886,
+    "version": "4.3.4"
+  },
+  "reference-count": 50,
+  "publisher": "Elsevier BV",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/legal/tdmrep-license"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-017"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-037"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-012"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-029"
+    },
+    {
+      "start": {
+        "date-parts": [
+          [
+            2023,
+            9,
+            1
+          ]
+        ],
+        "date-time": "2023-09-01T00:00:00Z",
+        "timestamp": 1693526400000
+      },
+      "content-version": "stm-asf",
+      "delay-in-days": 0,
+      "URL": "https://doi.org/10.15223/policy-004"
+    }
+  ],
+  "funder": [
+    {
+      "DOI": "10.13039/501100004195",
+      "name": "Ocean University of China",
+      "doi-asserted-by": "publisher",
+      "id": [
+        {
+          "id": "10.13039/501100004195",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    },
+    {
+      "DOI": "10.13039/501100012166",
+      "name": "National Key Research and Development Program of China",
+      "doi-asserted-by": "publisher",
+      "award": [
+        "2022YFD2001700"
+      ],
+      "award-info": [
+        {
+          "award-number": [
+            "2022YFD2001700"
+          ]
+        }
+      ],
+      "id": [
+        {
+          "id": "10.13039/501100012166",
+          "id-type": "DOI",
+          "asserted-by": "publisher"
+        }
+      ]
+    }
+  ],
+  "content-domain": {
+    "domain": [
+      "elsevier.com",
+      "sciencedirect.com"
+    ],
+    "crossmark-restriction": true
+  },
+  "short-container-title": [
+    "Aquaculture"
+  ],
+  "published-print": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "DOI": "10.1016/j.aquaculture.2023.739625",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2023,
+        4,
+        27
+      ]
+    ],
+    "date-time": "2023-04-27T20:42:28Z",
+    "timestamp": 1682628148000
+  },
+  "page": "739625",
+  "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+  "source": "Crossref",
+  "is-referenced-by-count": 45,
+  "special_numbering": "C",
+  "title": [
+    "Comparative life cycle assessment of whiteleg shrimp (Penaeus vannamei) cultured in recirculating aquaculture systems (RAS), biofloc technology (BFT) and higher-place ponds (HPP) farming systems in China"
+  ],
+  "prefix": "10.1016",
+  "volume": "574",
+  "author": [
+    {
+      "given": "Yue",
+      "family": "Sun",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Haochen",
+      "family": "Hou",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Dengpan",
+      "family": "Dong",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Jiasong",
+      "family": "Zhang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiaohan",
+      "family": "Yang",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xian",
+      "family": "Li",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "Xiefa",
+      "family": "Song",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0005",
+      "doi-asserted-by": "crossref",
+      "first-page": "1049",
+      "DOI": "10.1007/s11367-017-1339-2",
+      "article-title": "Rearing performances and environmental assessment of sea cage farming in Tunisia using life cycle assessment (lca) combined with pca and hcpc",
+      "volume": "23",
+      "author": "Abdou",
+      "year": "2017",
+      "journal-title": "Int. J. Life Cycle Assess."
+    },
+    {
+      "issue": "126604",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0010",
+      "first-page": "1",
+      "article-title": "Recirculating aquaculture systems (ras): environmental solution and climate change adaptation",
+      "volume": "297",
+      "author": "Ahmed",
+      "year": "2021",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0015",
+      "article-title": "Comparing the environmental efficiency of milk and beef production through life cycle assessment of interconnected cattle systems",
+      "volume": "277",
+      "author": "Andre",
+      "year": "2020",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0020",
+      "doi-asserted-by": "crossref",
+      "first-page": "53",
+      "DOI": "10.1016/j.aquaculture.2017.10.011",
+      "article-title": "Effect of fishmeal replacement with a vegetable protein mixture on the amino acid and fatty acid profiles of diets, biofloc and shrimp cultured in BFT system",
+      "volume": "483",
+      "author": "Ang\u00e9lica",
+      "year": "2018",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0025",
+      "article-title": "A food system revolution for China in the post-pandemic world",
+      "volume": "2",
+      "author": "Bai",
+      "year": "2020",
+      "journal-title": "Resourc. Environ. Sustain."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0030",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1093/jas/skad040",
+      "article-title": "Total fishmeal replacement by defatted Tenebrio molitor larvae meal induces alterations in intermediary metabolism of European sea bass (Dicentrarchus labrax)",
+      "volume": "101",
+      "author": "Basto",
+      "year": "2023",
+      "journal-title": "J. Anim. Sci."
+    },
+    {
+      "issue": "4",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0035",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1111/raq.12280",
+      "article-title": "Life cycle assessments of aquaculture systems: a critical review of reported findings with recommendations for policy and system development",
+      "volume": "11",
+      "author": "Bohnes",
+      "year": "2019",
+      "journal-title": "Rev. Aquac."
+    },
+    {
+      "issue": "15",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0040",
+      "doi-asserted-by": "crossref",
+      "first-page": "6531",
+      "DOI": "10.1021/es104058z",
+      "article-title": "Life cycle assessment of Chinese shrimp farming systems targeted for export and domestic sales",
+      "volume": "45",
+      "author": "Cao",
+      "year": "2011",
+      "journal-title": "Environ. Sci. Technol."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0045",
+      "doi-asserted-by": "crossref",
+      "first-page": "192",
+      "DOI": "10.1016/j.jclepro.2012.07.006",
+      "article-title": "A multicriteria approach for measuring the sustainability of different poultry production systems",
+      "volume": "37",
+      "author": "Cesare",
+      "year": "2012",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0050",
+      "doi-asserted-by": "crossref",
+      "first-page": "351",
+      "DOI": "10.1016/j.aquaculture.2012.04.046",
+      "article-title": "Biofloc technology in aquaculture: beneficial effects and future challenges",
+      "volume": "356-357",
+      "author": "Crab",
+      "year": "2012",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0055",
+      "doi-asserted-by": "crossref",
+      "first-page": "1249",
+      "DOI": "10.1111/raq.12648",
+      "article-title": "Optimization of aquaculture sustainability through ecological intensification in China",
+      "volume": "4",
+      "author": "Dong",
+      "year": "2022",
+      "journal-title": "Rev. Aquac."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0060",
+      "doi-asserted-by": "crossref",
+      "first-page": "334",
+      "DOI": "10.1016/j.tifs.2022.04.024",
+      "article-title": "Recent advances of selected novel processing techniques on shrimp allergenicity: a review",
+      "volume": "124",
+      "author": "Dong",
+      "year": "2022",
+      "journal-title": "Trends Food Sci. Technol."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0065",
+      "doi-asserted-by": "crossref",
+      "first-page": "2006",
+      "DOI": "10.1111/jiec.13370",
+      "article-title": "Effects of feed formula and farming system on the environmental performance of shrimp production chain from a life cycle perspective",
+      "volume": "26",
+      "author": "Eissa",
+      "year": "2022",
+      "journal-title": "J. Ind. Ecol."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0070",
+      "doi-asserted-by": "crossref",
+      "first-page": "676",
+      "DOI": "10.1111/raq.12494",
+      "article-title": "Use of biofloc technology in shrimp aquaculture: a comprehensive review, with emphasis on the last decade",
+      "volume": "13",
+      "author": "El-Sayed",
+      "year": "2021",
+      "journal-title": "Rev. Aquac."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0075",
+      "article-title": "Using alternative low-cost artificial sea salt mixtures for intensive, indoor shrimp (Litopenaeus vannamei) production",
+      "volume": "24",
+      "author": "Fleckenstein",
+      "year": "2022",
+      "journal-title": "Aquac. Rep."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0080",
+      "author": "Food and Agricultural Organization of the United Nations (FAO)"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0085",
+      "doi-asserted-by": "crossref",
+      "first-page": "50",
+      "DOI": "10.1016/j.jclepro.2017.01.036",
+      "article-title": "Life cycle assessment of three Peruvian fishmeal plants: toward a cleaner production",
+      "volume": "145",
+      "author": "Freon",
+      "year": "2017",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "issue": "10",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0090",
+      "doi-asserted-by": "crossref",
+      "first-page": "5886",
+      "DOI": "10.3390/su14105886",
+      "article-title": "Decoupling analysis of net carbon emissions and economic growth of marine aquaculture",
+      "volume": "14",
+      "author": "Guan",
+      "year": "2022",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0095",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.153522",
+      "article-title": "Life cycle assessment of tiger puffer (Takifugu rubripes) farming: a case study in Dalian, China",
+      "volume": "823",
+      "author": "Hou",
+      "year": "2022",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "issue": "7",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0100",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1029/2021WR031866",
+      "article-title": "Impacts of coastal shrimp ponds on saltwater intrusion and submarine groundwater discharge",
+      "volume": "58",
+      "author": "Hou",
+      "year": "2022",
+      "journal-title": "Water Resour. Res."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0105",
+      "series-title": "Environmental Management \u2013 Life Cycle Assessment \u2013 Principles and Framework (ISO 14040:2006a)",
+      "author": "ISO",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0110",
+      "series-title": "Environmental Management \u2013 Life Cycle Assessment \u2013 Requirements and Guidelines (ISO 14044:2006b)",
+      "author": "ISO",
+      "year": "2006"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0115",
+      "doi-asserted-by": "crossref",
+      "first-page": "422",
+      "DOI": "10.1016/j.fsi.2019.04.155",
+      "article-title": "Effect of a phytogenic feed additive on the growth performance and immunity of pacific white leg shrimp, Litopenaeus vannamei, fed a low fishmeal diet",
+      "volume": "91",
+      "author": "Kesselring",
+      "year": "2019",
+      "journal-title": "Fish Shellfish Immunol."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0120",
+      "first-page": "(1)495",
+      "article-title": "Economic and environmental life cycle assessments of solar water heaters applied to aquaculture in the us",
+      "author": "Kim",
+      "year": "2018",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0125",
+      "doi-asserted-by": "crossref",
+      "first-page": "125",
+      "DOI": "10.12681/mms.25052",
+      "article-title": "Life cycle assessment of seabass and meagre in marine cage farming - from feeding plant to harvesting",
+      "volume": "1",
+      "author": "Konstantinidis",
+      "year": "2021",
+      "journal-title": "Mediterr. Mar. Sci."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0130",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.158523",
+      "article-title": "The underestimated importance of fertilizer in aquacultural phosphorus budget: case of Chinese mitten crab",
+      "volume": "852",
+      "author": "Liu",
+      "year": "2022",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0135",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.resconrec.2022.106669",
+      "article-title": "Recycling phosphorus from waste in China: recycling methods and their environmental and resource consequences",
+      "volume": "188",
+      "author": "Liu",
+      "year": "2023",
+      "journal-title": "Resour. Conserv. Recycl."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0140",
+      "first-page": "1",
+      "article-title": "Potential of innovative marine aquaculture techniques to close nutrient cycles",
+      "author": "Lothmann",
+      "year": "2022",
+      "journal-title": "Rev. Aquac."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0145",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.aquaculture.2019.734441",
+      "article-title": "Effects of carbohydrate addition strategy and biofloc levels on the establishment of nitrification in biofloc technology aquaculture systems",
+      "volume": "514",
+      "author": "Luo",
+      "year": "2020",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0150",
+      "doi-asserted-by": "crossref",
+      "first-page": "1455",
+      "DOI": "10.1007/s11367-020-01759-z",
+      "article-title": "Fishmeal partial substitution within aquafeed formulations: life cycle assessment of four alternative protein sources",
+      "volume": "25",
+      "author": "Maiolo",
+      "year": "2020",
+      "journal-title": "Int. J. Life Cycle Assess."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0155",
+      "doi-asserted-by": "crossref",
+      "first-page": "3257",
+      "DOI": "10.3390/su14063257",
+      "article-title": "Aquatic plants and aquatic animals in the context of sustainability: cultivation techniques, integration, and blue revolution",
+      "volume": "14",
+      "author": "Mansour",
+      "year": "2022",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0160",
+      "doi-asserted-by": "crossref",
+      "first-page": "249",
+      "DOI": "10.1016/j.jclepro.2013.05.029",
+      "article-title": "Life cycle assessment for environmentally sustainable aquaculture management: a case study of combined aquaculture systems for carp and tilapia",
+      "volume": "57",
+      "author": "Mungkung",
+      "year": "2013",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0165",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.aquaculture.2022.739074",
+      "article-title": "The evolution of integrated multi-trophic aquaculture in context of its design and components paving way to valorization via optimization and diversification",
+      "volume": "565",
+      "author": "Nissar",
+      "year": "2023",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "issue": "304",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0170",
+      "first-page": "1",
+      "article-title": "Sustainability assessment of white shrimp (penaeus vannamei) production in super-intensive system in the municipality of san blas, Nayarit, Mexico",
+      "volume": "13",
+      "author": "Noguera-Muoz",
+      "year": "2021",
+      "journal-title": "Water"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0175",
+      "doi-asserted-by": "crossref",
+      "first-page": "1324",
+      "DOI": "10.1007/s11367-015-0929-0",
+      "article-title": "Lca for open systems: a review of the influence of natural and anthropogenic factors on aquaculture systems",
+      "volume": "20",
+      "author": "Pahri",
+      "year": "2015",
+      "journal-title": "Int. J. Life Cycle Assess."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0180",
+      "doi-asserted-by": "crossref",
+      "first-page": "1992",
+      "DOI": "10.1111/jiec.13118",
+      "article-title": "Quantifying environmental impacts of cleaner fish used as sea lice treatments in salmon aquaculture with life cycle assessment",
+      "volume": "26",
+      "author": "Philis",
+      "year": "2022",
+      "journal-title": "J. Ind. Ecol."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0185",
+      "first-page": "102",
+      "article-title": "Environmental impact assessment- methodology with special emphasis on European pork production",
+      "volume": "107",
+      "author": "Reckmann",
+      "year": "2012",
+      "journal-title": "J. Environ. Econ. Manag."
+    },
+    {
+      "issue": "2\u20134",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0190",
+      "article-title": "Automated feeding systems for shrimp: effects of feeding schedules and passive feedback feeding systems",
+      "volume": "541",
+      "author": "Reis",
+      "year": "2021",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "issue": "aug.1",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0195",
+      "doi-asserted-by": "crossref",
+      "first-page": "225",
+      "DOI": "10.1016/j.jclepro.2013.02.031",
+      "article-title": "Aspiring for environmentally conscious aquafeed: comparative lca of aquafeed manufacturing using different protein sources",
+      "volume": "52",
+      "author": "Samuel-Fitwi",
+      "year": "2013",
+      "journal-title": "J. Clean. Prod."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0200",
+      "doi-asserted-by": "crossref",
+      "first-page": "85",
+      "DOI": "10.1016/j.aquaeng.2012.12.002",
+      "article-title": "Comparative life cycle assessment (LCA) of raising rainbow trout (Oncorhynchus mykiss) in different production systems",
+      "volume": "54",
+      "author": "Samuel-Fitwi",
+      "year": "2013",
+      "journal-title": "Aquac. Eng."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0205",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.scitotenv.2022.159049",
+      "article-title": "Environmental performance of rainbow trout (Oncorhynchus mykiss) production in Galicia-Spain: a life cycle assessment approach",
+      "volume": "856",
+      "author": "Sanchez-Matos",
+      "year": "2023",
+      "journal-title": "Sci. Total Environ."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0210",
+      "doi-asserted-by": "crossref",
+      "first-page": "995",
+      "DOI": "10.1007/s11367-017-1414-8",
+      "article-title": "Life cycle assessment of aquafeed ingredients[J]",
+      "volume": "23",
+      "author": "Silva",
+      "year": "2018",
+      "journal-title": "Int. J. Life Cycle Assess."
+    },
+    {
+      "issue": "5",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0215",
+      "doi-asserted-by": "crossref",
+      "first-page": "2015",
+      "DOI": "10.1007/s12665-013-2603-9",
+      "article-title": "Impacts of saline water irrigation and shrimp pond discharges on the surrounding waters of a coastal district in the Mekong delta of Vietnam",
+      "volume": "71",
+      "author": "Tho",
+      "year": "2014",
+      "journal-title": "Environ. Earth Sci."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0220",
+      "doi-asserted-by": "crossref",
+      "first-page": "5252",
+      "DOI": "10.3390/su12135252",
+      "article-title": "Life cycle assessment (lca) proves that manila clam farming (ruditapes philippinarum) is a fully sustainable aquaculture practice and a carbon sink",
+      "volume": "12",
+      "author": "Turolla",
+      "year": "2020",
+      "journal-title": "Sustainability"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0225",
+      "doi-asserted-by": "crossref",
+      "first-page": "44",
+      "DOI": "10.1016/j.aquaculture.2018.08.040",
+      "article-title": "Feed management and the use of automatic feeders in the pond production of pacific white shrimp litopenaeus vannamei",
+      "volume": "498",
+      "author": "Ullman",
+      "year": "2019",
+      "journal-title": "Aquaculture"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0230",
+      "first-page": "124,98",
+      "article-title": "Electricity footprint of China\u2019s industrial sectors and its socioeconomic drivers",
+      "author": "Wang",
+      "year": "2017",
+      "journal-title": "Resour. Conserv. Recycl."
+    },
+    {
+      "issue": "3",
+      "key": "10.1016/j.aquaculture.2023.739625_bb0235",
+      "doi-asserted-by": "crossref",
+      "first-page": "267",
+      "DOI": "10.3354/aei00044",
+      "article-title": "Discharge of nutrient wastes from salmon farms: environmental effects, and potential for integrated multi-trophic aquaculture",
+      "volume": "2",
+      "author": "Wang",
+      "year": "2012",
+      "journal-title": "Aquacult. Env. Interac"
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0240",
+      "article-title": "Enhancing food security and environmental sustainability: a critical review of food loss and waste management",
+      "volume": "4",
+      "author": "Wang",
+      "year": "2021",
+      "journal-title": "Resourc. Environ. Sustain."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0245",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.jenvman.2021.112585",
+      "article-title": "Stakeholder perceptions towards sustainable shrimp aquaculture in Vietnam",
+      "volume": "290",
+      "author": "Xuan",
+      "year": "2021",
+      "journal-title": "J. Environ. Manag."
+    },
+    {
+      "key": "10.1016/j.aquaculture.2023.739625_bb0250",
+      "doi-asserted-by": "crossref",
+      "DOI": "10.1016/j.aquaculture.2020.735665",
+      "article-title": "Microbial community structure and nitrogen removal responses of an aerobic denitrification biofilm system exposed to tetracycline",
+      "volume": "529",
+      "author": "Yang",
+      "year": "2020",
+      "journal-title": "Aquaculture"
+    }
+  ],
+  "container-title": [
+    "Aquaculture"
+  ],
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S004484862300399X?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:S004484862300399X?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2025,
+        9,
+        23
+      ]
+    ],
+    "date-time": "2025-09-23T07:29:34Z",
+    "timestamp": 1758612574000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/S004484862300399X"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "references-count": 50,
+  "alternative-id": [
+    "S004484862300399X"
+  ],
+  "URL": "https://doi.org/10.1016/j.aquaculture.2023.739625",
+  "relation": {},
+  "ISSN": [
+    "0044-8486"
+  ],
+  "issn-type": [
+    {
+      "value": "0044-8486",
+      "type": "print"
+    }
+  ],
+  "subject": [],
+  "published": {
+    "date-parts": [
+      [
+        2023,
+        9
+      ]
+    ]
+  },
+  "assertion": [
+    {
+      "value": "Elsevier",
+      "name": "publisher",
+      "label": "This article is maintained by"
+    },
+    {
+      "value": "Comparative life cycle assessment of whiteleg shrimp (Penaeus vannamei) cultured in recirculating aquaculture systems (RAS), biofloc technology (BFT) and higher-place ponds (HPP) farming systems in China",
+      "name": "articletitle",
+      "label": "Article Title"
+    },
+    {
+      "value": "Aquaculture",
+      "name": "journaltitle",
+      "label": "Journal Title"
+    },
+    {
+      "value": "https://doi.org/10.1016/j.aquaculture.2023.739625",
+      "name": "articlelink",
+      "label": "CrossRef DOI link to publisher maintained version"
+    },
+    {
+      "value": "article",
+      "name": "content_type",
+      "label": "Content Type"
+    },
+    {
+      "value": "\u00a9 2023 Elsevier B.V. All rights reserved.",
+      "name": "copyright",
+      "label": "Copyright"
+    }
+  ],
+  "article-number": "739625"
+}

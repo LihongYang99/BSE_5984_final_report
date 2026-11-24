@@ -1,0 +1,5 @@
+ingredient,mass_fraction,data_source,candidate_method,status,notes,kg_per_kg_shrimp,gwp_kg_co2eq_per_kg
+poultry_byproduct_meal,0.05,Campos et al. (2020),Literature EF or ecoinvent proxy,PROXY_TESTED,Meat and bone meal is not equivalent to PBM,0.07500000000000001,
+rice_bran,0.05,Henriksson et al. (2017),Literature-based LCI or EF,NEEDS_REVIEW,"Verify allocation, geography and GWP method",0.07500000000000001,
+soybean_lecithin,0.03,USDA (2023),Degumming process model,NEEDS_MODEL,Soybean oil is not equivalent to lecithin,0.045,
+supplements,0.04,Al Eissa et al. (2022),Ingredient uncertainty scenario,COMPOSITION_UNKNOWN,Do not assume zero environmental impact,0.06,

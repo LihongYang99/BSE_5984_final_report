@@ -1,0 +1,11 @@
+check,status
+"electricity: explicit unit, root default links, contribution reconciliation",PASS
+"feed_partial: explicit unit, root default links, contribution reconciliation",PASS
+"meat_bone_meal: explicit unit, root default links, contribution reconciliation",PASS
+"wheat_bran: explicit unit, root default links, contribution reconciliation",PASS
+"soybean_oil: explicit unit, root default links, contribution reconciliation",PASS
+"steam: explicit unit, root default links, contribution reconciliation",PASS
+"tap_water: explicit unit, root default links, contribution reconciliation",PASS
+"truck_transport: explicit unit, root default links, contribution reconciliation",PASS
+"sodium_bicarbonate: explicit unit, root default links, contribution reconciliation",PASS
+No product systems created or removed,PASS
