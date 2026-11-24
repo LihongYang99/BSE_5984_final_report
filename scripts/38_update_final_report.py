@@ -272,8 +272,8 @@ def main():
 
     # Keep the detailed input-output schematic in the appendix, as requested.
     page();heading('Appendix C');para('System boundary and inventory flows', 'Heading 2')
-    para('Figure C1 shows the intended system boundary for the expanded inventory. It follows the product from upstream material supply to harvested live shrimp. Included supplies, optional treatment, and unresolved processes are distinguished explicitly.')
-    figure('C1','Cradle-to-farm-gate inputs and outputs',figures/'cradle_to_farm_gate.png','GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Unresolved burdens are not zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.',6.4)
+    para('Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, and processes not yet quantified.')
+    figure('C1','Cradle-to-farm-gate inputs and outputs',figures/'cradle_to_farm_gate.png','GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.',6.4)
     para('The optional farm-water proxy applies to Indiana only. The separate controlled comparison in Figure 4 includes feed supply and farm electricity only, so it has narrower coverage than this diagram. Processing and distribution after harvest fall outside the farm-gate boundary.').runs[0].font.size=Pt(10)
 
     # Save Word and text outputs; PDF rendering is a separate step.

@@ -1,14 +1,20 @@
 {
   "claim": "The intended farm-gate scope is broader than the currently quantified inventory",
-  "archetype": "schematic-led composite",
-  "backend": "Python Matplotlib",
-  "size_mm": [
-    183,
-    155
-  ],
+  "backend": "draw.io Desktop",
+  "editable_source": "report/report_figures/cradle_to_farm_gate.drawio",
   "font": "Calibri",
-  "raster_dpi": 600,
-  "scope": "Expanded covered inventory, with unresolved processes marked separately",
+  "png_width_px": 3840,
+  "raster_dpi_at_6_4_inches": 600,
+  "color_encoding": {
+    "blue": "Inputs",
+    "green": "Processes",
+    "purple": "Outputs"
+  },
+  "coverage_encoding": {
+    "solid": "Included",
+    "dash-dot": "Optional scenario",
+    "dashed": "Not yet quantified"
+  },
   "sources": [
     "results/run_2026-11-21/source_inventory_verified.csv",
     "results/completeness_2026-11-23/EVIDENCE_REVIEW.md"
@@ -16,9 +22,10 @@
   "new_calculations": false,
   "flow_widths_quantitative": false,
   "automated_checks": [
-    "Calibri",
-    "punctuation",
-    "canvas bounds",
-    "text fits boxes"
+    "Native objects",
+    "Calibri labels and PDF fonts",
+    "Punctuation",
+    "Connector references",
+    "PNG width"
   ]
 }

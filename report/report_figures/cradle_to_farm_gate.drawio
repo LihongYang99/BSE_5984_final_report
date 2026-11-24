@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="Electron" version="31.0.2" type="device">
+  <diagram id="shrimp-boundary" name="Cradle to farm gate">
+    <mxGraphModel dx="1480" dy="1300" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="1300" math="0" shadow="0" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="canvas" value="" style="fillColor=#FFFFFF;strokeColor=none;locked=1;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1480" height="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="" style="fillColor=none;strokeColor=#75808B;strokeWidth=2;dashed=1;dashPattern=2 4;" vertex="1" parent="1">
+          <mxGeometry x="20" y="140" width="1080" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="title" value="Intended cradle-to-farm-gate boundary" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=32;fontColor=#242B33;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="45" y="24" width="1350" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs-heading-band" value="" style="fillColor=#EFF4FA;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="85" width="330" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs-heading" value="Inputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=28;fontColor=#597FAD;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="57" y="88" width="306" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="processes-heading-band" value="" style="fillColor=#EEF5F1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="85" width="605" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="processes-heading" value="Processes" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=28;fontColor=#478676;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="88" width="581" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="outputs-heading-band" value="" style="fillColor=#F5F1F9;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="85" width="300" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="outputs-heading" value="Outputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=28;fontColor=#826C9F;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1162" y="88" width="276" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="ingredients" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;" vertex="1" parent="1">
+          <mxGeometry x="45" y="180" width="330" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="ingredients-title" value="Feed ingredients" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="ingredients">
+          <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ingredients-body" value="Fishery, crop and&#10;by-product supply&#10;Ingredient proxies" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="ingredients">
+          <mxGeometry x="16" y="56" width="298" height="91" as="geometry" />
+        </mxCell>
+        <mxCell id="mill" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;" vertex="1" parent="1">
+          <mxGeometry x="45" y="350" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="mill-title" value="Mill inputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="mill">
+          <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="mill-body" value="Steam and electricity&#10;Mill water proxy" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="mill">
+          <mxGeometry x="16" y="56" width="298" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;" vertex="1" parent="1">
+          <mxGeometry x="45" y="530" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs-title" value="Farm inputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="inputs">
+          <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="inputs-body" value="Electricity&#10;Bicarbonate in Indiana&#10;Fertilizers in Alabama" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="inputs">
+          <mxGeometry x="16" y="56" width="298" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="water" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;dashed=1;dashPattern=8 3 2 3;" vertex="1" parent="1">
+          <mxGeometry x="45" y="740" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="water-title" value="Farm water" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="water">
+          <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="water-body" value="Indiana treatment proxy&#10;Other water burdens&#10;not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="water">
+          <mxGeometry x="16" y="56" width="298" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="infrastructure" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#597FAD;fillColor=#EFF4FA;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="45" y="920" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="infrastructure-title" value="Infrastructure and land" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="infrastructure">
+          <mxGeometry x="16" y="14" width="298" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="infrastructure-body" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="infrastructure">
+          <mxGeometry x="16" y="56" width="298" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="feed" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="180" width="280" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="feed-title" value="Feed manufacturing" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="feed">
+          <mxGeometry x="16" y="14" width="248" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="feed-body" value="Common Feed C" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="feed">
+          <mxGeometry x="16" y="56" width="248" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="delivery" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="390" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="delivery-title" value="Feed delivery" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="delivery">
+          <mxGeometry x="16" y="14" width="248" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="delivery-body" value="Road freight" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="delivery">
+          <mxGeometry x="16" y="56" width="248" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="hatchery" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="800" y="180" width="275" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hatchery-title" value="Hatchery production" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="hatchery">
+          <mxGeometry x="16" y="14" width="243" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="hatchery-body" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="hatchery">
+          <mxGeometry x="16" y="56" width="243" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="larval" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="390" width="275" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="larval-title" value="Larval transport" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="larval">
+          <mxGeometry x="16" y="14" width="243" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="larval-body" value="Airfreight included" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="larval">
+          <mxGeometry x="16" y="56" width="243" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="farm" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#478676;fillColor=#EEF5F1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="640" width="605" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="farm-title" value="Shrimp farming" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="farm">
+          <mxGeometry x="16" y="14" width="573" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="farm-body" value="Indiana biofloc or Alabama pond&#10;&#10;Grow-out and harvest" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="farm">
+          <mxGeometry x="16" y="56" width="573" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="upstream" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="180" width="300" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="upstream-title" value="Upstream GHG&#10;emissions" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="upstream">
+          <mxGeometry x="16" y="14" width="268" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="upstream-body" value="Included in background&#10;GWP factors" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="upstream">
+          <mxGeometry x="16" y="88" width="268" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="product" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="640" width="300" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="product-title" value="Product at the farm gate" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="product">
+          <mxGeometry x="16" y="14" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="product-body" value="1 kg live-weight shrimp" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="product">
+          <mxGeometry x="16" y="56" width="268" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="direct" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#826C9F;fillColor=#F5F1F9;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="900" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="direct-title" value="Direct farm outputs" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="direct">
+          <mxGeometry x="16" y="14" width="268" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="direct-body" value="CH₄, N₂O, effluent&#10;and sludge&#10;Impacts not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="direct">
+          <mxGeometry x="16" y="56" width="268" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="outside" value="" style="rounded=0;html=0;container=1;collapsible=0;recursiveResize=0;strokeWidth=2;strokeColor=#87939E;fillColor=#F3F4F5;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1120" width="980" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="outside-title" value="Outside the farm-gate boundary" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=26;fontColor=#242B33;fontStyle=1;" vertex="1" parent="outside">
+          <mxGeometry x="16" y="14" width="948" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="outside-body" value="Processing, packaging, distribution, retail and use" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="outside">
+          <mxGeometry x="16" y="56" width="948" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;" edge="1" parent="1" source="ingredients" target="feed">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="mill" target="feed">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="420" />
+              <mxPoint x="420" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="feed" target="delivery">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.23140495867768596;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="delivery" target="farm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="hatchery" target="larval">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.7727272727272727;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="larval" target="farm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="inputs" target="farm">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="615" />
+              <mxPoint x="420" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.7708333333333334;entryDx=0;entryDy=0;dashed=1;dashPattern=8 3 2 3;" edge="1" parent="1" source="water" target="farm">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.875;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="infrastructure" target="farm">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="400" y="990" />
+              <mxPoint x="400" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.3958333333333333;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="farm" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.1368421052631579;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="boundary" target="upstream">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=0;strokeColor=#6C7B85;strokeWidth=2;endArrow=block;endFill=1;endSize=8;exitX=1;exitY=0.9;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="farm" target="direct">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1125" y="856" />
+              <mxPoint x="1125" y="985" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="key-included" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="45" y="1250" width="32" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-included" value="Included" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="93" y="1246" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="key-optional" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;dashed=1;dashPattern=8 3 2 3;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1250" width="32" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-optional" value="Optional scenario" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="438" y="1246" width="420" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="key-missing" value="" style="fillColor=#FFFFFF;strokeColor=#6C7B85;strokeWidth=2;dashed=1;dashPattern=6 4;" vertex="1" parent="1">
+          <mxGeometry x="850" y="1250" width="32" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-missing" value="Not yet quantified" style="text;html=0;whiteSpace=wrap;overflow=hidden;align=left;verticalAlign=top;spacing=0;strokeColor=none;fillColor=none;fontFamily=Calibri;fontSize=24;fontColor=#38434C;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="898" y="1246" width="420" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

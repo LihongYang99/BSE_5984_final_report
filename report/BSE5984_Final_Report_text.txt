@@ -370,11 +370,11 @@ Appendix C
 
 System boundary and inventory flows
 
-Figure C1 shows the intended system boundary for the expanded inventory. It follows the product from upstream material supply to harvested live shrimp. Included supplies, optional treatment, and unresolved processes are distinguished explicitly.
+Figure C1 shows the intended system boundary for the expanded inventory. Inputs, production processes, and outputs appear in separate columns. Line styles distinguish included coverage, optional treatment, and processes not yet quantified.
 
 
 
-Note. GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Unresolved burdens are not zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.
+Note. GHG means greenhouse gas. Arrows show connections and are not scaled to quantities. Burdens not yet quantified are not assumed to be zero. Farm inputs follow Al Eissa et al. (2022) and Appendix A, with coverage limits assessed in Appendix B.
 
 [Figure C1 — cradle_to_farm_gate.png]
 

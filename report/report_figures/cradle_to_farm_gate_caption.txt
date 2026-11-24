@@ -1,5 +1,7 @@
 Intended cradle-to-farm-gate boundary and inventory coverage.
 
-The reference product is 1 kg live-weight shrimp at the farm gate. Upstream factors include supply-chain GHG emissions. Hatchery production, infrastructure, land-related burdens, direct farm gases, and effluent/sludge impacts remain unresolved. Only the optional Indiana water-treatment proxy is characterized for farm water. The diagram describes the expanded inventory. The separate controlled comparison includes feed supply and farm electricity only. Arrows show connections and are not scaled to quantities.
+Blue boxes show inputs, green boxes show production processes, and purple boxes show outputs. Solid outlines indicate included coverage, dash-dot outlines indicate an optional scenario, and dashed outlines indicate burdens not yet quantified. These burdens are not assumed to be zero.
+
+The reference product is 1 kg live-weight shrimp at the farm gate. Upstream factors include supply-chain GHG emissions. Hatchery production, infrastructure, land-related burdens, direct farm gases, and effluent/sludge impacts are not yet quantified. Only the optional Indiana water-treatment proxy is characterized for farm water. The diagram describes the expanded inventory. The separate controlled comparison includes feed supply and farm electricity only. Arrows show connections and are not scaled to quantities.
 
 Farm inputs follow Al Eissa et al. (2022) and Appendix A. The coverage treatment is documented in Appendix B.
